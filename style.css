@@ -103,13 +103,13 @@
       #divisor { 
         background-color: #FF87CF;
         height: 21px;
-        width: 480px;
+        width: 100vw;
       }
 
       body header:first-child{
         background-color: #D7729B;
         height: 73px;
-        width: 471px;
+        width: 100vw;
       }
 
         body header:first-child  div:first-child a:first-child img:first-child{
@@ -118,7 +118,7 @@
       
         body header:first-child div:first-child a:nth-child(2) img:first-child{
           height: 80px;
-          width: 76px;
+          width: 15.8vw;
           margin-left: 126px;
           margin-top: -66px; 
         }
@@ -250,7 +250,7 @@
       }
 
       body main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(3) img:nth-child(2){
-        width: 166px;
+        width: 1.66vw;
         height: 224px;
         margin-left: 309px;
         margin-top: -195px;

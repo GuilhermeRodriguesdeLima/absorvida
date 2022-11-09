@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ABSORVIDA - CADASTRO</title>
+</head>
+<body>
+    <header>
+            <header>
+                    <nav> 
+                        <a href="profile.html"><img src="img/profile.svg"></a>
+                        <a href="index.html"><img src="img/logo.svg"></a>
+                        <div id="painel-menu">
+            
+                            <input type="checkbox" name="" id="">
+            
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            
+                            <ul>
+                                <li><a href="login.html">LOGIN</a></li>
+                                <li><a href="cadastro.html">CADASTRO</a></li>
+                                <li><a href="">SOBRE NÓS</a></li>
+                                <li><a href="">PRODUTOS</a></li>
+                            </ul>
+                        </div>
+                    </nav>  
+    </header> 
+    <main>
+        <h1>CADASTRO</h1>
+        <img src="img/lbolinha.png"> 
+        <img src="img/cadastro.svg">
+        <form action="cadastro" method="post"> <!-- R = Repetir-->
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email"> <br>
+            <label for="remail">Repetir email</label>
+            <input type="email" name="remail" id="remail"><br>
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha"> <br>
+            <label for="rsenha">Repetir senha</label>
+            <input type="password" name="rsenha" id="rsenha"> <br>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome"> <br>
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenome"> <br>
+            <h3> Sexo </h3>
+            <input type="checkbox" name="feminino" id="feminino">
+            <label for='feminino'>Feminino </label><br>
+            <input type="checkbox" name="masculino" id="masculino"> 
+            <label for="masculino">Masculino</label><br>
+            <input type="checkbox" name="outros" id="outros">
+            <label for="outros">Outros</label><br>
+            <label for="nascimento">Nascimento</label>
+            <input type="date" name="nasci" id="nasci"> <br>
+            <label for="tel">Telefone </label>
+            <input type="tel" name="tel" id="tel"> <br>
+            <label for="celular"> Celular </label>
+            <input type="tel" name="celular" id="celular"> <br>
+            <label for="cpf">CPF </label> 
+            <input type="number" name="cpf" id="cpf">
+            <div>
+                <h3> Permitir que notifiquemos você sobre</h3>
+                <input type="checkbox" name="ofertas" id="ofertas"> 
+                <label for='ofertas'>Ofertas e Promoções </label> <br>
+                <input type="checkbox" name="eventos" id="eventos">
+                <label for="eventos">Eventos</label><br>
+                <input type="checkbox" name="aviso" id="aviso"> 
+                <label for="avisos">Avisos e Informativos</label><br>
+                </div> 
+            <input type="button" value="ENVIAR">
+        </form>
+    </main> 
+    <footer>
+        <div> 
+            <h2> PROJETO<br>ABSORVIDA © </h2>
+            <address>
+                <p> R. Interna Grupo Bandeirante, 138 - Jardim Belval, Barueri - SP, 06420-150</p>
+            </address>
+            <img src="img/instagram.svg">
+            <img src="img/whatsapp.svg">
+            <img src="img/facebook.svg">
+            <img src="img/twitter.svg">
+        </div>
+    </footer>
+</body>
+</html>

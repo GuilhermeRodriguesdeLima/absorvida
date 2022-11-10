@@ -5,8 +5,7 @@ margin: 0px 0px 0px 0px;
 }
 
 
-@media (max-width: 480px) 
-{
+@media (max-width: 480px) {
   header div a{
     color: #FFE8F6;
   }
@@ -104,7 +103,7 @@ margin: 0px 0px 0px 0px;
     } 
 
       #divisor { 
-        background-color: #FF87CF;
+        background-color: #D7729B;
         height: 21px;
         width: 100vw;
         margin-top: 22px;
@@ -115,6 +114,11 @@ margin: 0px 0px 0px 0px;
         background-color: #D7729B;
         height: 73px;
         width: 100vw;
+      }
+
+      body header div:nth-child(3) img:first-child{
+        width: 44vw;
+        margin-left: 29vw; 
       }
 
         body header:first-child  div:first-child a:first-child img:first-child{
@@ -152,14 +156,15 @@ margin: 0px 0px 0px 0px;
 
 
        body main:nth-child(2) div:first-child section:first-child h2:first-child{
-        margin-top: 559px;
+        margin-top: 700px;
         margin-left: 35vw;
         font-size: 2.4375rem;
+        color: #A2185B;
        }
 
        body header:first-child div:nth-child(3){
         background-color: #FFE8F6;
-        height: 489px;
+        height: 667px;
        }
 
       body header:first-child div:nth-child(3) div:first-child div:nth-child(4) img:first-child{
@@ -194,9 +199,13 @@ margin: 0px 0px 0px 0px;
 
       body main:nth-child(2) div:first-child section:first-child h2:nth-child(4){
         text-align: center;
-        font-size: 2.0625rem;
+        font-size: 1.625rem;
         margin-top: 22px;
-        
+        background-color: #A2185B;
+        color: white;
+        width: 100vw;
+        height: 50px;
+        padding-top: 10px;
       }
       body main:nth-child(2) div:first-child section:first-child div:nth-child(5) img{
         width: 38vw;
@@ -216,19 +225,19 @@ margin: 0px 0px 0px 0px;
         color: white;
         font-size: 1.6875rem;
         margin-top: 15px;
+        padding-top: 10px;
       }
       
       body main:nth-child(2) div:first-child section:first-child div:nth-child(6){
-        border: #F786C6 5px solid;
-        border-radius: 40px;
+
+        border-radius: 24PX;
         width: 76vw;
         height: 58px;
         margin-left: 09vw;
         margin-top: 28px;
-        background-color: #F786C6;
+        background-color: #A2185B;
         margin-bottom: 15px;
         cursor: pointer;
-        box-shadow: 0px 0px 16px 5px #f786c6;
       }
 
       body main:nth-child(2) div:first-child hr:nth-child(2){
@@ -242,30 +251,31 @@ margin: 0px 0px 0px 0px;
       }
       body main:nth-child(2) div:nth-child(2) p:nth-child(1){
         font-size: 1.6875rem;
-        margin-left: 02vw;
+        margin-left: 06vw;
         margin-top: 30px;
       }
       body main:nth-child(2) div:nth-child(2) p:nth-child(3){
         font-size: 1.6875rem;
-        margin-left: 02vw;
+        margin-left: 6vw;
         margin-top: 30px;
       }
       body main:nth-child(2) div:nth-child(2) p:nth-child(2){
         font-size: 1.6875rem;
-        margin-left: 04vw;
+        margin-left: 11vw;
         margin-top: 30px;
       }
 
       body main:nth-child(2) div:nth-child(2) p:nth-child(4){
         font-size: 1.5625rem;
-        margin-left: 06vw;
+        margin-left: 11vw;
         margin-top: 22px;
       }
       
       body main:nth-child(2) div:nth-child(2) h2:nth-child(5){
         font-size: 1.625rem;
         text-align: center;
-        margin-top: 22px;
+        margin-top: 60px;
+        margin-bottom: 40px;
       }
 
       body main:nth-child(2) div:nth-child(4) article:first-child h2:first-child{
@@ -312,6 +322,7 @@ margin: 0px 0px 0px 0px;
         margin-right: 39vw;
         margin-bottom: -252px;
         margin-left: 04vw;
+        margin-top: 50px;
       }
 
       body main:nth-child(2) div:nth-child(4) article:first-child img:nth-child(7){
@@ -322,15 +333,14 @@ margin: 0px 0px 0px 0px;
       }
 
       body main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(8){
-      border: #F786C6 5px solid;
-      border-radius: 40px;
-      width: 75vw;
-      height: 58px;
-      background-color: #F786C6;
-      margin-left: 44px;
-      margin-bottom: 56px;
-      cursor: pointer;
-      box-shadow: 0px 0px 16px 5px #f786c6;
+        border-radius: 24PX;
+        width: 76vw;
+        height: 58px;
+        margin-left: 09vw;
+        margin-top: 28px;
+        background-color: #A2185B;
+        margin-bottom: 40px;
+        cursor: pointer;
       }
 
 
@@ -342,8 +352,11 @@ margin: 0px 0px 0px 0px;
 
       body main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(8) a:first-child p:first-child{
         text-align: center;
+        color: white;
         font-size: 1.6875rem;
         margin-top: 15px;
+        padding-top: 10px;
+        margin-bottom: 10px;
       }
 
       body main:nth-child(2) div:nth-child(5) h2:first-child{
@@ -351,13 +364,14 @@ margin: 0px 0px 0px 0px;
         margin-left: 04vw;
         margin-top: 15px;
         margin-bottom: 10px;
+        color: #A2185B;
       }
       
       body main:nth-child(2) div:nth-child(5) h3:nth-child(2){
         font-size: 3rem;
         margin-left: 30vw;
         margin-top: -21px;
-       
+        color: #A2185B; 
       }
 
       body main:nth-child(2) div:nth-child(5) h4:nth-child(3){
@@ -395,12 +409,15 @@ margin: 0px 0px 0px 0px;
       body main:nth-child(2) div:nth-child(5) div:nth-child(5) h2:nth-child(2){
         margin-bottom: 20px;
         margin-top: 10px;
+        color: #A2185B;
+        font-size: bold;
       }
       
       body main:nth-child(2) div:nth-child(5) section:nth-child(7) h3:nth-child(2){
         font-size: 1.75rem;
          margin-left: 25vw;
         margin-top: -104px;
+        color: black;
       }
 
       body main:nth-child(2) div:nth-child(5) section:nth-child(7) img:first-child{
@@ -469,11 +486,12 @@ margin: 0px 0px 0px 0px;
         text-align: center;
         margin-top: 5px;
         margin-bottom: 22px;
+        color: #A2185B;
       }
 
       body main:nth-child(2) div:nth-child(5) article:nth-child(9) p:nth-child(3){
         font-size: 1.75rem;
-        margin-left: 3vw;
+        margin-left: 6vw;
         margin-bottom: 22px;
       }
 
@@ -486,13 +504,14 @@ margin: 0px 0px 0px 0px;
         margin-left: 39vw;
         margin-top: -185px;
         margin-bottom: 70px;
+       
       }
     
       body main:nth-child(2) div:nth-child(5) article:nth-child(9) p:nth-child(6){
         font-size: 1.375rem; 
         margin-bottom: -24px; 
         width: 52vw;
-        margin-left: 2vw;
+        margin-left: 6vw;
       }
       
       body main:nth-child(2) div:nth-child(5) article:nth-child(9) img:nth-child(7){
@@ -516,53 +535,60 @@ margin: 0px 0px 0px 0px;
         width: 41vw;
         margin-left: 58vw;
         margin-top: -272px;
-        margin-bottom: 250px;
+        margin-bottom: 150px;
       }
 
       body main:nth-child(2) div:nth-child(5) article:nth-child(9) p:nth-child(10){
         font-size: 1.375rem;
         margin-bottom: -25px;
         width: 52vw;
-        margin-left: 2vw;
+        margin-left: 6vw;
       }
 
       body main:nth-child(2) div:nth-child(5) article:nth-child(9) img:nth-child(12){
+
         width: 42vw;
+        margin-left: 30vw;
+        margin-bottom: 170px;
       }
 
       body main:nth-child(2) div:nth-child(5) article:nth-child(9) p:nth-child(13){
-        margin-left: 44vw;
+        text-align: center;
         font-size: 1.375rem;
         margin-top: -197px;
+        color: #A2185B;
       }
 
       body main:nth-child(2) div:nth-child(5) article:nth-child(9) div:nth-child(14){
-        border: #F786C6 5px solid;
-        border-radius: 40px;
+        border-radius: 24PX;
         width: 76vw;
         height: 58px;
-        background-color: #F786C6;
-        margin-bottom: 50px;
-        margin-top: 35px; 
-        margin-left: 10vw;
+        margin-left: 09vw;
+        margin-top: 28px;
+        background-color: #A2185B;
+        margin-bottom: 40px;
         cursor: pointer;
-        box-shadow: 0px 0px 16px 5px #f786c6;
       }
 
       body main:nth-child(2) div:nth-child(5) article:nth-child(9) div:nth-child(14) a:first-child p:first-child{
         text-align: center;
+        color: white;
         font-size: 1.6875rem;
         margin-top: 15px;
+        padding-top: 10px;
+        margin-bottom: 10px;
       }
 
       body main:nth-child(2) div:nth-child(5) article:nth-child(9) div:nth-child(14) a:first-child{
         text-decoration: none;
         color: white;
+        
       }
 
       body main:nth-child(2) div:nth-child(6) section:first-child h2:first-child{
         font-size: 2.875rem;
         margin-left: 04vw;
+        color: #A2185B;
       }
 
       body main:nth-child(2) div:nth-child(6) section:first-child hr:nth-child(2){
@@ -571,88 +597,52 @@ margin: 0px 0px 0px 0px;
         margin-top: 30px;
       }
 
-      body main:nth-child(2) div:nth-child(6) section:first-child img:nth-child(3){
-        width: 52vw;
+      body main:nth-child(2) div:nth-child(6) section:first-child img{
+        width: 25vw;
+        margin-left: 11vw;
+        margin-top: 30px;
       }
 
-      body main:nth-child(2) div:nth-child(6) section:first-child p:nth-child(4){
-        font-size: 1.625rem;
-        margin-left: 55vw;
-        margin-top: -202px;
-        margin-bottom: 70px;
+      body main:nth-child(2) div:nth-child(6) section:first-child h3 {
+        
+        font-size: 1.5625rem;
+        margin-left: 38vw;
+        margin-top: -80px;
       }
 
-      body main:nth-child(2) div:nth-child(6) section:first-child img:nth-child(6){
-        width: 52vw;
-        margin-left: 48vw;
-        margin-top: -235px;
+      body main:nth-child(2) div:nth-child(6) section:first-child p{
+        margin-left: 38vw;
+        margin-top: 10px;
+        margin-bottom: 30px;
       }
 
-      body main:nth-child(2) div:nth-child(6) section:first-child p:nth-child(5){
-        font-size: 1.625rem;
-        text-align: right;
-        margin-right: 53vw;
-        margin-top: 140px;
-      }
-
-      body main:nth-child(2) div:nth-child(6) section:first-child img:nth-child(7){
-        width: 45vw;
-        margin-top: 50px;
-      }
-
-      body main:nth-child(2) div:nth-child(6) section:first-child p:nth-child(8){
-        font-size: 1.625rem;
-        margin-left: 48vw;
-        margin-top: -205px;
-        margin-bottom: 60px;
-      }
-
-      body main:nth-child(2) div:nth-child(6) section:first-child p:nth-child(9){
-        font-size: 1.625rem;
-        text-align: right;
-        margin-right: 53vw;
-        margin-top: 90px;
-      }
-
-      body main:nth-child(2) div:nth-child(6) section:first-child img:nth-child(10){
-        width: 52vw;
-        margin-left: 46vw;
-        margin-top: -211px;
-      }
-
-      body main:nth-child(2) div:nth-child(6) section:first-child div:nth-child(11){
-        border: #F786C6 5px solid;
-        border-radius: 40px;
+      body main:nth-child(2) div:nth-child(6) section:first-child div:nth-child(15){
+        border-radius: 24PX;
         width: 76vw;
         height: 58px;
-        background-color: #F786C6;
-        margin-bottom: 50px;
-        margin-top: 35px;
-        margin-left: 10vw;
+        margin-left: 09vw;
+        margin-top: 28px;
+        background-color: #A2185B;
+        margin-bottom: 40px;
         cursor: pointer;
-        box-shadow: 0px 0px 16px 5px #f786c6;
       }
-
-      body main:nth-child(2) div:nth-child(6) section:first-child div:nth-child(11) a:first-child{
+      body main:nth-child(2) div:nth-child(6) section:first-child div:nth-child(15) a:first-child{
         text-decoration: none;
         color: white;
       }
 
-      body main:nth-child(2) div:nth-child(6) section:first-child div:nth-child(11) a:first-child p:first-child{
+      body main:nth-child(2) div:nth-child(6) section:first-child div:nth-child(15) a:first-child p:first-child{
         text-align: center;
+        color: white;
         font-size: 1.6875rem;
         margin-top: 15px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 1vw;
       }
-
-      body main:nth-child(2) div:nth-child(6) section:first-child hr:nth-child(12){
-        border-top: 5px dotted black;
-        margin-bottom: 50px;
-        margin-top: 22px; 
-      }
-
       body footer:nth-child(3){
         color: white;
-        background-color: #FF87CF;
+        background-color: #D7729B;
         width: 100vw;
         height: 240px;
       }
@@ -668,10 +658,10 @@ margin: 0px 0px 0px 0px;
       }
 
       body footer:nth-child(3) img:nth-child(2){
-        width: 62vw;
-      margin-top: -69vw;
-      margin-left: 38vw;
-      margin-bottom: 35px;
+        width: 45vw;
+        margin-top: -55vw;
+        margin-left: 50vw;
+        margin-bottom: 65px;
       }
       body footer:nth-child(3) div:first-child address:nth-child(2) p:first-child{
         margin-top: -21px;
@@ -703,6 +693,10 @@ margin: 0px 0px 0px 0px;
       body footer:nth-child(3) div:first-child img:nth-child(6){
         width: 11vw;
         height: 11vw;
+      }
+      hr{
+        width: 86vw;
+        margin-left: 06vw;
       }
 
       

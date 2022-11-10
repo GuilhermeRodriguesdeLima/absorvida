@@ -1,232 +1,267 @@
+*{
+  font-family: 'Montserrat';
+  margin: 0px 0px 0px 0px;
+}
+
 @media (max-width: 480px)  {
-    
-    *{
-        font-family: 'Montserrat';
-    }
-    header div a{
-        color: white;
-    }
+
     .facet_sidebar{
         display: none;
-    }
-    #painel-menu { 
-        display : block;
-        position: absolute;
-        top     : 2px;
-        right   : 20px;
-        z-index : 1;
       }
-    
-      #painel-menu a {
-        text-decoration: none;
-        color          : black;
-      }
-      #painel-menu input {
-        display : block;
-        width   : 40px;
-        height  : 40px;
-        position: absolute;
-        top     : 20px;
-        left    : -2px;
-        cursor  : pointer;
-        opacity : 0;
-        z-index : 3;
-      }
-    
-      #painel-menu span {
-        display         : block;
-        width           : 45px;
-        height          : 8px;
-        margin-bottom   : 5px;
-        border-radius   : 3px;
-        background-color: rgb(250, 246, 246);
-        position        : relative;
-        top             : 20px;
-        transform-origin: 4px 0px;
-        transition      : transform 0.7s ease;
-        z-index         : 2;
-      }
-    
-      #painel-menu span:first-child {
-        transform-origin: 0 0;
-      }
-    
-      #painel-menu span:nth-last-child(2) {
-        transform-origin: 0% 100%;
-      }
-    
-      #painel-menu input:checked~span {
-        opacity         : 1;
-        transform       : rotate(45deg) translate(-2px, -1px);
-        background-color: #FF87CF;
-      }
-    
-      #painel-menu input:checked~span:nth-last-child(3) {
-        opacity  : 0;
-        transform: rotate(0deg) scale(0.2, 0.2);
-      }
-    
-      #painel-menu input:checked~span:nth-last-child(2) {
-        transform: rotate(-45deg) translate(0, -1px);
-      }
-    
-      ul {
-        list-style-type : none;
-        position        : absolute;
-        width           : 200px;
-        height          : 200px;
-        margin          : -100px 0 0 -130px;
-        padding         : 105px 0 0 20px;
-        background-color: white;
-        border: solid 1px #FF87CF;
-        transform-origin: 0 0;
-        transform       : translate(100%, 0);
-        transition      : transform 0.7s ease;
-        font-size       : 4.2vw;
-      }
-    
-      ul li {
-        padding  : 10px 0;
-        font-size: 22px;
-      }
-    
-      #painel-menu input:checked~ul {
-        transform: none;
-      }  
-    body header{
-        background-color: #D7729B;
-        height: 70px;
-        width: 480px;
-      }
-
-      body header:first-child{
-        background-color: #D7729B;
-        height: 73px;
-        width: 471px;
-      }
-
-        body header:first-child  div:first-child a:first-child img:first-child{
-          margin-bottom: 11px;
+      #painel-menu { 
+          display : block;
+          position: absolute;
+          top     : 2px;
+          right   : 20px;
+          z-index : 1;
         }
       
-        body header:first-child div:first-child a:nth-child(2) img:first-child{
-          height: 80px;
-          width: 76px;
-          margin-left: 126px;
-          margin-top: -66px;
+        #painel-menu a {
+          text-decoration: none;
+          color          : black;
+        }
+        #painel-menu input {
+          display: block;
+          width: 40px;
+          height: 40px;
+          position: absolute;
+          top: 10px;
+          left: 13px;
+          cursor: pointer;
+          opacity: 0;
+          z-index: 3;
+        }
+      
+        #painel-menu span {
+          display         : block;
+          width           : 45px;
+          height          : 8px;
+          margin-bottom   : 5px;
+          border-radius   : 3px;
+          background-color: rgb(250, 246, 246);
+          position        : relative;
+          top             : 10px;
+          left            : 13px;
+          transform-origin: 4px 0px;
+          transition      : transform 0.7s ease;
+          z-index         : 2;
+        }
+      
+        #painel-menu span:first-child {
+          transform-origin: 0 0;
+        }
+      
+        #painel-menu span:nth-last-child(2) {
+          transform-origin: 0% 100%;
+        }
+      
+        #painel-menu input:checked~span {
+          opacity         : 1;
+          transform       : rotate(45deg) translate(-2px, -1px);
+          background-color: #FF87CF;
+        }
+      
+        #painel-menu input:checked~span:nth-last-child(3) {
+          opacity  : 0;
+          transform: rotate(0deg) scale(0.2, 0.2);
+        }
+      
+        #painel-menu input:checked~span:nth-last-child(2) {
+          transform: rotate(-45deg) translate(0, -1px);
+        }
+      
+        ul {
+          list-style-type : none;
+          position        : absolute;
+          width           : 200px;
+          height          : 200px;
+          margin          : -100px 0 0 -150px;
+          padding         : 105px 0 0 20px;
+          background-color: white;
+          border: solid 1px #FF87CF;
+          transform-origin: 0 0;
+          transform       : translate(100%, 0);
+          transition      : transform 0.7s ease;
+          font-size       : 4.2vw;
+        }
+      
+        ul li {
+          padding  : 10px 0;
+          font-size: 22px;
+        }
+      
+        #painel-menu input:checked~ul {
+          transform: none;
+        }  
+        body header:first-child{
+          background-color: #D7729B;
+          height: 73px;
+          width: 100vw;
+        }
+  
+          body header:first-child  div:first-child a:first-child img:first-child{
+            margin-bottom: 6px;
+            margin-left: -3px;
+          }
+        
+          body header:first-child div:first-child a:nth-child(2) img:first-child{
+            height: 80px;
+            width: 14vw;
+            margin-left: 29vw;
+            margin-top: -66px; 
+          }
+  
+         body header:first-child  div:nth-child(2) a:first-child img:first-child{
+          height: 72px;
+          width: 13vw;
+          margin-top: -16px;
+         }
+  
+         body header:first-child div:nth-child(3) div:first-child h1:first-child{
+          text-align: center;
+          margin-top: -10px;
+         }
+  
+         body header:first-child div:nth-child(3) div:first-child p:nth-child(2){
+          text-align: center;
+         }
+  
+         body header:first-child div:nth-child(3) div:first-child img:nth-child(3){
+          height: 330px;
+          width: 100vw;
+          margin-top: 22px;
+         }
+  
+  
+         body main:nth-child(2) div:first-child section:first-child h2:first-child{
+          margin-top: 559px;
+          margin-left: 35vw;
+          font-size: 2.4375rem;
+         }
+  
+         body header:first-child div:nth-child(3){
+          background-color: #FFE8F6;
+          height: 489px;
+         }
+  
+        body header:first-child div:nth-child(3) div:first-child div:nth-child(4) img:first-child{
+          margin-left: 37vw;
+        }
+  
+        body header:first-child div:nth-child(3) div:first-child h1:first-child{
+          color: #6D123E;
+        }
+         
+        body header:first-child div:nth-child(3) div:first-child p:nth-child(2){
+          color: #BD2079;
+        }
+  
+        body header:first-child div:nth-child(3) div:first-child div:nth-child(4){
+          height: 32px;
+          margin-top: -11px;
+          background-color: #D7729B;
         }
 
-       body header:first-child  div:nth-child(2) a:first-child img:first-child{
-        height: 72px;
-        width: 64px;
-        margin-top: -16px;
-       }
 
-       body header:first-child div:nth-child(3) div:first-child h1:first-child{
-        text-align: center;
-        margin-top: -10px;
-       }
-
-       body header:first-child div:nth-child(3) div:first-child p:nth-child(2){
-        text-align: center;
-       }
-
-       body header:first-child div:nth-child(3) div:first-child img:nth-child(3){
-        height: 330px;
-        width: 471px;
-       }
-
-
-       body main:nth-child(2) div:first-child section:first-child h2:first-child{
-        margin-top: 559px;
-        margin-left: 170px;
-        font-size: 39px;
-       }
-
-       body header:first-child div:nth-child(3){
-        background-color: #FFE8F6;
-        height: 489px;
-       }
-
-      body header:first-child div:nth-child(3) div:first-child div:nth-child(4) img:first-child{
-        margin-left: 182px;
-      }
-
-      body header:first-child div:nth-child(3) div:first-child h1:first-child{
-        color: #6D123E;
-      }
-       
-      body header:first-child div:nth-child(3) div:first-child p:nth-child(2){
-        color: #BD2079;
-      }
-
-      body header:first-child div:nth-child(3) div:first-child div:nth-child(4){
-        height: 32px;
-        margin-top: -11px;
-        background-color: #D7729B;
-      }
        main h1{
         text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 3rem;
+
         }
        hr {
-        Border-top: black 5px dotted
-       }
+          Border-top: black 5px dotted;
+          width: 86vw;
+          margin-left: 06vw;
+         }
        main img:nth-child(3){
-        height: 500px;
-        width: 500px;
-        display: block;
-        margin-left: -30px;
+        width: 100vw;
+        display: block; 
        }
        main form input{
         border-radius: 25px;
-        width: 405px;
+        width: 80vw;
         height: 21px;
         border: 1px solid #D7729B;
-        margin-left: 20px;
+        margin-left: 08vw;
         margin-bottom: 20px;
        }
        main form label{
-        margin-left: 22px;
+        margin-left: 10vw;
+        font-size: 1rem;
        }
+      
        main form input:last-child{
-        width: 402px;
+        width: 83vw;
         height: 83px;
-        font-size: 31px;
+        font-size: 1.94rem;
         background-color: #F786C6; 
         border-radius: 40px;
         color: white;
         box-shadow: 0px 0px 16px 5px #f786c6;
         margin-left: 30px;
+        margin-top: 80px;
+        margin-bottom: 116px;
        }
+
        main form p {
+        margin-top: 34px;
         text-align: center;
       }
-        body footer:nth-child(3) div:first-child{
-          color: white;
-          background-color: #FF87CF;
-        }
-  
-        body footer:nth-child(3) div:first-child h2:first-child{
-          font-size: 27px;  
-        }
-  
-        body footer:nth-child(3) img:nth-child(2){
-          width: 214px;
-          margin-top: -302px;
-          margin-left: 254px;
-        }
-        
-        body footer:nth-child(3) div:first-child address:nth-child(2) p:first-child{
-          margin-top: -21px;
-          margin-bottom: -35px;
-        }
-  
-        body footer:nth-child(3) div:first-child{
-          height: 219px;
-        }
-  
-        body footer:nth-child(3) div:first-child address:nth-child(2) p:nth-child(3){
-          margin-bottom: 4px;
-        }
-  
+
+      body footer:nth-child(3){
+        color: white;
+        background-color: #FF87CF;
+        width: 100vw;
+        height: 240px;
+      }
+
+      body footer:nth-child(3) div:first-child{
+        margin-left: 2vw;
+      }
+
+      body footer:nth-child(3) div:first-child h2:first-child{
+        font-size: 1.6875rem;  
+        width: 70vw;
+        margin-bottom: 22px;
+      }
+
+      body footer:nth-child(3) img:nth-child(2){
+        width: 62vw;
+      margin-top: -69vw;
+      margin-left: 38vw;
+      margin-bottom: 35px;
+      }
+      body footer:nth-child(3) div:first-child address:nth-child(2) p:first-child{
+        margin-top: -21px;
+        margin-bottom: -16px;
+      }
+
+      body footer:nth-child(3) div:first-child{
+        height: 219px;
+        width: 100vw;
+      }
+
+      body footer:nth-child(3) div:first-child address:nth-child(2) p:nth-child(3){
+        margin-bottom: 4px;
+        width: 38vw;
+      }
+
+      body footer:nth-child(3) div:first-child img:nth-child(3){
+        width: 11vw;
+        height: 11vw;
+      }
+      body footer:nth-child(3) div:first-child img:nth-child(4){
+        width: 11vw;
+        height: 11vw;
+      }
+      body footer:nth-child(3) div:first-child img:nth-child(5){
+        width: 11vw;
+        height: 11vw;
+      }
+      body footer:nth-child(3) div:first-child img:nth-child(6){
+        width: 11vw;
+        height: 11vw;
+      }
 }

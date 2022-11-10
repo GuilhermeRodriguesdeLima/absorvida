@@ -74,13 +74,13 @@
             <input type="text" name="nome" id="nome"> <br> <!-- 10 -->
             <label for="sobrenome">Sobrenome</label><br> <!-- 11 --> 
             <input type="text" name="sobrenome" id="sobrenome"> <br> <!-- 12 -->
-            <div>
+            <div class="sexo">
                 <h3> Sexo </h3> <!-- 13 -->
-                <input type="checkbox" name="feminino" id="feminino"> <!-- 14 --> 
+                <input class="radio" type="radio" name="sexo" id="feminino" checked> <!-- 14 --> 
                 <label  for='feminino'>Feminino </label><br> <!-- 15 -->
-                <input type="checkbox" name="masculino" id="masculino"> <!-- 16 -->
+                <input class="radio" type="radio" name="sexo" id="masculino" checked> <!-- 16 -->
                 <label  for="masculino">Masculino</label><br> <!-- 17 -->
-                <input type="checkbox" name="outros" id="outros"> <!-- 18 -->
+                <input class="radio" type="radio" name="sexo" id="outros" checked> <!-- 18 -->
                 <label  for="outros">Outros</label><br> <!-- 19 -->
                 </div>
             <label for="nascimento">Nascimento</label> <!-- 20 -->
@@ -93,11 +93,11 @@
             <input type="number" name="cpf" id="cpf"> <br>  <!-- 27 -->
             <div>
                 <h3> Permitir que notifiquemos você sobre</h3>
-                <input type="checkbox" name="ofertas" id="ofertas"> 
+                <input class="checkbox" type="checkbox" name="ofertas" id="ofertas"> 
                 <label  for='ofertas'>Ofertas e Promoções </label> <br>
-                <input type="checkbox" name="eventos" id="eventos">
+                <input class="checkbox" type="checkbox" name="eventos" id="eventos">
                 <label  for="eventos">Eventos</label><br>
-                <input type="checkbox" name="aviso" id="aviso"> 
+                <input class="checkbox" type="checkbox" name="aviso" id="aviso"> 
                 <label  for="avisos">Avisos e Informativos</label><br>
             </div> 
             <input type="submit" value="ENVIAR">

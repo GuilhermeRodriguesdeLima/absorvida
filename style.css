@@ -1,23 +1,19 @@
 
+*{
+font-family: 'Montserrat';
+margin: 0px 0px 0px 0px;
+}
+
 
 @media (max-width: 480px) 
 {
- 
- *{
-font-family: Montserrat;
-}
-
+  header div a{
+    color: #FFE8F6;
+  }
     .facet_sidebar
     {
      display: none;
     }
-
-  body{
-    overflow: auto;
-  }
-  header div a{
-      color: white;
-  }
   .facet_sidebar{
       display: none;
   }
@@ -34,19 +30,18 @@ font-family: Montserrat;
       color          : black;
     }
     #painel-menu input {
-      display : block;
-      width   : 40px;
-      height  : 40px;
+      display: block;
+      width: 40px;
+      height: 40px;
       position: absolute;
-      top     : 21px;
-      left    : -2px;
-      cursor  : pointer;
-      opacity : 0;
-      z-index : 3;
+      top: 10px;
+      left: 13px;
+      cursor: pointer;
+      opacity: 0;
+      z-index: 3;
     }
   
     #painel-menu span {
-      overflow: hidden;
       display         : block;
       width           : 45px;
       height          : 8px;
@@ -54,8 +49,8 @@ font-family: Montserrat;
       border-radius   : 3px;
       background-color: rgb(250, 246, 246);
       position        : relative;
-      top             : 21px;
-      left: 13px;
+      top             : 10px;
+      left            : 13px;
       transform-origin: 4px 0px;
       transition      : transform 0.7s ease;
       z-index         : 2;
@@ -97,7 +92,6 @@ font-family: Montserrat;
       transform       : translate(100%, 0);
       transition      : transform 0.7s ease;
       font-size       : 4.2vw;
-      overflow: scroll;
     }
   
     ul li {
@@ -113,6 +107,8 @@ font-family: Montserrat;
         background-color: #FF87CF;
         height: 21px;
         width: 100vw;
+        margin-top: 22px;
+        margin-bottom: 22px;
       }
 
       body header:first-child{
@@ -124,13 +120,12 @@ font-family: Montserrat;
         body header:first-child  div:first-child a:first-child img:first-child{
           margin-bottom: 6px;
           margin-left: -3px;
-          margin-right: 25vw;
         }
       
         body header:first-child div:first-child a:nth-child(2) img:first-child{
           height: 80px;
           width: 14vw;
-          text-align: center;
+          margin-left: 27vw;
           margin-top: -66px; 
         }
 
@@ -152,6 +147,7 @@ font-family: Montserrat;
        body header:first-child div:nth-child(3) div:first-child img:nth-child(3){
         height: 330px;
         width: 100vw;
+        margin-top: 22px;
        }
 
 
@@ -187,20 +183,24 @@ font-family: Montserrat;
       body main:nth-child(2) div:first-child section:first-child p:nth-child(2){
         font-size: 1.6875rem;
         margin-left: 17vw;
+        margin-top: 22px;
       }
 
       body main:nth-child(2) div:first-child section:first-child p:nth-child(3){
         font-size: 1.6875rem;
         margin-left: 06vw;
+        margin-top: 22px;
       }
 
       body main:nth-child(2) div:first-child section:first-child h2:nth-child(4){
         text-align: center;
         font-size: 2.0625rem;
+        margin-top: 22px;
+        
       }
       body main:nth-child(2) div:first-child section:first-child div:nth-child(5) img{
         width: 38vw;
-
+        margin-top: 22px;
       }
       body main:nth-child(2) div:first-child section:first-child div:nth-child(5){
         margin-left: 09vw;
@@ -233,25 +233,39 @@ font-family: Montserrat;
 
       body main:nth-child(2) div:first-child hr:nth-child(2){
         border-top: 5px dotted black;
+        margin-top: 22px;
       }
 
       body main:nth-child(2) div:nth-child(2) {
         font-size: 1.6875rem;
+        margin-top: 30px;
       }
-      
+      body main:nth-child(2) div:nth-child(2) p:nth-child(1){
+        font-size: 1.6875rem;
+        margin-left: 02vw;
+        margin-top: 30px;
+      }
+      body main:nth-child(2) div:nth-child(2) p:nth-child(3){
+        font-size: 1.6875rem;
+        margin-left: 02vw;
+        margin-top: 30px;
+      }
       body main:nth-child(2) div:nth-child(2) p:nth-child(2){
         font-size: 1.6875rem;
-        margin-left: 05vw;
+        margin-left: 04vw;
+        margin-top: 30px;
       }
 
       body main:nth-child(2) div:nth-child(2) p:nth-child(4){
         font-size: 1.5625rem;
-        margin-left: 05vw;
+        margin-left: 06vw;
+        margin-top: 22px;
       }
       
       body main:nth-child(2) div:nth-child(2) h2:nth-child(5){
         font-size: 1.625rem;
         text-align: center;
+        margin-top: 22px;
       }
 
       body main:nth-child(2) div:nth-child(4) article:first-child h2:first-child{
@@ -261,12 +275,15 @@ font-family: Montserrat;
 
       body main:nth-child(2) div:nth-child(4) article:first-child hr:nth-child(2){
         border-top: 5px dotted black;
+
+        margin-top: 22px;
+        margin-bottom: 22px;
       }
 
       body main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(3) img:nth-child(2){
         width: 34vw;
         height: 224px;
-        margin-left: 70vw;
+        margin-left: 63vw;
         margin-top: -195px;
       }
 
@@ -274,6 +291,7 @@ font-family: Montserrat;
         font-size: 1.4375rem;
         margin-top: 48px;
         margin-bottom: -134px;
+        margin-left: 4vw;
       }
 
       body main:nth-child(2) div:nth-child(4) article:first-child p:nth-child(5){
@@ -332,24 +350,27 @@ font-family: Montserrat;
         font-size: 3rem;
         margin-left: 04vw;
         margin-top: 15px;
+        margin-bottom: 10px;
       }
       
       body main:nth-child(2) div:nth-child(5) h3:nth-child(2){
         font-size: 3rem;
-        margin-left: 04vw;
-        margin-top: -46px;
-        margin-bottom: -50px;
+        margin-left: 30vw;
+        margin-top: -21px;
+       
       }
 
       body main:nth-child(2) div:nth-child(5) h4:nth-child(3){
         font-size: 3.375rem;
         margin-left: 04vw;
+        margin-bottom: 22px;
       }
 
       body main:nth-child(2) div:nth-child(5) div:nth-child(4){
         font-size: 1.3125rem;
         text-align: center;
         margin-left: 04vw;
+        margin-bottom: 25px;
       }
 
       body main:nth-child(2) div:nth-child(5) div:nth-child(4) p:nth-child(2){
@@ -384,17 +405,20 @@ font-family: Montserrat;
 
       body main:nth-child(2) div:nth-child(5) section:nth-child(7) img:first-child{
         width: 22vw;
+        margin-left: 02vw;
       }
 
       body main:nth-child(2) div:nth-child(5) section:nth-child(7) p:nth-child(3){
         margin-left: 27vw;
-        margin-top: 55px;
+        margin-top: 1px;
         font-size: 1.9375rem;
       }
 
       body main:nth-child(2) div:nth-child(5) section:nth-child(7) img:nth-child(4){
         width: 22vw;
-        margin-top: 40px;
+        margin-top: 80px;
+        margin-left: 2vw;
+        margin-bottom: -50px;
       }
 
       body main:nth-child(2) div:nth-child(5) section:nth-child(7) h3:nth-child(5){
@@ -405,12 +429,15 @@ font-family: Montserrat;
 
       body main:nth-child(2) div:nth-child(5) section:nth-child(7) p:nth-child(6){
         margin-left: 27vw;
-        margin-top: -21px;
+        margin-top: 1px;
         font-size: 1.75rem;
       }
 
       body main:nth-child(2) div:nth-child(5) section:nth-child(7) img:nth-child(7){
         width: 22vw;
+        margin-top: 51px;
+        margin-left: 2vw;
+        margin-bottom: -33px;
       }
 
       body main:nth-child(2) div:nth-child(5) section:nth-child(7) h3:nth-child(8){
@@ -421,8 +448,9 @@ font-family: Montserrat;
 
       body main:nth-child(2) div:nth-child(5) section:nth-child(7) p:nth-child(9){
         margin-left: 27vw;
-        margin-top: -21px;
+        margin-top: 4px;
         font-size: 1.75rem;
+        margin-bottom: 30px;
       }
 
       body main:nth-child(2) div:nth-child(5) hr:nth-child(8){
@@ -430,7 +458,8 @@ font-family: Montserrat;
       }
 
       body main:nth-child(2) div:nth-child(5) article:nth-child(9) h3:first-child{
-        margin-bottom: -36px;
+        margin-bottom: -5px;
+        margin-top: 22px;
         font-size: 1.9375rem;
         margin-left: 10vw;
       }
@@ -438,11 +467,14 @@ font-family: Montserrat;
       body main:nth-child(2) div:nth-child(5) article:nth-child(9) h2:nth-child(2){
         font-size: 2.5rem;
         text-align: center;
+        margin-top: 5px;
+        margin-bottom: 22px;
       }
 
       body main:nth-child(2) div:nth-child(5) article:nth-child(9) p:nth-child(3){
         font-size: 1.75rem;
-        margin-left: 1vw;
+        margin-left: 3vw;
+        margin-bottom: 22px;
       }
 
       body main:nth-child(2) div:nth-child(5) article:nth-child(9) img:nth-child(4){
@@ -460,6 +492,7 @@ font-family: Montserrat;
         font-size: 1.375rem; 
         margin-bottom: -24px; 
         width: 52vw;
+        margin-left: 2vw;
       }
       
       body main:nth-child(2) div:nth-child(5) article:nth-child(9) img:nth-child(7){
@@ -490,6 +523,7 @@ font-family: Montserrat;
         font-size: 1.375rem;
         margin-bottom: -25px;
         width: 52vw;
+        margin-left: 2vw;
       }
 
       body main:nth-child(2) div:nth-child(5) article:nth-child(9) img:nth-child(12){
@@ -533,7 +567,8 @@ font-family: Montserrat;
 
       body main:nth-child(2) div:nth-child(6) section:first-child hr:nth-child(2){
         border-top: 5px dotted black;
-        margin-bottom: 20px;
+        margin-bottom: 34px;
+        margin-top: 30px;
       }
 
       body main:nth-child(2) div:nth-child(6) section:first-child img:nth-child(3){
@@ -551,18 +586,18 @@ font-family: Montserrat;
         width: 52vw;
         margin-left: 48vw;
         margin-top: -235px;
-        margin-bottom: 64px;
       }
 
       body main:nth-child(2) div:nth-child(6) section:first-child p:nth-child(5){
         font-size: 1.625rem;
         text-align: right;
-        margin-right: 48vw;
+        margin-right: 53vw;
+        margin-top: 140px;
       }
 
       body main:nth-child(2) div:nth-child(6) section:first-child img:nth-child(7){
         width: 45vw;
-        margin-top: 90px;
+        margin-top: 50px;
       }
 
       body main:nth-child(2) div:nth-child(6) section:first-child p:nth-child(8){
@@ -575,7 +610,8 @@ font-family: Montserrat;
       body main:nth-child(2) div:nth-child(6) section:first-child p:nth-child(9){
         font-size: 1.625rem;
         text-align: right;
-        margin-right: 46vw;
+        margin-right: 53vw;
+        margin-top: 90px;
       }
 
       body main:nth-child(2) div:nth-child(6) section:first-child img:nth-child(10){
@@ -609,37 +645,64 @@ font-family: Montserrat;
       }
 
       body main:nth-child(2) div:nth-child(6) section:first-child hr:nth-child(12){
-          border-top: black 5px dotted;
+        border-top: 5px dotted black;
+        margin-bottom: 50px;
+        margin-top: 22px; 
       }
-      
-      body footer:nth-child(3) div:first-child{
+
+      body footer:nth-child(3){
         color: white;
         background-color: #FF87CF;
+        width: 100vw;
+        height: 240px;
+      }
+
+      body footer:nth-child(3) div:first-child{
+        margin-left: 2vw;
       }
 
       body footer:nth-child(3) div:first-child h2:first-child{
         font-size: 1.6875rem;  
         width: 70vw;
+        margin-bottom: 22px;
       }
 
       body footer:nth-child(3) img:nth-child(2){
-        width: 44vw;
-        margin-top: -302px;
-        margin-left: 52vw;
-        margin-bottom: 74px;
+        width: 62vw;
+      margin-top: -69vw;
+      margin-left: 38vw;
+      margin-bottom: 35px;
       }
-      
       body footer:nth-child(3) div:first-child address:nth-child(2) p:first-child{
         margin-top: -21px;
-        margin-bottom: -35px;
+        margin-bottom: -16px;
       }
 
       body footer:nth-child(3) div:first-child{
         height: 219px;
+        width: 100vw;
       }
 
       body footer:nth-child(3) div:first-child address:nth-child(2) p:nth-child(3){
         margin-bottom: 4px;
+        width: 38vw;
+      }
+
+      body footer:nth-child(3) div:first-child img:nth-child(3){
+        width: 11vw;
+        height: 11vw;
+      }
+      body footer:nth-child(3) div:first-child img:nth-child(4){
+        width: 11vw;
+        height: 11vw;
+      }
+      body footer:nth-child(3) div:first-child img:nth-child(5){
+        width: 11vw;
+        height: 11vw;
+      }
+      body footer:nth-child(3) div:first-child img:nth-child(6){
+        width: 11vw;
+        height: 11vw;
       }
 
       

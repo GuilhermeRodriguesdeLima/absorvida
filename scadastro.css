@@ -168,6 +168,9 @@
           margin-bottom: 20px;
           font-size: 3rem;
         }
+        main img:nth-child(3){
+          width: 100vw;
+        }
 
         hr {
           Border-top: black 5px dotted;
@@ -196,7 +199,7 @@
           margin-left: 08vw;
           margin-bottom: 20px;
          }
-         main form h3{
+         main form div h3{
           margin-left: 10vw;
          }
 
@@ -207,29 +210,69 @@
          main form:nth-child(4) div:nth-child(25) h3{
           margin-left: 8vw;
          }
-         main form:nth-child(4) div:nth-child(25) input{
-          margin-left: -29vw;
-          margin-bottom: 10px;
-          box-shadow: 0px 0px 16px 5px #f786c6;
+         main form:nth-child(4) div:nth-child(25){
+          align-items: center;
          }
-         main form:nth-child(4) div:nth-child(25) label{
-          margin-left: -36vw;
+        
+        .radio , .checkbox{
+          appearance: none;
+          margin-bottom: 4px;
+          margin-top: 10px;
+          margin-left: 8vw;
+          border: 1px solid #D7729B;
+          cursor: pointer;
+          position: relative;
+          width: 4vw;
+          height: 4vw;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+         }
+         .radio:before , .checkbox:before{
           position: absolute;
+          width: 2vw;
+          height: 2vw;
+          content: '';
+          background: #D7729B;
+          border-radius: 25px;
+          opacity: 0;
+         }
+         .radio:checked:before , .checkbox:checked:before{
+          opacity: 1;
+         }
+
+         main form:nth-child(4) div:nth-child(25) label{
+          position: absolute;
+          cursor: pointer;
+          margin-top: -23px;
+          margin-left: 14vw;
          }
          
-
-
         main form:nth-child(4) div:nth-child(41){
           background-color: #F786C6;
-          box-shadow: 0px 0px 16px 5px #f786c6;
+          box-shadow: 0px 0px 16px 5px #F786C6;
           border-radius: 25px;
           width: 88vw;
           margin-left: 06vw;
           border: 1px solid #D7729B;
+          align-items: center
+          ;
+        }
+        
+        .checkbox:before{
+          background: white;
+        }
+        main form:nth-child(4) div:nth-child(41) label{
+          position: absolute;
+          cursor: pointer;
+          margin-top: -23px;
+          margin-left: 14vw;
+          color: white;
         }
 
-        main form div h3{
+        main form div:nth-child(41) h3{
           font-size: 1rem;
+          color: white;
           margin-left: 03vw;
           margin-top: 14px;
         }

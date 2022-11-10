@@ -198,13 +198,13 @@ margin: 0px 0px 0px 0px;
       }
 
       body main:nth-child(2) div:first-child section:first-child h2:nth-child(4){
-        text-align: center;
-        font-size: 1.625rem;
-        margin-top: 22px;
-        background-color: #A2185B;
+           text-align: center;
+           font-size: 1.625rem;
+          margin-top: 22px;
+         background-color: #A2185B;
         color: white;
         width: 100vw;
-        height: 50px;
+        height: 20vw;
         padding-top: 10px;
       }
       body main:nth-child(2) div:first-child section:first-child div:nth-child(5) img{
@@ -298,16 +298,17 @@ margin: 0px 0px 0px 0px;
       }
 
       body main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(3) p:first-child{
-        font-size: 1.4375rem;
-        margin-top: 48px;
-        margin-bottom: -134px;
-        margin-left: 4vw;
+            font-size: 1.4375rem;
+    margin-top: 48px;
+    margin-bottom: -134px;
+    margin-left: 4vw;
+    width: 70vw;
       }
 
       body main:nth-child(2) div:nth-child(4) article:first-child p:nth-child(5){
         margin-left: 33vw;
         font-size: 1.4375rem;
-        margin-top: 101px;
+         margin-top: 151px;
       }
 
       body main:nth-child(2) div:nth-child(4) article:first-child img:nth-child(4){

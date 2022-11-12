@@ -446,7 +446,11 @@ margin: 0px 0px 0px 0px;
         margin-left: 10vw;
         margin-top: 68px;
       }
-
+      
+      body main:nth-child(2) div:nth-child(5) section:nth-child(7) img:nth-child(7){
+        margin-top: 150px;
+      }
+    
       body main:nth-child(2) div:nth-child(5) section:nth-child(7) p{
        height: 142px;
        margin-left: 39.5vw;

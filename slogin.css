@@ -212,42 +212,56 @@
         margin-bottom: -16px;
       }
 
-      body footer:nth-child(3) div:first-child{
-        height: 219px;
-        width: 90vw;
-      }
+      body footer:nth-child(3){
+      color: white;
+      background-color: #D7729B;
+      width: 100vw;
+      height: 240px;
+    }
 
-      body footer:nth-child(3) div:first-child address:nth-child(2) p:nth-child(3){
-        margin-bottom: 4px;
-        width: 38vw;
-      }
+    body footer:nth-child(3) div:first-child{
+      margin-left: 2vw;
+    }
 
-      body footer:nth-child(3) div:first-child a{
-        text-decoration: none;
-      }
+    body footer:nth-child(3) div:first-child h2:first-child{
+      font-size: 1.6875rem;  
+      width: 70vw;
+      margin-bottom: 22px;
+    }
+    body footer:nth-child(3) div:first-child address:nth-child(2) p:first-child{
+      margin-top: -21px;
+      margin-bottom: -16px;
+    }
 
-      body footer:nth-child(3) div:first-child a img{
-        width: 11vw;
-        height: 11vw;
-      }
+    body footer:nth-child(3) div:first-child{
+      height: 219px;
+      width: 90vw;
+    }
 
-      body footer:nth-child(3) div:first-child a:last-child img{
-        width: 45vw;
-        margin-top: -59vw;
-        margin-left: 50vw;
-        margin-bottom: 65px;
-        height: 305px;
-      }
+    body footer:nth-child(3) div:first-child address:nth-child(2) p:nth-child(3){
+      margin-bottom: 4px;
+      width: 38vw;
+    }
 
-      body footer:nth-child(3) div:first-child address:nth-child(2){
-        width: 90vw;
-        color: white;
-      }
-      hr{
-        border-top: 5px dotted black;
-        margin-bottom: 34px;
-        margin-top: 30px;
-        width: 86vw;
-        margin-left: 6vw;
-      }
+    body footer:nth-child(3) div:first-child a{
+      text-decoration: none;
+    }
+
+    body footer:nth-child(3) div:first-child a img{
+      width: 11vw;
+      height: 11vw;
+    }
+
+    body footer:nth-child(3) div:first-child a:last-child img{
+      width: 45vw;
+      margin-top: -97vw;
+      margin-left: 50vw;
+      margin-bottom: 25px;
+      height: 230px;
+    }
+
+    body footer:nth-child(3) div:first-child address:nth-child(2){
+      width: 90vw;
+      color: white;
+    }
 }

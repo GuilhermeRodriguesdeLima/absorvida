@@ -162,6 +162,13 @@
           margin-top: -11px;
           background-color: #D7729B;
         }
+
+
+
+
+
+
+
         main h1{
           text-align: center;
           margin-top: 30px;
@@ -192,19 +199,21 @@
          }
 
          main form input{
-          border-radius: 25px;
-          width: 80vw;
-          height: 21px;
+          border-radius: 35px;
+          width: 88vw;
+          height: 29px;
           border: 1px solid #D7729B;
-          margin-left: 08vw;
+          margin-left: 04vw;
           margin-bottom: 20px;
+          
          }
          main form div h3{
           margin-left: 10vw;
          }
 
          main form label{
-          margin-left: 10vw;
+          margin-left: 05.4vw;
+          font-weight: 300;
           font-size: 1rem;
          }
          main form:nth-child(4) div:nth-child(25) h3{
@@ -248,109 +257,84 @@
           margin-left: 14vw;
          }
          
-        main form:nth-child(4) div:nth-child(41){
-          background-color: #F786C6;
-          box-shadow: 0px 0px 16px 5px #F786C6;
+        main form:nth-child(4) div:nth-child(41) {
+          background-color: #F3D3DF;
           border-radius: 25px;
           width: 88vw;
           margin-left: 06vw;
-          border: 1px solid #D7729B;
           align-items: center;
-          opacity: 39%;
         }
         
         .checkbox:before{
           background: white;
         }
-        main form:nth-child(4) div:nth-child(41) label{
+        main form:nth-child(4) div:nth-child(41) div label{
           position: absolute;
           cursor: pointer;
           margin-top: -23px;
           margin-left: 14vw;
           color: #1B1B1D;
-          opacity: 100%;
+          
         }
 
-        main form div:nth-child(41) h3{
+        main form div:nth-child(41) div h3{
           font-size: 1rem;
-          opacity: 100%;
+          opacity: 100;
           margin-left: 03vw;
           margin-top: 14px;
         }
-    
+      body footer:nth-child(3){
+        color: white;
+        background-color: #D7729B;
+        width: 100vw;
+        height: 240px;
+      }
 
+      body footer:nth-child(3) div:first-child{
+        margin-left: 2vw;
+      }
 
-                
+      body footer:nth-child(3) div:first-child h2:first-child{
+        font-size: 1.6875rem;  
+        width: 70vw;
+        margin-bottom: 22px;
+      }
+      body footer:nth-child(3) div:first-child address:nth-child(2) p:first-child{
+        margin-top: -21px;
+        margin-bottom: -16px;
+      }
 
+      body footer:nth-child(3) div:first-child{
+        height: 219px;
+        width: 90vw;
+      }
 
+      body footer:nth-child(3) div:first-child address:nth-child(2) p:nth-child(3){
+        margin-bottom: 4px;
+        width: 38vw;
+      }
 
+      body footer:nth-child(3) div:first-child a{
+        text-decoration: none;
+      }
 
+      body footer:nth-child(3) div:first-child a img{
+        width: 11vw;
+        height: 11vw;
+      }
 
+      body footer:nth-child(3) div:first-child a:last-child img{
+        width: 45vw;
+        margin-top: -59vw;
+        margin-left: 50vw;
+        margin-bottom: 65px;
+        height: 305px;
+      }
 
-
-
-
-
-
-
-
-
-
-
-            body footer:nth-child(3){
-                color: white;
-                background-color: #FF87CF;
-                width: 100vw;
-                height: 240px;
-              }
-        
-              body footer:nth-child(3) div:first-child{
-                margin-left: 2vw;
-              }
-        
-              body footer:nth-child(3) div:first-child h2:first-child{
-                font-size: 1.6875rem;  
-                width: 70vw;
-                margin-bottom: 22px;
-              }
-        
-              body footer:nth-child(3) img:nth-child(2){
-                width: 62vw;
-              margin-top: -69vw;
-              margin-left: 38vw;
-              margin-bottom: 35px;
-              }
-              body footer:nth-child(3) div:first-child address:nth-child(2) p:first-child{
-                margin-top: -21px;
-                margin-bottom: -16px;
-              }
-        
-              body footer:nth-child(3) div:first-child{
-                height: 219px;
-                width: 100vw;
-              }
-        
-              body footer:nth-child(3) div:first-child address:nth-child(2) p:nth-child(3){
-                margin-bottom: 4px;
-                width: 38vw;
-              }
-        
-              body footer:nth-child(3) div:first-child img:nth-child(3){
-                width: 11vw;
-                height: 11vw;
-              }
-              body footer:nth-child(3) div:first-child img:nth-child(4){
-                width: 11vw;
-                height: 11vw;
-              }
-              body footer:nth-child(3) div:first-child img:nth-child(5){
-                width: 11vw;
-                height: 11vw;
-              }
-              body footer:nth-child(3) div:first-child img:nth-child(6){
-                width: 11vw;
-                height: 11vw;
-              }
+      body footer:nth-child(3) div:first-child address:nth-child(2){
+        width: 90vw;
+        color: white;
+      }
 
 
 

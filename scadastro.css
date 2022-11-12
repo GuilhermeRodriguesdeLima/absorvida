@@ -109,17 +109,13 @@
     #painel-menu input:checked~ul {
       transform: none;
     } 
-
-      #divisor { 
-        background-color: #D7729B;
-        height: 21px;
+        
+        .divheader{
         width: 100vw;
-        margin-top: 22px;
-        margin-bottom: 22px;
+        overflow: hidden;
+        background-color: #D7729B;
       } 
-
-
-      body header div:nth-child(3) img:first-child{
+    body header div:nth-child(3) img:first-child{
         width: 44vw;
         height: 50vw;
         margin-left: 29vw; 

@@ -251,4 +251,9 @@
       width: 90vw;
       color: white;
     }
+    hr {
+       Border-top: black 5px dotted;
+       width: 86vw;
+       margin-left: 06vw;
+    }
 }

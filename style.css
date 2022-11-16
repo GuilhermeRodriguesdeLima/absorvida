@@ -603,9 +603,8 @@ margin: 0px 0px 0px 0px;
       body main:nth-child(2) div:nth-child(6) section:first-child p{
         margin-left: 37vw;
         margin-top: 5px;
-        
         font-weight: 300;
-        width: 64vw;
+        width: 60vw;
         height: 98px;
         font-size: 1rem;
       }

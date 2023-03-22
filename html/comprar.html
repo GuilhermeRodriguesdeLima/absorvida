@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>COMPRAS - PROJETO ABSORVIDA</title>
+    <link rel="stylesheet" media="(max-width: 480px)" href="../css/comprar.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>    <!-- body filho 1 -->
+        <div class="divheader">
+                
+            <a href="index.html">   
+                <img src="../imagens/profile.svg"> 
+            </a>
+        
+            <a href="index.html">   <!-- div filho 2-->
+                <img src="../imagens/snome.svg">    <!-- a filho 1-->
+            </a>
+
+        </div>
+        
+        <div id="painel-menu"> <!-- header filho 2-->
+
+            <input type="checkbox" name="" id=""> <!-- div filho 1-->
+
+            <span></span><!-- div filho 2-->
+            <span></span><!-- div filho 3-->
+            <span></span><!-- div filho 4-->
+            
+            <ul> <!-- div filho 5-->
+
+                <li> <!-- ul filho 1-->
+                    <a href="login.html">LOGIN</a>
+                </li>
+
+                <li> <!-- ul filho 2-->
+                    <a href="cadastro.html">CADASTRO</a>
+                </li>
+
+                <li> <!-- ul filho 3-->
+                    <a href="sobrenos.html">SOBRE NÓS</a>
+                </li>
+
+                <li> <!-- ul filho 4-->
+                    <a href="produtos.html">PRODUTOS</a>
+                </li>
+
+            </ul>
+
+        </div>
+</header>
+
+<main>
+    <div>
+        <h1>COMPRAR</h1>
+        <hr>
+        <img src="../imagens/cartao.svg">
+        <p>Para iniciar sua compra, certifique-se que já esteja <a href="cadastro.html">cadastrado</a> em nosso site.</p>
+        <div> 
+            <h3>Quais produtos deseja comprar?</h3>
+            <select> 
+                <option value="Absorvente Intimus TRIPLA proteção com abas 32un.">Absorvente Intimus TRIPLA proteção com abas 32un.</option>
+                <option value="Absorvente Intimus TRIPLA proteção sem abas cobertura seca 8un.">Absorvente Intimus TRIPLA proteção sem abas cobertura seca 8un.</option>
+                <option value="Absorvente Intimus noturno para fluxo intenso com abas cobertura seca 8un.">Absorvente Intimus noturno para fluxo intenso com abas cobertura seca 8un.</option>
+                <option value="Absorvente always SUPER proteção sem abas 8un.">Absorvente always SUPER proteção sem abas 8un.</option>
+                <option value="Absorvente always suave para fluxo intenso com abas e barreiras antivazamentos 8un.">Absorvente always suave para fluxo intenso com abas e barreiras antivazamentos 8un.</option>
+                <option value="Coletor menstrual TulipCup Antivazamentos">Coletor menstrual TulipCup Antivazamentos</option>
+                <option value="Coletor menstrual Carnelian">Coletor menstrual Carnelian</option>
+            </select>
+        </div>
+        <div> 
+            <h3>Formato de pagamento</h3>
+            <select>
+                <option value="crédito">Cartão de crédito</option>
+                <option value="PIX">PIX</option>
+                <option value="Paypal">Paypal</option>
+                <option value="débito">Cartão de débito</option>
+                <option value="Boleto">Boleto</option>
+            </select>
+        </div>
+        <form action="compras">
+            <label for="cep">CEP</label><br>
+            <input type="number" name="cep" id="cep"><br>
+            <label for="casa">Número da Casa</label><br> 
+            <input type="number" name="casa" id="casa"><br> 
+            <label for="estado">Estado/Província</label><br> 
+            <input type="text" name="estado" id="estado"><br> 
+            <label for="cidade">Cidade</label><br> 
+            <input type="text" name="cidade" id="cidade"><br> 
+            <label for="bairro">Bairro</label><br> 
+            <input type="text" name="bairro" id="bairro"><br> 
+            <label for="cpf">CPF</label><br> 
+            <input type="number" name="cpf" id="cpf"> <br> 
+            <label for="tel">Telefone para contato</label><br> 
+            <input type="tel" name="tel" id="tel"> <br> 
+
+            <input type="submit" value="COMPRAR">
+        </form>
+    </div>
+</main> 
+
+
+<footer> <!-- body filho 3-->
+
+    <div> 
+
+        <h2> PROJETO<br>ABSORVIDA © </h2>
+
+        <address>       
+
+                <p>Fone: 1888-0000</p>
+
+                <br>
+
+            
+                <p> 
+                    R. Interna Grupo Bandeirante, 138
+                    <br>
+                    - Jardim Belval, Barueri - SP,
+                    <br>
+                    06420-150
+                </p>
+            
+
+        </address>
+        
+            <a href="https://www.instagram.com/absor_vida/"><img src="../imagens/instagram.svg"></a><!-- 3 -->
+            <a href=""><img src="../imagens/whatsapp.svg"></a><!-- 4 -->
+            <a href="https://www.facebook.com/profile.php?id=100087745806782"><img src="../imagens/facebook.svg"></a><!-- 5 -->
+            <a href=""><img src="../imagens/twitter.svg"></a><!-- 6 -->
+            <a href="index.html"><img src="../imagens/snome.svg"></a><!-- 7 -->
+    </div>
+</footer>
+</body>
+</html>

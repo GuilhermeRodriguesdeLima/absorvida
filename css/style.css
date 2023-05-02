@@ -232,6 +232,8 @@
           margin-top: 22px;
           margin-bottom: 20px;
           margin-right: 2vw;
+          border: solid transparent; 
+          border-radius: 30px;
         }
   
         #anuncio{ 
@@ -246,7 +248,7 @@
           margin-top: 0px;
         }
         body main:nth-child(2) div:first-child section:first-child div:nth-child(5){
-          margin-left: 11vw;
+          margin-left: 9vw;
           width: 88vw;
         }
         

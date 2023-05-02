@@ -308,11 +308,6 @@ margin: 0px 0px 0px 0px;
         color: #1B1B1D;
       }
 
-      body main:nth-child(2) img:nth-child(3){
-        width: 100vw;
-        margin-bottom: 20px;
-      }
-
       body main:nth-child(2) div:nth-child(4) article:first-child h2:first-child{
         margin-left: 06vw;
         font-size: 2.4375rem;

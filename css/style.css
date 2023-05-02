@@ -234,6 +234,10 @@ margin: 0px 0px 0px 0px;
         margin-right: 2vw;
       }
 
+      #anuncio{ 
+        width: 100vw;
+        margin-bottom: 20px;
+      }
 
       body main:nth-child(2) div:first-child section:first-child div:nth-child(5) img:nth-child(3){
         margin-top: 0px;
@@ -306,11 +310,6 @@ margin: 0px 0px 0px 0px;
         margin-top: 22px;
         font-weight: bold;
         color: #1B1B1D;
-      }
-
-      body main:nth-child(2) img:nth-child(3){
-        width: 100vw;
-        margin-bottom: 20px;
       }
 
       body main:nth-child(2) div:nth-child(4) article:first-child h2:first-child{

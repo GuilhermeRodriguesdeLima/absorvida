@@ -123,20 +123,24 @@
         } 
   
   
-        body header div:nth-child(3) img:first-child{
+        body section:first-child header div:nth-child(3) img:first-child{
           width: 44vw;
           height: 50vw;
           margin-left: 29vw; 
           margin-top: 20px;
         }
   
-        body header:first-child  div:first-child a:first-child img:first-child{
+        body section:first-child header:first-child  div:first-child a:first-child img:first-child{
           margin-left: 0.4vw;
           width: 13.5vw;
           height: 13.5vw;
         }
         
-        body header:first-child div:first-child a:nth-child(2) img:first-child{
+        .material-symbols-outlined {
+          color: white; 
+          font-size: 1.4rem;
+        }
+        body section:first-child header:first-child div:first-child a:nth-child(3) img{ 
           height: 17vw;
           width: 14vw;
           position: absolute;
@@ -144,35 +148,35 @@
           right: 42vw;
         }
   
-         body header:first-child  div:nth-child(2) a:first-child img:first-child{
+         body section:first-child header:first-child  div:nth-child(2) a:first-child img:first-child{
           height: 72px;
           width: 13vw;
           margin-top: -16px;
          }
   
-         body header:first-child div:nth-child(3) div:first-child h1:first-child{
+         body section:first-child header:first-child div:nth-child(3) div:first-child h1:first-child{
           text-align: center;
           margin-top: -10px;
          }
   
-         body header:first-child div:nth-child(3) div:first-child p:nth-child(2){
+         body section:first-child header:first-child div:nth-child(3) div:first-child p:nth-child(2){
           text-align: center;
           color: #BD2079;
           font-size: 1.8125rem;
           font-weight: 600;
          }
   
-         body header:first-child div:nth-child(3) div:first-child img:nth-child(3){
+         body section:first-child header:first-child div:nth-child(3) div:first-child img:nth-child(3){
           height: 70vw;
           width: 100vw;
           margin-top: 22px;
          }
   
-         body main{
+         body section:first-child main{
           margin-top: 70px;
   
          }
-         body main:nth-child(2) div:first-child section:first-child h2:first-child{
+         body section:first-child main:nth-child(2) div:first-child section:first-child h2:first-child{
           margin-top: 30px;
           text-align: center;
           font-size: 2.8125rem;
@@ -180,28 +184,28 @@
           font-weight: 600;
          }
   
-         body header:first-child div:nth-child(3){
+         body section:first-child header:first-child div:nth-child(3){
           background-color: #FFE8F6;
           height: 149vw;
          }
   
-        body header:first-child div:nth-child(3) div:first-child div:nth-child(4) img:first-child{
+        body section:first-child header:first-child div:nth-child(3) div:first-child div:nth-child(4) img:first-child{
           margin-left: 37vw;
         }
   
-        body header:first-child div:nth-child(3) div:first-child h1:first-child{
+        body section:first-child header:first-child div:nth-child(3) div:first-child h1:first-child{
           color: #6D123E;
         }
          
         
   
-        body header:first-child div:nth-child(3) div:first-child div:nth-child(4){
+        body section:first-child header:first-child div:nth-child(3) div:first-child div:nth-child(4){
           height: 32px;
           margin-top: -11px;
           background-color: #D7729B;
         }
   
-        body main:nth-child(2) div:first-child section:first-child p:nth-child(2){
+        body section:first-child main:nth-child(2) div:first-child section:first-child p:nth-child(2){
           font-size: 1.6875rem;
           margin-left: 23.75vw;
           margin-top: 22px;
@@ -209,7 +213,7 @@
           color: #1B1B1D;
         }
   
-        body main:nth-child(2) div:first-child section:first-child p:nth-child(3){
+        body section:first-child main:nth-child(2) div:first-child section:first-child p:nth-child(3){
           font-size: 1.6875rem;
           margin-left: 08vw;
           margin-top: 22px;
@@ -217,7 +221,7 @@
           color: #1B1B1D;
         }
   
-        body main:nth-child(2) div:first-child section:first-child h2:nth-child(4){
+        body section:first-child main:nth-child(2) div:first-child section:first-child h2:nth-child(4){
           text-align: center;
           font-size: 1.4rem;
           margin-top: 22px;
@@ -227,7 +231,7 @@
           height: 11vw;
           padding-top: 4vw;
         }
-        body main:nth-child(2) div:first-child section:first-child div:nth-child(5) img{
+        body section:first-child main:nth-child(2) div:first-child section:first-child div:nth-child(5) img{
           width: 38vw;
           margin-top: 22px;
           margin-bottom: 20px;
@@ -239,23 +243,23 @@
           margin-bottom: 20px;
         }
   
-        body main:nth-child(2) div:first-child section:first-child div:nth-child(5) img:nth-child(3){
+        body section:first-child main:nth-child(2) div:first-child section:first-child div:nth-child(5) img:nth-child(3){
           margin-top: 0px;
         }
-        body main:nth-child(2) div:first-child section:first-child div:nth-child(5) img:nth-child(4){
+        body section:first-child main:nth-child(2) div:first-child section:first-child div:nth-child(5) img:nth-child(4){
           margin-top: 0px;
         }
-        body main:nth-child(2) div:first-child section:first-child div:nth-child(5){
+        body section:first-child main:nth-child(2) div:first-child section:first-child div:nth-child(5){
           margin-left: 11vw;
           width: 88vw;
         }
         
-        body main:nth-child(2) div:first-child section:first-child div:nth-child(6) a:first-child{
+        body section:first-child main:nth-child(2) div:first-child section:first-child div:nth-child(6) a:first-child{
           text-decoration: none;
           color: inherit;
         }
   
-        body main:nth-child(2) div:first-child section:first-child div:nth-child(6) a:first-child p:first-child{
+        body section:first-child main:nth-child(2) div:first-child section:first-child div:nth-child(6) a:first-child p:first-child{
           text-align: center;
           color: white;
           font-size: 1.6875rem;
@@ -263,7 +267,7 @@
           padding-top: 10px;
         }
         
-        body main:nth-child(2) div:first-child section:first-child div:nth-child(6){
+        body section:first-child main:nth-child(2) div:first-child section:first-child div:nth-child(6){
   
           border-radius: 10px;
           width: 83vw;
@@ -277,33 +281,33 @@
   
        
   
-        body main:nth-child(2) div:nth-child(2) {
+        body section:first-child main:nth-child(2) div:nth-child(2) {
           font-size: 1.6875rem;
           margin-top: 30px;
         }
-        body main:nth-child(2) div:nth-child(2) p:nth-child(1){
+        body section:first-child main:nth-child(2) div:nth-child(2) p:nth-child(1){
           font-size: 1.6875rem;
           margin-left: 06vw;
           margin-top: 30px;
         }
-        body main:nth-child(2) div:nth-child(2) p:nth-child(3){
+        body section:first-child main:nth-child(2) div:nth-child(2) p:nth-child(3){
           font-size: 1.6875rem;
           margin-left: 6vw;
           margin-top: 30px;
         }
-        body main:nth-child(2) div:nth-child(2) p:nth-child(2){
+        body section:first-child main:nth-child(2) div:nth-child(2) p:nth-child(2){
           font-size: 1.6875rem;
           margin-left: 11vw;
           margin-top: 30px;
         }
   
-        body main:nth-child(2) div:nth-child(2) p:nth-child(4){
+        body section:first-child main:nth-child(2) div:nth-child(2) p:nth-child(4){
           font-size: 1.5625rem;
           margin-left: 11vw;
           margin-top: 22px;
         }
         
-        body main:nth-child(2) div:nth-child(2) h2:nth-child(5){
+        body section:first-child main:nth-child(2) div:nth-child(2) h2:nth-child(5){
           font-size: 1.625rem;
           text-align: center;
           margin-top: 60px;
@@ -312,7 +316,7 @@
           color: #1B1B1D;
         }
   
-        body main:nth-child(2) div:nth-child(4) article:first-child h2:first-child{
+        body section:first-child main:nth-child(2) div:nth-child(4) article:first-child h2:first-child{
           margin-left: 06vw;
           font-size: 2.4375rem;
           font-weight: 600;
@@ -321,14 +325,14 @@
   
         
   
-        body main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(3) img:nth-child(2){
+        body section:first-child main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(3) img:nth-child(2){
           width: 34vw;
           height: 46vw;
           margin-left: 63vw;
           margin-top: -195px;
         }
   
-        body main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(3) p:first-child{
+        body section:first-child main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(3) p:first-child{
           font-size: 1.4375rem;
           margin-top: 48px;
           margin-bottom: -134px;
@@ -336,20 +340,20 @@
           width: 70vw;
         }
   
-        body main:nth-child(2) div:nth-child(4) article:first-child p:nth-child(5){
+        body section:first-child main:nth-child(2) div:nth-child(4) article:first-child p:nth-child(5){
           margin-left: 33vw;
           font-size: 1.4375rem;
           margin-top: 151px;
         }
   
-        body main:nth-child(2) div:nth-child(4) article:first-child img:nth-child(4){
+        body section:first-child main:nth-child(2) div:nth-child(4) article:first-child img:nth-child(4){
           width: 38vw;
           height: 38vw;
           margin-bottom: -458px;
           margin-left: -02.5vw;
         }
   
-        body main:nth-child(2) div:nth-child(4) article:first-child p:nth-child(6){
+        body section:first-child main:nth-child(2) div:nth-child(4) article:first-child p:nth-child(6){
           font-size: 1.4375rem;
           margin-right: 39vw;
           margin-bottom: -252px;
@@ -357,14 +361,14 @@
           margin-top: 100px;
         }
   
-        body main:nth-child(2) div:nth-child(4) article:first-child img:nth-child(7){
+        body section:first-child main:nth-child(2) div:nth-child(4) article:first-child img:nth-child(7){
           width: 40vw;
           height: 41vw;
           margin-left: 56vw;
           margin-bottom: 150px;
         }
   
-        body main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(8){
+        body section:first-child main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(8){
           border-radius: 10px;
           width: 83vw;
           height: 58px;
@@ -377,12 +381,12 @@
   
   
   
-        body main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(8) a:first-child{
+        body section:first-child main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(8) a:first-child{
           text-decoration: none;
           color: white;
         }
   
-        body main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(8) a:first-child p:first-child{
+        body section:first-child main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(8) a:first-child p:first-child{
           text-align: center;
           color: white;
           font-size: 1.6875rem;
@@ -391,7 +395,7 @@
           margin-bottom: 10px;
         }
   
-        body main:nth-child(2) div:nth-child(5) h2:first-child{
+        body section:first-child main:nth-child(2) div:nth-child(5) h2:first-child{
           font-size: 3rem;
           margin-left: 06vw;
           margin-top: 15px;
@@ -400,7 +404,7 @@
           font-weight: bold;
         }
         
-        body main:nth-child(2) div:nth-child(5) h3:nth-child(2){
+        body section:first-child main:nth-child(2) div:nth-child(5) h3:nth-child(2){
           font-size: 2.2rem;
           margin-left: 30vw;
           margin-top: -21px;
@@ -408,47 +412,47 @@
           font-weight: 300;
         }
   
-        body main:nth-child(2) div:nth-child(5) h4:nth-child(3){
+        body section:first-child main:nth-child(2) div:nth-child(5) h4:nth-child(3){
           font-size: 3.375rem;
           margin-left: 06vw;
           margin-bottom: 22px;
           font-weight: bold;
         }
   
-        body main:nth-child(2) div:nth-child(5) div:nth-child(4){
+        body section:first-child main:nth-child(2) div:nth-child(5) div:nth-child(4){
           font-size: 1.3125rem;
           text-align: center;
           margin-left: 06vw;
           margin-bottom: 25px;
         }
   
-        body main:nth-child(2) div:nth-child(5) div:nth-child(4) p:nth-child(2){
+        body section:first-child main:nth-child(2) div:nth-child(5) div:nth-child(4) p:nth-child(2){
           margin-top: -29px;
           margin-bottom: -29px;
         }
         
-        body main:nth-child(2) div:nth-child(5) div:nth-child(5) h3:first-child{
+        body section:first-child main:nth-child(2) div:nth-child(5) div:nth-child(5) h3:first-child{
           margin-bottom: -11px;
           font-weight: 500;
         }
         
-        body main:nth-child(2) div:nth-child(5) div:nth-child(5){
+        body section:first-child main:nth-child(2) div:nth-child(5) div:nth-child(5){
           font-size: 1.625rem;
           margin-left: 06vw;
         }
   
         
   
-        body main:nth-child(2) div:nth-child(5) div:nth-child(5) h2:nth-child(2){
+        body section:first-child main:nth-child(2) div:nth-child(5) div:nth-child(5) h2:nth-child(2){
           margin-bottom: 20px;
           margin-top: 10px;
           color: #A2185B;
           font-weight: 900;
         }
-        body main:nth-child(2) div:nth-child(5) section:nth-child(7) img:first-child{
+        body section:first-child main:nth-child(2) div:nth-child(5) section:nth-child(7) img:first-child{
           margin-top: 52px;
         }
-        body main:nth-child(2) div:nth-child(5) section:nth-child(7) h3{
+        body section:first-child main:nth-child(2) div:nth-child(5) section:nth-child(7) h3{
           margin-left: 37vw;
           font-size: 1.4375rem;
           margin-top: -122px;
@@ -456,24 +460,24 @@
           color: #1B1B1D;
         }
   
-        body main:nth-child(2) div:nth-child(5) section:nth-child(7) img{
+        body section:first-child main:nth-child(2) div:nth-child(5) section:nth-child(7) img{
           width: 24vw;
           margin-left: 10vw;
           margin-top: 14vw;
         }
   
-        body main:nth-child(2) div:nth-child(5) section:nth-child(7) img:nth-child(7){
+        body section:first-child main:nth-child(2) div:nth-child(5) section:nth-child(7) img:nth-child(7){
           margin-top: 150px;
         }
   
-        body main:nth-child(2) div:nth-child(5) section:nth-child(7) p{
+        body section:first-child main:nth-child(2) div:nth-child(5) section:nth-child(7) p{
          height: 142px;
          margin-left: 39.5vw;
          font-size: 1.4375rem;
          font-weight: 300;
         }
   
-        body main:nth-child(2) div:nth-child(5) article:nth-child(9) h3:first-child{
+        body section:first-child main:nth-child(2) div:nth-child(5) article:nth-child(9) h3:first-child{
           margin-bottom: -5px;
           margin-top: 22px;
           font-size: 1.9375rem;
@@ -481,7 +485,7 @@
           font-weight: 300;
         }
   
-        body main:nth-child(2) div:nth-child(5) article:nth-child(9) h2:nth-child(2){
+        body section:first-child main:nth-child(2) div:nth-child(5) article:nth-child(9) h2:nth-child(2){
           font-size: 2.5rem;
           margin-top: 5px;
           margin-left: 06vw;
@@ -489,18 +493,18 @@
           color: #A2185B;
         }
   
-        body main:nth-child(2) div:nth-child(5) article:nth-child(9) p:nth-child(3){
+        body section:first-child main:nth-child(2) div:nth-child(5) article:nth-child(9) p:nth-child(3){
           font-size: 1.75rem;
           margin-left: 6vw;
           margin-bottom: 22px;
         }
   
-        body main:nth-child(2) div:nth-child(5) article:nth-child(9) img:nth-child(4){
+        body section:first-child main:nth-child(2) div:nth-child(5) article:nth-child(9) img:nth-child(4){
           width: 41vw;
           margin-top: 60px;
         }
   
-        body main:nth-child(2) div:nth-child(5) article:nth-child(9) p:nth-child(5){
+        body section:first-child main:nth-child(2) div:nth-child(5) article:nth-child(9) p:nth-child(5){
           font-size: 1.375rem;
           margin-left: 39vw;
           margin-top: -185px;
@@ -508,60 +512,60 @@
          
         }
       
-        body main:nth-child(2) div:nth-child(5) article:nth-child(9) p:nth-child(6){
+        body section:first-child main:nth-child(2) div:nth-child(5) article:nth-child(9) p:nth-child(6){
           font-size: 1.375rem; 
           margin-bottom: -24px; 
           width: 52vw;
           margin-left: 6vw;
         }
         
-        body main:nth-child(2) div:nth-child(5) article:nth-child(9) img:nth-child(7){
+        body section:first-child main:nth-child(2) div:nth-child(5) article:nth-child(9) img:nth-child(7){
           width: 35vw;
          margin-left: 58vw;
          margin-top: -272px;
          margin-bottom: 200px;
         }
-        body main:nth-child(2) div:nth-child(5) article:nth-child(9) img:nth-child(8){
+        body section:first-child main:nth-child(2) div:nth-child(5) article:nth-child(9) img:nth-child(8){
           width: 42vw;
           margin-top: 70px;
         }
   
-        body main:nth-child(2) div:nth-child(5) article:nth-child(9) p:nth-child(9){
+        body section:first-child main:nth-child(2) div:nth-child(5) article:nth-child(9) p:nth-child(9){
           font-size: 1.375rem;
           margin-left: 44vw;
           margin-top: -200px;
           margin-bottom: 70px;
         }
   
-        body main:nth-child(2) div:nth-child(5) article:nth-child(9) img:nth-child(11){
+        body section:first-child main:nth-child(2) div:nth-child(5) article:nth-child(9) img:nth-child(11){
           width: 41vw;
           margin-left: 58vw;
           margin-top: -272px;
           margin-bottom: 150px;
         }
   
-        body main:nth-child(2) div:nth-child(5) article:nth-child(9) p:nth-child(10){
+        body section:first-child main:nth-child(2) div:nth-child(5) article:nth-child(9) p:nth-child(10){
           font-size: 1.375rem;
           margin-bottom: -25px;
           width: 52vw;
           margin-left: 6vw;
         }
   
-        body main:nth-child(2) div:nth-child(5) article:nth-child(9) img:nth-child(12){
+        body section:first-child main:nth-child(2) div:nth-child(5) article:nth-child(9) img:nth-child(12){
           width: 42vw;
           margin-top: 40px;
           margin-left: 30vw;
           margin-bottom: 170px;
         }
   
-        body main:nth-child(2) div:nth-child(5) article:nth-child(9) p:nth-child(13){
+        body section:first-child main:nth-child(2) div:nth-child(5) article:nth-child(9) p:nth-child(13){
           text-align: center;
           font-size: 1.375rem;
           margin-top: -197px;
           color: #A2185B;
         }
   
-        body main:nth-child(2) div:nth-child(5) article:nth-child(9) div:nth-child(14){
+        body section:first-child main:nth-child(2) div:nth-child(5) article:nth-child(9) div:nth-child(14){
           border-radius: 10px;
           width: 86vw;
           height: 58px;
@@ -572,7 +576,7 @@
           cursor: pointer;
         }
   
-        body main:nth-child(2) div:nth-child(5) article:nth-child(9) div:nth-child(14) a:first-child p:first-child{
+        body section:first-child main:nth-child(2) div:nth-child(5) article:nth-child(9) div:nth-child(14) a:first-child p:first-child{
           text-align: center;
           color: white;
           font-size: 1.6875rem;
@@ -581,44 +585,44 @@
           margin-bottom: 10px;
         }
   
-        body main:nth-child(2) div:nth-child(5) article:nth-child(9) div:nth-child(14) a:first-child{
+        body section:first-child main:nth-child(2) div:nth-child(5) article:nth-child(9) div:nth-child(14) a:first-child{
           text-decoration: none;
           color: white;
           
         }
   
-        body main:nth-child(2) div:nth-child(6) section:first-child h2:first-child{
+        body section:first-child main:nth-child(2) div:nth-child(6) section:first-child h2:first-child{
           font-size: 2.875rem;
           margin-left: 06vw;
           color: #A2185B;
         }
   
-        body main:nth-child(2) div:nth-child(5) img:nth-child(10){
+        body section:first-child main:nth-child(2) div:nth-child(5) img:nth-child(10){
           width: 100vw;
           margin-bottom: 20px;
         }
   
-        body main:nth-child(2) div:nth-child(6) section:first-child img{
+        body section:first-child main:nth-child(2) div:nth-child(6) section:first-child img{
           width: 28vw;
           margin-left: 7vw;
           margin-top: 48px;
         }
-        body main:nth-child(2) div:nth-child(6) section:first-child hr{
+        body section:first-child main:nth-child(2) div:nth-child(6) section:first-child hr{
           margin-bottom: 69px;
           
         }
-        body main:nth-child(2) div:nth-child(6) section:first-child img:nth-child(3){
+        body section:first-child main:nth-child(2) div:nth-child(6) section:first-child img:nth-child(3){
           margin-top: 0px;
         }
   
-        body main:nth-child(2) div:nth-child(6) section:first-child h3 {
+        body section:first-child main:nth-child(2) div:nth-child(6) section:first-child h3 {
           font-size: 1.5625rem;
           margin-left: 37vw;
           margin-top: -133px;
           font-weight: bold;
         }
   
-        body main:nth-child(2) div:nth-child(6) section:first-child p{
+        body section:first-child main:nth-child(2) div:nth-child(6) section:first-child p{
           margin-left: 37vw;
           margin-top: 5px;
           font-weight: 300;
@@ -627,7 +631,7 @@
           font-size: 1rem;
         }
   
-        body main:nth-child(2) div:nth-child(6) section:first-child div:nth-child(15){
+        body section:first-child main:nth-child(2) div:nth-child(6) section:first-child div:nth-child(15){
           border-radius: 10px;
           width: 83vw;
           height: 58px;
@@ -637,12 +641,12 @@
           margin-bottom: 40px;
           cursor: pointer;
         }
-        body main:nth-child(2) div:nth-child(6) section:first-child div:nth-child(15) a:first-child{
+        body section:first-child main:nth-child(2) div:nth-child(6) section:first-child div:nth-child(15) a:first-child{
           text-decoration: none;
           color: white;
         }
   
-        body main:nth-child(2) div:nth-child(6) section:first-child div:nth-child(15) a:first-child p:first-child{
+        body section:first-child main:nth-child(2) div:nth-child(6) section:first-child div:nth-child(15) a:first-child p:first-child{
           text-align: center;
           color: white;
           font-size: 1.6875rem;
@@ -653,42 +657,41 @@
           width: 81vw;
           height: 43px;
         }
-      
-      body footer:nth-child(3){
+    
+  
+      body section:first-child footer:nth-child(3) div:first-child{
+        padding-left: 1vw;
+        padding-bottom: 4vw;
         color: white;
         background-color: #D7729B;
         width: 100vw;
         height: 240px;
-      }
-  
-      body footer:nth-child(3) div:first-child{
-        margin-left: 2vw;
+        overflow: hidden;
       }
       
-      HEAD
   
-      body footer:nth-child(3) div:first-child h2:first-child{
+      body section:first-child footer:nth-child(3) div:first-child h2:first-child{
         font-size: 1.6875rem;  
  }
 
 
-      body main:nth-child(2) div:first-child section:first-child div:nth-child(5) img:nth-child(3){
+      body section:first-child main:nth-child(2) div:first-child section:first-child div:nth-child(5) img:nth-child(3){
         margin-top: 0px;
       }
-      body main:nth-child(2) div:first-child section:first-child div:nth-child(5) img:nth-child(4){
+      body section:first-child main:nth-child(2) div:first-child section:first-child div:nth-child(5) img:nth-child(4){
         margin-top: 0px;
       }
-      body main:nth-child(2) div:first-child section:first-child div:nth-child(5){
+      body section:first-child main:nth-child(2) div:first-child section:first-child div:nth-child(5){
         margin-left: 11vw;
         width: 88vw;
       }
       
-      body main:nth-child(2) div:first-child section:first-child div:nth-child(6) a:first-child{
+      body section:first-child main:nth-child(2) div:first-child section:first-child div:nth-child(6) a:first-child{
         text-decoration: none;
         color: inherit;
       }
 
-      body main:nth-child(2) div:first-child section:first-child div:nth-child(6) a:first-child p:first-child{
+      body section:first-child main:nth-child(2) div:first-child section:first-child div:nth-child(6) a:first-child p:first-child{
         text-align: center;
         color: white;
         font-size: 1.6875rem;
@@ -696,7 +699,7 @@
         padding-top: 10px;
       }
       
-      body main:nth-child(2) div:first-child section:first-child div:nth-child(6){
+      body section:first-child main:nth-child(2) div:first-child section:first-child div:nth-child(6){
 
         border-radius: 10px;
         width: 83vw;
@@ -710,33 +713,33 @@
 
      
 
-      body main:nth-child(2) div:nth-child(2) {
+      body section:first-child main:nth-child(2) div:nth-child(2) {
         font-size: 1.6875rem;
         margin-top: 30px;
       }
-      body main:nth-child(2) div:nth-child(2) p:nth-child(1){
+      body section:first-child main:nth-child(2) div:nth-child(2) p:nth-child(1){
         font-size: 1.6875rem;
         margin-left: 06vw;
         margin-top: 30px;
       }
-      body main:nth-child(2) div:nth-child(2) p:nth-child(3){
+      body section:first-child main:nth-child(2) div:nth-child(2) p:nth-child(3){
         font-size: 1.6875rem;
         margin-left: 6vw;
         margin-top: 30px;
       }
-      body main:nth-child(2) div:nth-child(2) p:nth-child(2){
+      body section:first-child main:nth-child(2) div:nth-child(2) p:nth-child(2){
         font-size: 1.6875rem;
         margin-left: 11vw;
         margin-top: 30px;
       }
 
-      body main:nth-child(2) div:nth-child(2) p:nth-child(4){
+      body section:first-child main:nth-child(2) div:nth-child(2) p:nth-child(4){
         font-size: 1.5625rem;
         margin-left: 11vw;
         margin-top: 22px;
       }
       
-      body main:nth-child(2) div:nth-child(2) h2:nth-child(5){
+      body section:first-child main:nth-child(2) div:nth-child(2) h2:nth-child(5){
         font-size: 1.625rem;
         text-align: center;
         margin-top: 60px;
@@ -745,7 +748,7 @@
         color: #1B1B1D;
       }
 
-      body main:nth-child(2) div:nth-child(4) article:first-child h2:first-child{
+      body section:first-child main:nth-child(2) div:nth-child(4) article:first-child h2:first-child{
         margin-left: 06vw;
         font-size: 2.4375rem;
         font-weight: 600;
@@ -754,14 +757,14 @@
 
       
 
-      body main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(3) img:nth-child(2){
+      body section:first-child main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(3) img:nth-child(2){
         width: 34vw;
         height: 46vw;
         margin-left: 63vw;
         margin-top: -195px;
       }
 
-      body main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(3) p:first-child{
+      body section:first-child main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(3) p:first-child{
         font-size: 1.4375rem;
         margin-top: 48px;
         margin-bottom: -134px;
@@ -769,31 +772,29 @@
         width: 70vw;
         margin-bottom: 22px;
       }
-      body footer:nth-child(3) div:first-child address:nth-child(2) p:first-child{
-        margin-top: -21px;
+
+      body section:first-child footer:nth-child(3) div:first-child address:nth-child(2) p:first-child{
+        margin-top: 5px;
         margin-bottom: -16px;
       }
   
-      body footer:nth-child(3) div:first-child{
-        height: 219px;
-        width: 90vw;
-      }
   
-      body footer:nth-child(3) div:first-child address:nth-child(2) p:nth-child(3){
+      body section:first-child footer:nth-child(3) div:first-child address:nth-child(2) p:nth-child(3){
         margin-bottom: 4px;
         width: 38vw;
       }
   
-      body footer:nth-child(3) div:first-child a{
+      body section:first-child footer:nth-child(3) div:first-child a{
         text-decoration: none;
       }
   
-      body footer:nth-child(3) div:first-child a img{
+      body section:first-child footer:nth-child(3) div:first-child a img{
         width: 11vw;
         height: 11vw;
+        margin-bottom: 10px;
       }
   
-      body footer:nth-child(3) div:first-child a:last-child img{
+      body section:first-child footer:nth-child(3) div:first-child a:last-child img{
         width: 45vw;
         margin-top: -97vw;
         margin-left: 50vw;
@@ -801,16 +802,24 @@
         height: 230px;
       }
   
-      body footer:nth-child(3) div:first-child address:nth-child(2){
+      body section:first-child footer:nth-child(3) div:first-child address:nth-child(2){
         width: 90vw;
         color: white;
       }
-        hr{
+
+      hr{
           border-top: 5px dotted black;
           margin-bottom: 34px;
           margin-top: 30px;
           width: 86vw;
           margin-left: 6vw;
-        }
-  }
+      }
+}
+
+  @media screen and (min-width: 481px) and (max-width: 800px) {
+
+
+
+
+}
   

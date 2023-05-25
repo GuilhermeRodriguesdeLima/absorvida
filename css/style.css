@@ -115,47 +115,47 @@
         transform: none;
       } 
   
-        #divisor { 
-          background-color: #D7729B;
-          height: 21px;
-          width: 100vw;
-          margin-top: 22px;
-          margin-bottom: 22px;
-        }
+      #divisor { 
+        background-color: #D7729B;
+        height: 21px;
+        width: 100vw;
+        margin-top: 22px;
+        margin-bottom: 22px;
+      }
   
-        .divheader{
-          width: 100vw;
-          overflow: hidden;
-          background-color: #D7729B;
-        } 
+      .divheader{
+        width: 100vw;
+        overflow: hidden;
+        background-color: #D7729B;
+      } 
   
   
       header div:nth-child(3) img:first-child{
-          width: 44vw;
-          height: 50vw;
-          margin-left: 29vw; 
-          margin-top: 20px;
-        }
+        width: 44vw;
+        height: 50vw;
+        margin-left: 29vw; 
+        margin-top: 20px;
+      }
   
       body header:first-child  div:first-child a:first-child img:first-child{
-          margin-left: 0.4vw;
-          width: 13.5vw;
-          height: 13.5vw;
-        }
+        margin-left: 0.4vw;
+        width: 13.5vw;
+        height: 13.5vw;
+      }
   
-        body header:first-child  div:nth-child(2) a:first-child img:first-child{
-          height: 72px;
-          width: 13vw;
-          margin-top: -16px;
-         }
+      body header:first-child  div:nth-child(2) a:first-child img:first-child{
+        height: 72px;
+        width: 13vw;
+        margin-top: -16px;
+      }
 
-        body header:first-child div:first-child a:nth-child(2) img{
-          height: 17vw;
-          width: 14vw;
-          position: absolute;
-          top: -7px;
-          right: 42vw;
-        }
+      body header:first-child div:first-child a:nth-child(2) img{
+        height: 17vw;
+        width: 14vw;
+        position: absolute;
+        top: -7px;
+        right: 42vw;
+      }
   
         body header:first-child div:nth-child(3) div:first-child h1:first-child{
           text-align: center;
@@ -933,7 +933,7 @@
     }
 
     body header div:first-child a{
-      color: #D7729B;
+      color: transparent;
     }
 
     body header div:first-child a:first-child img{ 
@@ -943,7 +943,7 @@
     }
 
     body header div:first-child a:nth-child(2) img{
-      margin-left: 27.5vw;
+      margin-left: 32vw;
       padding-bottom: 1vw;
       width: 10vw;
       height: 97px;
@@ -974,6 +974,10 @@
       height: 48px;
       margin-top: -5px;
     }
+
+
+
+
 
     body main div:first-child section:first-child h2:first-child {
       font-size: 2.813rem;
@@ -1077,9 +1081,124 @@
       margin-left: 24vw;
     }
 
-    body main div:nth-child(4) article:first-child  {
-
+    body main div:nth-child(4) article:first-child  h2:first-child{
+      margin-left: 9vw;
+      font-size: 2.125rem;
+      font-weight: 600;
     }
+
+    body main div:nth-child(4) article:first-child div:nth-child(3) p:first-child{
+      margin-left: 9vw;
+      width: 35vw;
+      height: 49vw;
+      font-size: 1.5rem;
+      font-weight: 300;
+    }
+
+    body main div:nth-child(4) article:first-child div:nth-child(3) img:nth-child(2){
+      width: 26vw;
+      height: 38vw;
+      position: relative;
+      top: -367px;
+      left: 440px;
+    }
+
+    body main div:nth-child(4) article:first-child p:nth-child(5){
+      margin-left: 49vw;
+      width: 36vw;
+      height: 74vw;
+      font-size: 1.5rem;
+      font-weight: 300;
+      margin-top: -500px;
+    }
+
+    body main div:nth-child(4) article:first-child img:nth-child(4){
+      width: 30vw;
+      height: 30vw;
+      position: relative;
+      top: -87px;
+      left: 09vw;
+    }
+
+    
+    body main div:nth-child(4) article:first-child p:nth-child(6){
+      margin-left: 9vw;
+      width: 35vw;
+      height: 35vw;
+      font-size: 1.5rem;
+      font-weight: 300;
+      margin-top: 60px;
+    }
+
+    body main div:nth-child(4) article:first-child img:nth-child(7){
+      width: 33vw;
+      height: 32vw;
+      position: relative;
+      top: -253px;
+      left: 52vw;
+    }
+
+    body main div:nth-child(4) article:first-child div:last-child {
+      background-color: #A2185B;
+      width: 50vw;
+      height: 60px;
+      border: solid #A2185B;
+      border-radius: 10px;
+      margin-left: 24vw;
+      margin-top: -140px;
+    }
+
+    body main div:nth-child(4) article:first-child div:last-child a:first-child{
+      text-decoration: none;
+    }
+
+    body main div:nth-child(4) article:first-child div:last-child a:first-child p:first-child{
+      color: white;
+      font-size: 1.5rem;
+      text-decoration: none;
+      text-align: center;
+      padding-top: 12px;
+    }
+
+    body main div:nth-child(5) h2:first-child {
+      font-size: 3.438rem;
+      font-weight: 600;
+      margin-left: 24vw;
+      color: #A2185B;
+    }
+
+    body main div:nth-child(5) h3:nth-child(2){
+      font-size: 2.375rem;
+      font-weight: 300;
+      color: #A2185B;
+      margin-left: 43vw;
+    }
+
+    body main div:nth-child(5) h4:nth-child(3){
+      font-size: 2.625rem;
+      font-weight: 700;
+      text-align: center;
+      width: 55vw;
+      margin-left: 24vw;
+      margin-top: 40px;
+    }
+
+
+
+
+
+
+
+
+
+    #divisor { 
+      background-color: #D7729B;
+      height: 21px;
+      width: 100vw;
+      margin-top: 22px;
+      margin-bottom: 22px;
+    }
+
 
     #anuncio{
       width: 100vw;
@@ -1092,15 +1211,16 @@
       border-top: 5px dotted black;
       margin-bottom: 34px;
       margin-top: 30px;
-      width: 86vw;
-      margin-left: 6vw;
+      width: 80vw;
+      margin-left: 9vw;
     }
 
 
 
     body footer div:first-child address:nth-child(2) p:first-child{
-      margin-top: 5px;
+      margin-top: 25px;
       margin-bottom: -16px;
+      font-size: 1rem;
     }
 
 
@@ -1108,26 +1228,28 @@
       margin-bottom: 4px;
       width: 68vw;
       margin-left: 0px;
-      margin-top: 0px;
+      margin-top: 39px;
       font-size: 0.8rem;
     }
 
     body footer div:first-child a{
       text-decoration: none;
+      margin-top: 50px;
     }
 
     body footer div:first-child a img{
       width: 05vw;
       height: 05vw;
-      margin-bottom: 10px;
+      margin-bottom: -50px;
     }
 
     body footer div:first-child a:last-child img{
       width: 45vw;
-      margin-top: -97vw;
-      margin-left: 50vw;
+      margin-top: -25vw;
+      margin-left: 60vw;
       margin-bottom: 25px;
       height: 230px;
+ 
     }
 
     body footer div:first-child address:nth-child(2){
@@ -1140,8 +1262,8 @@
       padding-bottom: 4vw;
       color: white;
       background-color: #D7729B;
-      width: 99vw;
-      height: 240px;
+      width: 100vw;
+      height: 230px;
       overflow: hidden;
     }
     

@@ -3,10 +3,16 @@
   font-family: 'Montserrat';
   margin: 0px 0px 0px 0px;
   }
+
+  
   
   
 @media (max-width: 480px) {
 
+    body {
+      background-image: url(/imagens/florescelular.png);
+      width: 100vw;
+    }
 
     header div a{
       color: #D7729B;
@@ -131,19 +137,19 @@
           margin-top: 20px;
         }
   
-      header:first-child  div:first-child a:first-child img:first-child{
+      body header:first-child  div:first-child a:first-child img:first-child{
           margin-left: 0.4vw;
           width: 13.5vw;
           height: 13.5vw;
         }
   
-        header:first-child  div:nth-child(2) a:first-child img:first-child{
+        body header:first-child  div:nth-child(2) a:first-child img:first-child{
           height: 72px;
           width: 13vw;
           margin-top: -16px;
          }
 
-        header:first-child div:first-child a:nth-child(2) img{
+        body header:first-child div:first-child a:nth-child(2) img{
           height: 17vw;
           width: 14vw;
           position: absolute;
@@ -151,22 +157,27 @@
           right: 42vw;
         }
   
-        header:first-child div:nth-child(3) div:first-child h1:first-child{
+        body header:first-child div:nth-child(3) div:first-child h1:first-child{
           text-align: center;
           margin-top: -10px;
          }
   
-        header:first-child div:nth-child(3) div:first-child p:nth-child(2){
+        body header:first-child div:nth-child(3) div:first-child p:nth-child(2){
           text-align: center;
           color: #BD2079;
           font-size: 1.8125rem;
           font-weight: 600;
          }
   
-        header:first-child div:nth-child(3) div:first-child img:nth-child(3){
+        body header:first-child div:nth-child(3) div:first-child img:nth-child(3){
           height: 70vw;
           width: 100vw;
           margin-top: 22px;
+         }
+
+         body header:first-child div:nth-child(3) div:first-child img:last-child{
+          width: 100vw;
+          margin-top: -5px;
          }
   
         body main{
@@ -181,22 +192,21 @@
           font-weight: 600;
          }
   
-        header:first-child div:nth-child(3){
-          background-color: #FFE8F6;
+        body header:first-child div:nth-child(3){
           height: 149vw;
          }
   
-      header:first-child div:nth-child(3) div:first-child div:nth-child(4) img:first-child{
+      body header:first-child div:nth-child(3) div:first-child div:nth-child(4) img:first-child{
           margin-left: 37vw;
         }
   
-      header:first-child div:nth-child(3) div:first-child h1:first-child{
+      body header:first-child div:nth-child(3) div:first-child h1:first-child{
           color: #6D123E;
         }
          
         
   
-      header:first-child div:nth-child(3) div:first-child div:nth-child(4){
+      body header:first-child div:nth-child(3) div:first-child div:nth-child(4){
           height: 32px;
           margin-top: -11px;
           background-color: #D7729B;
@@ -263,7 +273,7 @@
           color: inherit;
         }
   
-      body main:nth-child(2) div:first-child div:nth-child(6) a:first-child p:first-child{
+      body main:nth-child(2) div:first-child section:first-child div:nth-child(6) a:first-child p:first-child{
           text-align: center;
           color: white;
           font-size: 1.6875rem;
@@ -626,7 +636,7 @@
           font-weight: bold;
         }
   
-      body main:nth-child(2) div:nth-child(6) p{
+      body main:nth-child(2) div:nth-child(6) section:first-child p{
           margin-left: 37vw;
           margin-top: 5px;
           font-weight: 300;
@@ -663,18 +673,18 @@
         }
     
   
-    body footer:nth-child(3) div:first-child{
+    body footer div:first-child{
         padding-left: 1vw;
         padding-bottom: 4vw;
         color: white;
         background-color: #D7729B;
-        width: 100vw;
+        width: 99vw;
         height: 240px;
         overflow: hidden;
       }
       
   
-    body footer:nth-child(3) div:first-child h2:first-child{
+    body footer div:first-child h2:first-child{
         font-size: 1.6875rem;  
  }
 
@@ -703,7 +713,7 @@
         padding-top: 10px;
       }
       
-    body main:nth-child(2) div:first-child div:nth-child(6){
+    body main:nth-child(2) div:first-child  div:nth-child(6){
 
         border-radius: 10px;
         width: 83vw;
@@ -777,28 +787,28 @@
         margin-bottom: 22px;
       }
 
-    body footer:nth-child(3) div:first-child address:nth-child(2) p:first-child{
+    body footer div:first-child address:nth-child(2) p:first-child{
         margin-top: 5px;
         margin-bottom: -16px;
       }
   
   
-    body footer:nth-child(3) div:first-child address:nth-child(2) p:nth-child(3){
+    body footer div:first-child address:nth-child(2) p:nth-child(3){
         margin-bottom: 4px;
         width: 38vw;
       }
   
-    body footer:nth-child(3) div:first-child a{
+    body footer div:first-child a{
         text-decoration: none;
       }
   
-    body footer:nth-child(3) div:first-child a img{
+    body footer div:first-child a img{
         width: 11vw;
         height: 11vw;
         margin-bottom: 10px;
       }
   
-    body footer:nth-child(3) div:first-child a:last-child img{
+    body footer div:first-child a:last-child img{
         width: 45vw;
         margin-top: -97vw;
         margin-left: 50vw;
@@ -806,7 +816,7 @@
         height: 230px;
       }
   
-    body footer:nth-child(3) div:first-child address:nth-child(2){
+    body footer div:first-child address:nth-child(2){
         width: 90vw;
         color: white;
       }
@@ -817,11 +827,15 @@
           margin-top: 30px;
           width: 86vw;
           margin-left: 6vw;
-
       }
 }
 
 @media screen and (min-width: 481px) and (max-width: 800px){
+
+  body {
+    background-image: url(/imagens/florestablet.png);
+    width: 100vw;
+  }
 
   #painel-menu { 
     width: 47vw;
@@ -843,7 +857,7 @@
       width: 9vw;
       height: 9vw;
       position: absolute;
-      top: 3vw;
+      top: .5vw;
       left: 33vw;
       cursor: pointer;
       opacity: 0;
@@ -858,7 +872,7 @@
       border-radius   : 3px;
       background-color: rgb(250, 246, 246);
       position        : relative;
-      top             : 4vw;
+      top             : 2.5vw;
       left            : 33vw;
       transform-origin: 4px 0px;
       transition      : transform 0.7s ease;
@@ -915,6 +929,7 @@
     .divheader{
       background-color: #D7729B;
       width: 100vw;
+      height: 97px;
     }
 
     body header div:first-child a{
@@ -923,15 +938,15 @@
 
     body header div:first-child a:first-child img{ 
       padding: 3vw;
-      width: 09vw;
-      height: 09vw;
+      width: 07vw;
+      height: 07vw;
     }
 
     body header div:first-child a:nth-child(2) img{
       margin-left: 27.5vw;
       padding-bottom: 1vw;
-      width: 12vw;
-      height: 14vw;
+      width: 10vw;
+      height: 97px;
     }
 
     body header div:nth-child(3) img:first-child{
@@ -940,11 +955,202 @@
       z-index: 0;
     }
 
-    body header div:nth-child(3) p:nth-child(2) {
+    body header div:nth-child(3) div:first-child p:nth-child(2) {
       font-size: 1.5rem;
       font-weight: bold;
       color: #A2185B;
       text-align: center;
+      margin-top: 71px;
+    }
+
+    body header div:nth-child(3) div:first-child img:nth-child(3){
+      width: 60vw;
+      margin-left: 19vw;
+      margin-top: 34px;
+    }
+
+    body header div:nth-child(3) div:first-child img:last-child{
+      width: 100vw;
+      height: 48px;
+      margin-top: -5px;
+    }
+
+    body main div:first-child section:first-child h2:first-child {
+      font-size: 2.813rem;
+      margin-top: 55px;
+      color: #A2185B;
+      font-weight: bold;
+      margin-left: 24vw;
+    }
+
+    body main div:first-child section:first-child p:nth-child(2) {
+      font-size: 1.25rem;
+      font-weight: lighter;
+      color: #1B1B1D;
+      margin-left: 24vw;
+      width: 62vw;
+      height: 116px;
+      margin-top: 31px;
+    }
+
+    body main div:first-child section:first-child p:nth-child(3){
+      font-size: 1.25rem;
+      font-weight: lighter;
+      color: #1B1B1D;
+      margin-left: 11vw;
+      width: 72vw;
+      height: 146px;
+      margin-top: 31px;
+    }
+
+    body main div:first-child section:first-child h2:nth-child(4){
+      text-align: center;
+      color: white;
+      font-size: 1.5rem;
+      background-color: #A2185B;
+      width: 100vw;
+      height: 50px;
+      padding-top: 15px;
+      margin-bottom: 68px;
+      margin-top: 84px;
+    }
+
+    body main div:first-child section:first-child div:nth-child(5){
+      width: 60vw;
+      margin-left: 24vw;
+      border-radius: 10px;
+    }
+
+    body main div:first-child section:first-child div:nth-child(5) img{
+      width: 23vw;
+      border: solid transparent;
+      border-radius: 30px;
+      margin-left: 02vw;
+      margin-top: 16px;
+    }
+
+    body main div:first-child section:first-child div:nth-child(6){
+      background-color: #A2185B;
+      width: 50vw;
+      height: 60px;
+      border: solid #A2185B;
+      border-radius: 10px;
+      margin-left: 24vw;
+      margin-top: 100px;
+    }
+
+    body main div:first-child section:first-child div:nth-child(6) a:first-child{
+      text-decoration: none;
+    }
+
+    body main div:first-child section:first-child div:nth-child(6) a:first-child p:first-child{
+      color: white;
+      font-size: 1.5rem;
+      text-decoration: none;
+      text-align: center;
+      padding-top: 12px;
+
+    }
+    body main div:nth-child(2) p:first-child, p:nth-child(3) {
+      font-style: italic;
+      font-size: 1.5rem;
+      width: 56vw;
+      margin-left: 09vw;
+      margin-top: 76px;
+    }
+
+    body main div:nth-child(2) p:nth-child(2), p:nth-child(4){
+      font-style: italic;
+      font-size: 1.5rem;
+      width: 65vw;
+      margin-left: 25vw;
+      margin-top: 76px;
+    }
+
+    body main div:nth-child(2) h2:last-child {
+      margin-top: 111px;
+      width: 54vw;
+      text-align: center;
+      font-size: 1.5rem;
+      color: black;
+      font-style: italic;
+      margin-left: 24vw;
+    }
+
+    body main div:nth-child(4) article:first-child  {
+
+    }
+
+    #anuncio{
+      width: 100vw;
+      height: 25vw;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    hr{
+      border-top: 5px dotted black;
+      margin-bottom: 34px;
+      margin-top: 30px;
+      width: 86vw;
+      margin-left: 6vw;
+    }
+
+
+
+    body footer div:first-child address:nth-child(2) p:first-child{
+      margin-top: 5px;
+      margin-bottom: -16px;
+    }
+
+
+    body footer div:first-child address:nth-child(2) p:nth-child(3){
+      margin-bottom: 4px;
+      width: 68vw;
+      margin-left: 0px;
+      margin-top: 0px;
+      font-size: 0.8rem;
+    }
+
+    body footer div:first-child a{
+      text-decoration: none;
+    }
+
+    body footer div:first-child a img{
+      width: 05vw;
+      height: 05vw;
+      margin-bottom: 10px;
+    }
+
+    body footer div:first-child a:last-child img{
+      width: 45vw;
+      margin-top: -97vw;
+      margin-left: 50vw;
+      margin-bottom: 25px;
+      height: 230px;
+    }
+
+    body footer div:first-child address:nth-child(2){
+      width: 50vw;
+      color: white;
+    }
+
+    body footer div:first-child{
+      padding-left: 02vw;
+      padding-bottom: 4vw;
+      color: white;
+      background-color: #D7729B;
+      width: 99vw;
+      height: 240px;
+      overflow: hidden;
+    }
+    
+
+    body footer div:first-child h2:first-child{
+      font-size: 2.25rem; 
+      width: 60vw;
+      font-weight: 100;
+      margin-top: 37px;
     }
 
 }

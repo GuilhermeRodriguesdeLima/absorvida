@@ -10,7 +10,7 @@
 @media (max-width: 480px) {
 
     body {
-      background-image: url(imagens/florescelular.png);
+      background-image: url(../imagens/florescelular.png);
       width: 100vw;
     }
 
@@ -833,7 +833,7 @@
 @media screen and (min-width: 481px) and (max-width: 800px){
 
   body {
-    background-image: url(imagens/florestablet.png);
+    background-image: url(../imagens/florestablet.png);
     width: 100vw;
   }
 

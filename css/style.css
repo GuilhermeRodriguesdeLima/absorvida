@@ -915,7 +915,7 @@
       transform: translate(100%, 0);
       transition: transform 0.7s ease;
       font-size: 4.2vw;
-      left: 35vw;
+      left: 36vw;
     }
   
     ul li {
@@ -1149,10 +1149,6 @@
       margin-top: -140px;
     }
 
-    body main div:nth-child(4) article:first-child div:last-child a:first-child{
-      text-decoration: none;
-    }
-
     body main div:nth-child(4) article:first-child div:last-child a:first-child p:first-child{
       color: white;
       font-size: 1.5rem;
@@ -1321,6 +1317,7 @@
     body main div:nth-child(5) article:nth-child(9) img {
       width: 17.7vw;
       height: 17.7vw;
+      position: relative;
     }
 
     body main div:nth-child(5) article:nth-child(9) img:nth-child(4){
@@ -1335,10 +1332,113 @@
 
     body main div:nth-child(5) article:nth-child(9) p:nth-child(6){
       margin-left: 15vw;
+      margin-top: 122px;
     }
 
+    body main div:nth-child(5) article:nth-child(9) img:nth-child(7){
+      margin-left: 66vw;
+      top: -214px;
+    }
 
+    body main div:nth-child(5) article:nth-child(9) img:nth-child(8){
+      margin-left: 15vw;
+    }
 
+    body main div:nth-child(5) article:nth-child(9) p:nth-child(9){
+      margin-left: 40vw;
+      margin-top: -161px;
+    }
+
+    body main div:nth-child(5) article:nth-child(9) p:nth-child(10){
+      margin-left: 15vw;
+      margin-top: 122px;
+    }
+
+    body main div:nth-child(5) article:nth-child(9) img:nth-child(11){
+      margin-left: 66vw;
+      top: -214px;
+    }
+
+    body main div:nth-child(5) article:nth-child(9) p:nth-child(13){
+      text-align: center;
+      width: 33vw;
+      color: #A2185B;
+      margin-left: 33vw;
+      margin-bottom: 50px;
+    }
+
+    body main div:nth-child(5) article:nth-child(9) div:last-child {
+      background-color: #A2185B;
+      width: 50vw;
+      height: 60px;
+      border: solid #A2185B;
+      border-radius: 10px;
+      margin-left: 24vw;
+    }
+
+    body main div:nth-child(5) article:nth-child(9) div:last-child a:first-child p:first-child{
+      color: white;
+      font-size: 1.5rem;
+      text-decoration: none;
+      text-align: center;
+      padding-top: 12px;
+    }
+
+    body main div:nth-child(5) article:nth-child(9) img:nth-child(12){
+      margin-left: 42vw;
+    }
+
+    body main div:nth-child(6) h2:first-child {
+      color: #A2185B;
+      font-size: 2.75rem;
+      text-align: center;
+      font-weight: 600;
+    } 
+
+    body main div:nth-child(6) img{
+      width: 18vw;
+      height: 18vw;
+      margin-left: 23vw;
+    }
+
+    body main div:nth-child(6) p{
+      font-size: 1.125rem;
+      position: relative;
+      top: -130px;
+      left: 45vw;
+      width: 41vw;
+      color: #1B1B1D;
+    }
+
+    body main div:nth-child(6) h3{
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #1B1B1D;
+      position: relative;
+      top: -130px;
+      left: 45vw;
+      width: 41vw;
+    }
+
+    body main div:nth-child(6) div:nth-child(15) {
+      background-color: #A2185B;
+      width: 50vw;
+      height: 60px;
+      border: solid #A2185B;
+      border-radius: 10px;
+      margin-left: 24vw;
+    }
+
+    body main div:nth-child(6) div:nth-child(15) a:first-child p:first-child {
+      color: white;
+      font-size: 1.5rem;
+      text-decoration: none;
+      text-align: center;
+      padding-top: 12px;
+      position: static;
+      width: auto;
+    }
+    
 
     #divisor { 
       background-color: #D7729B;
@@ -1389,16 +1489,19 @@
     body footer div:first-child a img{
       width: 05vw;
       height: 05vw;
-      margin-bottom: -50px;
+      position: relative;
+      top: -170px;
     }
 
     body footer div:first-child a:last-child img{
-      width: 45vw;
-      margin-top: -25vw;
-      margin-left: 60vw;
-      margin-bottom: 25px;
+      width: 28vw;
       height: 230px;
- 
+      top: -175px;
+      left: 47vw;
+    }
+
+    body footer div:first-child a:last-child {
+      width: 1px;
     }
 
     body footer div:first-child address:nth-child(2){
@@ -1411,7 +1514,6 @@
       padding-bottom: 4vw;
       color: white;
       background-color: #D7729B;
-      width: 100vw;
       height: 230px;
       overflow: hidden;
     }
@@ -1419,7 +1521,7 @@
 
     body footer div:first-child h2:first-child{
       font-size: 2.25rem; 
-      width: 60vw;
+      width: 62vw;
       font-weight: 100;
       margin-top: 37px;
     }

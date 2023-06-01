@@ -1,10 +1,16 @@
 *{
     font-family: 'Montserrat';
     margin: 0px 0px 0px 0px;
+    text-decoration: none;
   }
   
   @media (max-width: 480px)  {
   
+    body {
+      background-image: url(../imagens/florescelular.png);
+    }
+
+
     header div a{
       color: #D7729B;
     }
@@ -280,4 +286,238 @@
           margin-left: 6vw;
         }
       
+}
+
+@media (min-width: 481px) and (max-width: 800px) {
+  body {
+    background-image: url(../imagens/florestablet.png);
+    width: 100vw;
+  }
+
+  #painel-menu { 
+    width: 47vw;
+    height: 310px;
+    display: block;
+    position: absolute;
+    top: 0.1px;
+    left: 53vw;
+    z-index: 1;
+    overflow: hidden;
+    }
+  
+    #painel-menu a {
+      text-decoration: none;
+      color          : black;
+    }
+    #painel-menu input {
+      display: block;
+      width: 9vw;
+      height: 9vw;
+      position: absolute;
+      top: .5vw;
+      left: 33vw;
+      cursor: pointer;
+      opacity: 0;
+      z-index: 3;
+    }
+  
+    #painel-menu span {
+      display         : block;
+      width           : 9vw;
+      height          : 1.4vw;
+      margin-bottom   : 10px;
+      border-radius   : 3px;
+      background-color: rgb(250, 246, 246);
+      position        : relative;
+      top             : 2.5vw;
+      left            : 33vw;
+      transform-origin: 4px 0px;
+      transition      : transform 0.7s ease;
+      z-index         : 2;
+    }
+  
+    #painel-menu span:first-child {
+      transform-origin: 0 0;
+    }
+    #painel-menu span:nth-last-child(2) {
+      transform-origin: 0% 100%;
+    }
+  
+    #painel-menu input:checked~span {
+      opacity         : 1;
+      transform       : rotate(45deg) translate(-0.04vw, -0.02vw);
+      background-color: #FF87CF;
+    }
+  
+    #painel-menu input:checked~span:nth-last-child(3) {
+      opacity  : 0;
+      transform: rotate(0deg) scale(0.2, 0.2);
+    }
+  
+    #painel-menu input:checked~span:nth-last-child(2) {
+      transform: rotate(-45deg) translate(0, -0.02vw);
+    }
+  
+    ul {
+      list-style-type: none;
+      position: absolute;
+      width: 28vw;
+      height: 200px;
+      margin: -100px 0 0 -150px;
+      padding: 105px 0 0 20px;
+      background-color: white;
+      border: solid 1px #FF87CF;
+      transform-origin: 0 0;
+      transform: translate(100%, 0);
+      transition: transform 0.7s ease;
+      font-size: 4.2vw;
+      left: 36vw;
+    }
+  
+    ul li {
+      padding  : 10px 0;
+      font-size: 22px;
+    }
+
+    #painel-menu input:checked~ul {
+      transform: none;
+    }  
+
+    .divheader{
+      background-color: #D7729B;
+      width: 100vw;
+      height: 97px;
+    }
+
+    body header div:first-child a{
+      color: transparent;
+    }
+
+    body header div:first-child a:first-child img{ 
+      padding: 3vw;
+      width: 07vw;
+      height: 07vw;
+    }
+
+    body header div:first-child a:nth-child(2) img{
+      margin-left: 32vw;
+      padding-bottom: 1vw;
+      width: 10vw;
+      height: 97px;
+    }
+
+    body header div:nth-child(3) img:first-child{
+      width: 0px;
+      height: 0px;
+      z-index: 0;
+    }
+
+    body header div:nth-child(3) div:first-child p:nth-child(2) {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #A2185B;
+      text-align: center;
+      margin-top: 71px;
+    }
+
+    body header div:nth-child(3) div:first-child img:nth-child(3){
+      width: 60vw;
+      margin-left: 19vw;
+      margin-top: 34px;
+    }
+
+    body header div:nth-child(3) div:first-child img:last-child{
+      width: 100vw;
+      height: 48px;
+      margin-top: -5px;
+    }
+
+
+
+    
+    #divisor { 
+      background-color: #D7729B;
+      height: 21px;
+      width: 100vw;
+      margin-top: 22px;
+      margin-bottom: 22px;
+    }
+
+
+    #anuncio{
+      width: 100vw;
+      height: 25vw;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    hr{
+      border-top: 5px dotted black;
+      margin-bottom: 34px;
+      margin-top: 30px;
+      width: 80vw;
+      margin-left: 9vw;
+    }
+
+
+
+    body footer div:first-child address:nth-child(2) p:first-child{
+      margin-top: 25px;
+      margin-bottom: -16px;
+      font-size: 1rem;
+    }
+
+
+    body footer div:first-child address:nth-child(2) p:nth-child(3){
+      margin-bottom: 4px;
+      width: 68vw;
+      margin-left: 0px;
+      margin-top: 39px;
+      font-size: 0.8rem;
+    }
+
+    body footer div:first-child a{
+      text-decoration: none;
+      margin-top: 50px;
+    }
+
+    body footer div:first-child a img{
+      width: 05vw;
+      height: 05vw;
+      position: relative;
+      top: -170px;
+    }
+
+    body footer div:first-child a:last-child img{
+      width: 28vw;
+      height: 230px;
+      top: -175px;
+      left: 47vw;
+    }
+
+    body footer div:first-child a:last-child {
+      width: 1px;
+    }
+
+    body footer div:first-child address:nth-child(2){
+      width: 50vw;
+      color: white;
+    }
+
+    body footer div:first-child{
+      padding-left: 02vw;
+      padding-bottom: 4vw;
+      color: white;
+      background-color: #D7729B;
+      height: 230px;
+      overflow: hidden;
+    }
+    
+
+    body footer div:first-child h2:first-child{
+      font-size: 2.25rem; 
+      width: 62vw;
+      font-weight: 100;
+      margin-top: 37px;
+    }
 }

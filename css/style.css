@@ -832,10 +832,6 @@
 
 @media screen and (min-width: 481px) and (max-width: 800px){
 
-  body {
-    background-image: url(../imagens/florestablet.png);
-    width: 100vw;
-  }
 
   #painel-menu { 
     width: 47vw;
@@ -852,6 +848,7 @@
       text-decoration: none;
       color          : black;
     }
+
     #painel-menu input {
       display: block;
       width: 9vw;
@@ -866,14 +863,14 @@
   
     #painel-menu span {
       display         : block;
-      width           : 9vw;
-      height          : 1.4vw;
+      width           : 4vw;
+      height          : 6px;
       margin-bottom   : 10px;
       border-radius   : 3px;
       background-color: rgb(250, 246, 246);
       position        : relative;
       top             : 2.5vw;
-      left            : 33vw;
+      left            : 39vw;
       transform-origin: 4px 0px;
       transition      : transform 0.7s ease;
       z-index         : 2;
@@ -887,8 +884,10 @@
     }
   
     #painel-menu input:checked~span {
-      opacity         : 1;
-      transform       : rotate(45deg) translate(-0.04vw, -0.02vw);
+      opacity: 1;
+      width: 5vw;
+      height: 10px;
+      transform: rotate(44deg) translate(0.5vw, -1.4vw);
       background-color: #FF87CF;
     }
   
@@ -898,8 +897,10 @@
     }
   
     #painel-menu input:checked~span:nth-last-child(2) {
-      transform: rotate(-45deg) translate(0, -0.02vw);
+      transform: rotate(-45deg) translate(3vw, -1.0199999999999996vw);
     }
+
+
   
     ul {
       list-style-type: none;
@@ -930,6 +931,7 @@
       background-color: #D7729B;
       width: 100vw;
       height: 97px;
+
     }
 
     body header div:first-child a{
@@ -955,6 +957,11 @@
       width: 0px;
       height: 0px;
       z-index: 0;
+    }
+
+    body header div:nth-child(3) {
+      background-image: url(../imagens/headerflores.png);
+      background-color: ;
     }
 
     body header div:nth-child(3) div:first-child p:nth-child(2) {

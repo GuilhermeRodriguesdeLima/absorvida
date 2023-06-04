@@ -292,8 +292,9 @@
 
 @media (min-width: 481px) and (max-width: 800px) {
   body {
-    background-image: url(../imagens/florestablet.png);
-    width: 100vw;
+    background-image: url(../imagens/floresprodutosT.png);
+    background-repeat: no-repeat;
+    background-position-y: 100px;
   }
 
   #painel-menu { 
@@ -451,6 +452,44 @@
       width: 100vw;
       height: 48px;
       margin-top: -5px;
+    }
+
+    body main div:first-child article:first-child h1:first-child {
+      color: #A2185B;
+      font-weight: 700;
+      font-size: 2.5rem;
+      text-align: center;
+      margin-top: 65px;
+      margin-bottom: 5px;
+    }
+
+    body main div:first-child article:first-child {
+      display: block;
+    }
+
+    body main div:first-child article:first-child h2:nth-child(2){
+      color: #A2185B;
+      font-weight: 500;
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 5px;
+      width: 40vw;
+      margin-left: 30.5vw;
+    }
+
+    body main div:first-child article:first-child img {
+      width: 22.5vw;
+      margin-top: 65px;
+      margin-left: 20vw;
+    }
+
+    body main div:first-child article:first-child h2:nth-child(5), h2:nth-child(10), h2:nth-child(15), h2:nth-child(20), h2:nth-child(25), h2:nth-child(30), h2:nth-child(35){
+      font-weight: 600;
+      font-size: 1.5rem;
+      color: #1B1B1D;
+      position: relative;
+      bottom: 125px;
+      left: 45vw;
     }
 
 

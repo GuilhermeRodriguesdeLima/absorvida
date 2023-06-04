@@ -393,8 +393,9 @@
 
 @media (min-width: 481px) and (max-width: 800px) {
   body {
-    background-image: url(../imagens/florestablet.png);
-    width: 100vw;
+    background-image: url(../imagens/floresajudarT.png);
+    background-repeat: no-repeat;
+    background-position-y: 95px;
   }
 
   #painel-menu { 
@@ -412,13 +413,14 @@
       text-decoration: none;
       color          : black;
     }
+
     #painel-menu input {
       display: block;
-      width: 9vw;
-      height: 9vw;
+      width: 4vw;
+      height: 5vw;
       position: absolute;
-      top: .5vw;
-      left: 33vw;
+      top: 3.5vw;
+      left: 39vw;
       cursor: pointer;
       opacity: 0;
       z-index: 3;
@@ -426,14 +428,14 @@
   
     #painel-menu span {
       display         : block;
-      width           : 9vw;
-      height          : 1.4vw;
+      width           : 4vw;
+      height          : 6px;
       margin-bottom   : 10px;
       border-radius   : 3px;
       background-color: rgb(250, 246, 246);
       position        : relative;
-      top             : 2.5vw;
-      left            : 33vw;
+      top             : 3.5vw;
+      left            : 39vw;
       transform-origin: 4px 0px;
       transition      : transform 0.7s ease;
       z-index         : 2;
@@ -447,8 +449,10 @@
     }
   
     #painel-menu input:checked~span {
-      opacity         : 1;
-      transform       : rotate(45deg) translate(-0.04vw, -0.02vw);
+      opacity: 1;
+      width: 5vw;
+      height: 10px;
+      transform: rotate(44deg) translate(0.5vw, -0.4vw);
       background-color: #FF87CF;
     }
   
@@ -458,8 +462,10 @@
     }
   
     #painel-menu input:checked~span:nth-last-child(2) {
-      transform: rotate(-45deg) translate(0, -0.02vw);
+      transform: rotate(-45deg) translate(2vw, -1.0199999999999996vw);
     }
+
+
   
     ul {
       list-style-type: none;
@@ -489,7 +495,7 @@
     .divheader{
       background-color: #D7729B;
       width: 100vw;
-      height: 97px;
+      height: 100px;
     }
 
     body header div:first-child a{
@@ -497,20 +503,26 @@
     }
 
     body header div:first-child a:first-child img{ 
-      width: 07vw;
-      height: 07vw;
+      width: 11vw;
       position: absolute;
-      top: 3vw;
-      left: 3vw;
+      top: 1vw;
+      left: 2vw;
     }
 
-    body header div:first-child a:nth-child(2) img{
+    body header div:first-child img:nth-child(2) {
+      width: 7vw;
+      position: absolute;
+      top: 3vw;
+      left: 14vw;
+    }
+    
+
+    body header div:first-child a:nth-child(3) img{
       margin-left: 44.5vw;
       padding-bottom: 1vw;
       width: 10vw;
       height: 97px;
     }
-
 
     body header div:nth-child(3) img:first-child{
       width: 0px;
@@ -520,7 +532,7 @@
 
     body header div:nth-child(3) div:first-child p:nth-child(2) {
       font-size: 1.5rem;
-      font-weight: bold;
+      font-weight: 800;
       color: #A2185B;
       text-align: center;
       margin-top: 71px;
@@ -538,12 +550,15 @@
       margin-top: -5px;
     }
 
+    body div:first-child div:first-child {
+      margin-top: 85px;
+      margin-bottom: 55px;
+    }
 
-    body div:first-child div:first-child{
-      margin-top: 62px;
-      margin-bottom: 62px;
+
+    body div:first-child div:first-child h3:first-child, h1:nth-child(2){
       text-align: center;
-      font-size: 2.5rem;
+      font-size: 2.813rem;
       color: #A2185B;
     }
 
@@ -565,6 +580,16 @@
       font-size: 2.188rem;
       font-weight: 300;
       margin-left: 09vw;
+    }
+
+    body div:first-child article:nth-child(3) img:nth-child(4) {
+      width: 37vw;
+      position: relative;
+      top: 10px;
+    }
+
+    body div:first-child article:nth-child(3) p:nth-child(3){
+      width: 85vw;
     }
 
 

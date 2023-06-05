@@ -1062,7 +1062,7 @@
     body main div:first-child div:nth-child(2)  div:nth-child(2) img{
       width: 23vw;
       border: solid transparent;
-      border-radius: 30px;
+      border-radius: 20px;
       margin-left: 01vw;
       margin-top: 1vw;
     }
@@ -1092,7 +1092,10 @@
 
     body main div:nth-child(2){
       background-image: url(../imagens/textdiresq.png);
-      margin-top: 40px;
+    }
+
+    body main div:nth-child(2) p:first-child{
+      margin-top: 26px;
     }
 
 
@@ -1161,8 +1164,8 @@
     body main div:nth-child(4) article:first-child {
       background-image: url(../imagens/floresumpouco.png);
       padding-top: 55px;
-      height: 1740px;
-      margin-bottom: 290px;
+      height: 2055px;
+      background-repeat: no-repeat;
     }
 
     body main div:nth-child(4) article:first-child hr:nth-child(2){
@@ -1222,6 +1225,10 @@
       left: 52vw;
     }
 
+    body main div:nth-child(4) div:last-child{
+      margin-top: 10px;
+    }
+
     body main div:nth-child(4) article:first-child div:last-child {
       background-color: #A2185B;
       width: 50vw;
@@ -1235,6 +1242,7 @@
     body main div:nth-child(4) article:first-child div:last-child a:first-child p:first-child{
       color: white;
       font-size: 1.5rem;
+      font-weight: 200;
       text-decoration: none;
       text-align: center;
       padding-top: 12px;
@@ -1260,7 +1268,7 @@
       text-align: center;
       width: 55vw;
       margin-left: 24vw;
-      margin-top: 40px;
+      margin-top: 55px;
       color: black;
     }
 
@@ -1636,7 +1644,7 @@
       margin-top: 174px;
       color: white;
       background-color: #D7729B;
-      height: 240px;
+      height: 250px;
       overflow: hidden;
     }
     

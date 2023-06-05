@@ -324,8 +324,9 @@
 
 @media (min-width: 481px) and (max-width: 800px) {
   body {
-    background-image: url(../imagens/florestablet.png);
-    width: 100vw;
+    background-image: url(../imagens/florescomprarT.png);
+    background-repeat: no-repeat;
+    background-position-y: 135px;
   }
 
   #painel-menu { 
@@ -460,11 +461,6 @@
       z-index: 0;
     }
 
-    body header div:nth-child(3) {
-      background-image: url(../imagens/headerflores.png);
-      height: 543px;
-    }
-
     body header div:nth-child(3) div:first-child p:nth-child(2) {
       font-size: 1.5rem;
       font-weight: 800;
@@ -484,6 +480,104 @@
       height: 48px;
       margin-top: -5px;
     }
+
+    body main div:first-child h1:first-child{
+      font-size: 3.125rem;
+      font-weight: 300;
+      color: #1B1B1D;
+      margin-top: 45px;
+      text-align: center;
+    }
+
+    body main div:first-child img:nth-child(3) {
+      width: 65.2vw;
+      position: relative;
+      bottom: 40px;
+      left: 19vw;
+    }
+
+    body main div:first-child p:nth-child(4) {
+      font-size: 1.313rem;
+      color: #1B1B1D;
+      font-weight: 200;
+      text-align: center;
+      margin-left: 23.5vw;
+      width: 57vw;
+      margin-bottom: 75px;
+    }
+
+    body main div:first-child p:nth-child(4) a:first-child{
+      color: #02A7F0;
+      font-weight: 200;
+    }
+
+    body main div:first-child div:nth-child(5) h3:first-child{
+      font-size: 1rem;
+      font-weight: 300;
+      color: #1B1B1D;
+      margin-left: 24.5vw;
+    }
+
+    body main div:first-child div:nth-child(6) h3:first-child{
+      font-size: 1rem;
+      font-weight: 300;
+      color: #1B1B1D;
+      margin-left: 24.5vw;
+    }
+
+    body main div:first-child div:nth-child(5) select:nth-child(2) {
+      width: 50vw;
+      border-radius: 35px;
+      border: 1px solid #D7729B; 
+      margin-left: 24vw;
+      margin-top: 5px;
+      margin-bottom: 50px;
+      height: 34px;
+    }
+
+    body main div:first-child div:nth-child(6) select:nth-child(2) {
+      width: 50vw;
+      border-radius: 35px;
+      border: 1px solid #D7729B; 
+      margin-left: 24vw;
+      margin-top: 5px;
+      margin-bottom: 50px;
+      height: 34px;
+    }
+
+    main div:first-child form:nth-child(7) input{
+      width: 49vw;
+      border-radius: 35px;
+      border: 1px solid #D7729B; 
+      margin-left: 24vw;
+      margin-top: 5px;
+      margin-bottom: 50px;
+      height: 34px;
+     }
+
+    main div:first-child form:nth-child(7) label{
+      font-size: 1rem;
+      font-weight: 300;
+      color: #1B1B1D;
+      margin-left: 24.5vw;
+    }
+
+    main div:first-child form:nth-child(7) input:last-child{
+      background-color: #A2185B;
+      width: 50vw;
+      height: 83px;
+      border: solid #A2185B;
+      box-shadow: 3px 2px 35px #A2185B;
+      border-radius: 46px;
+      margin-left: 24vw;
+      color: white;
+      font-size: 2rem;
+      margin-top: 80px;
+      margin-bottom: 115px;
+      font-weight: 300;
+    }
+
+
 
 
 
@@ -562,7 +656,7 @@
       padding-bottom: 4vw;
       color: white;
       background-color: #D7729B;
-      height: 230px;
+      height: 250px;
       overflow: hidden;
     }
     

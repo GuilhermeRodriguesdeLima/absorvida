@@ -479,8 +479,24 @@
 
     body main div:first-child article:first-child img {
       width: 22.5vw;
+      margin-left: 23vw;
+      margin-top: -65px;
+    }
+
+
+    body main div:first-child article:first-child img:nth-child(3){
       margin-top: 65px;
-      margin-left: 20vw;
+    }
+
+    body main div:first-child article:first-child p:nth-child(4), p:nth-child(9), p:nth-child(14), p:nth-child(19), p:nth-child(24), p:nth-child(29), p:nth-child(34){
+      font-weight: 500;
+      font-size: 1.5rem;
+      font-style: italic;
+      color: #1B1B1D;
+      position: relative;
+      bottom: 170px;
+      left: 47vw;
+      width: 47vw;
     }
 
     body main div:first-child article:first-child h2:nth-child(5), h2:nth-child(10), h2:nth-child(15), h2:nth-child(20), h2:nth-child(25), h2:nth-child(30), h2:nth-child(35){
@@ -488,8 +504,55 @@
       font-size: 1.5rem;
       color: #1B1B1D;
       position: relative;
-      bottom: 125px;
-      left: 45vw;
+      bottom: 165px;
+      left: 47vw;
+      width: 47vw;
+    }
+
+    
+
+    body main div:first-child article:first-child p:nth-child(6), p:nth-child(11), p:nth-child(16), p:nth-child(21), p:nth-child(26), p:nth-child(31), p:nth-child(36){
+      font-weight: 300;
+      font-size: 1.125rem;
+      color: #1B1B1D;
+      position: relative;
+      bottom: 160px;
+      left: 47vw;
+      width: 40vw;
+    }
+
+    body main div:first-child article:first-child p:nth-child(7), p:nth-child(12), p:nth-child(17), p:nth-child(22), p:nth-child(27), p:nth-child(32), p:nth-child(37){
+      font-weight: 100;
+      font-size: 0.625rem;
+      font-style: italic;
+      color: #1B1B1D;
+      position: relative;
+      bottom: 155px;
+      left: 47vw;
+      width: 40vw;
+    }
+
+    body main div:first-child article:first-child div:last-child {
+      background-color: #A2185B;
+      width: 50vw;
+      height: 70px;
+      border: solid #A2185B;
+      box-shadow: 3px 2px 35px #A2185B;
+      border-radius: 50px;
+      margin-left: 24vw;
+      margin-top: -65px;
+      margin-bottom: 127px;
+    }
+
+    body main div:first-child article:first-child div:last-child a:first-child p:first-child{
+      color: white;
+      font-size: 2rem;
+      font-weight: 100;
+      text-decoration: none;
+      text-align: center;
+      padding-top: 12px;
+      position: static;
+      width: auto;
     }
 
 
@@ -569,7 +632,7 @@
       padding-bottom: 4vw;
       color: white;
       background-color: #D7729B;
-      height: 230px;
+      height: 240px;
       overflow: hidden;
     }
     

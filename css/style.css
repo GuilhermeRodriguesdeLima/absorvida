@@ -9,13 +9,8 @@
 
 @media (max-width: 480px) {
 
-    body {
-      background-image: url(../imagens/florescelular.png);
-      width: 100vw;
-    }
-
     header div a{
-      color: #D7729B;
+      color: transparent;
     }
   
     p{
@@ -25,7 +20,7 @@
   
     .facet_sidebar{
       display: none;
-  }
+    }
 
 
     #painel-menu { 
@@ -43,6 +38,7 @@
         text-decoration: none;
         color          : black;
       }
+
       #painel-menu input {
         display: block;
         width: 40px;
@@ -63,8 +59,8 @@
         border-radius   : 3px;
         background-color: rgb(250, 246, 246);
         position        : relative;
-        top             : 3vw;
-        left            : 33vw;
+        top             : 6vw;
+        left            : 35vw;
         transform-origin: 4px 0px;
         transition      : transform 0.7s ease;
         z-index         : 2;
@@ -104,732 +100,480 @@
         transform-origin: 0 0;
         transform: translate(100%, 0);
         transition: transform 0.7s ease;
-        font-size: 4.2vw;
-        left: 43vw;
+        left: 46vw;
       }
     
       ul li {
         padding  : 10px 0;
-        font-size: 22px;
+        font-size: 1rem;
       }
   
       #painel-menu input:checked~ul {
         transform: none;
-      } 
-  
-      #divisor { 
-        background-color: #D7729B;
-        height: 21px;
-        width: 100vw;
-        margin-top: 22px;
-        margin-bottom: 22px;
       }
   
-      .divheader{
-        width: 100vw;
-        overflow: hidden;
-        background-color: #D7729B;
-      } 
+    #divisor { 
+      background-color: #D7729B;
+      height: 21px;
+      width: 100vw;
+      margin-top: 22px;
+      margin-bottom: 22px;
+    }
+  
+    .divheader{
+      overflow: hidden;
+      height: 19vw;
+      background-color: #D7729B;
+    } 
   
   
-      header div:nth-child(3) img:first-child{
-        width: 44vw;
-        height: 50vw;
-        margin-left: 29vw; 
-        margin-top: 20px;
-      }
+    header div:nth-child(3) img:first-child{
+      width: 44vw;
+      height: 50vw;
+      margin-left: 26vw; 
+      margin-top: 20px;
+    }
   
-      body header:first-child  div:first-child a:first-child img:first-child{
-        margin-left: 0.4vw;
-        width: 13.5vw;
-        height: 13.5vw;
-      }
-  
-      body header:first-child  div:nth-child(2) a:first-child img:first-child{
-        height: 72px;
-        width: 13vw;
-        margin-top: -16px;
-      }
+    body header:first-child div:first-child a:first-child img:first-child{
+      width: 13.5vw;
+      position: relative;
+      top: 2vw;
+      left: 1vw;
+    }
 
-      body header:first-child div:first-child a:nth-child(2) img{
-        height: 17vw;
-        width: 14vw;
-        position: absolute;
-        top: -7px;
-        right: 42vw;
-      }
+    body header:first-child div:first-child img:nth-child(2){
+      width: 9vw;
+      position: relative;
+      left: 1vw;
+    }
   
-        body header:first-child div:nth-child(3) div:first-child h1:first-child{
-          text-align: center;
-          margin-top: -10px;
-         }
-  
-        body header:first-child div:nth-child(3) div:first-child p:nth-child(2){
-          text-align: center;
-          color: #BD2079;
-          font-size: 1.8125rem;
-          font-weight: 600;
-         }
-  
-        body header:first-child div:nth-child(3) div:first-child img:nth-child(3){
-          height: 70vw;
-          width: 100vw;
-          margin-top: 22px;
-         }
 
-         body header:first-child div:nth-child(3) div:first-child img:last-child{
-          width: 100vw;
-          margin-top: -5px;
-         }
+    body header:first-child div:first-child a:nth-child(3) img{
+      height: 20vw;
+      position: absolute;
+      top: -1vw;
+      right: 43vw;
+    }
   
-        body main{
-          margin-top: 70px;
+    body header:first-child div:nth-child(3) div:first-child h1:first-child{
+      text-align: center;
+      margin-top: -10px;
+    }
   
-         }
-        body main:nth-child(2) div:first-child h2:first-child{
-          margin-top: 30px;
-          text-align: center;
-          font-size: 2.8125rem;
-          color: #A2185B;
-          font-weight: 600;
-         }
-  
-        body header:first-child div:nth-child(3){
-          height: 149vw;
-         }
-  
-      body header:first-child div:nth-child(3) div:first-child div:nth-child(4) img:first-child{
-          margin-left: 37vw;
-        }
-  
-      body header:first-child div:nth-child(3) div:first-child h1:first-child{
-          color: #6D123E;
-        }
-         
-        
-  
-      body header:first-child div:nth-child(3) div:first-child div:nth-child(4){
-          height: 32px;
-          margin-top: -11px;
-          background-color: #D7729B;
-        }
-  
-      body main:nth-child(2) div:first-child p:nth-child(2){
-          font-size: 1.6875rem;
-          margin-left: 23.75vw;
-          margin-top: 22px;
-          font-weight: 300;
-          color: #1B1B1D;
-        }
-  
-      body main:nth-child(2) div:first-child p:nth-child(3){
-          font-size: 1.6875rem;
-          margin-left: 08vw;
-          margin-top: 22px;
-          font-weight: 300;
-          color: #1B1B1D;
-        }
-  
-      body main:nth-child(2) div:first-child h2:nth-child(4){
-          text-align: center;
-          font-size: 1.4rem;
-          margin-top: 22px;
-          background-color: #A2185B;
-          color: white;
-          width: 100vw;
-          height: 11vw;
-          padding-top: 4vw;
-        }
-      body main:nth-child(2) div:first-child div:nth-child(5) img{
-          width: 38vw;
-          margin-top: 22px;
-          margin-bottom: 20px;
-          margin-right: 2vw;
-          border: solid transparent; 
-          border-radius: 30px;
-        }
-  
-        #anuncio{ 
-          width: 100vw;
-          margin-bottom: 20px;
-        }
-  
-      body main:nth-child(2) div:first-child div:nth-child(5) img:nth-child(3){
-          margin-top: 0px;
-        }
-      body main:nth-child(2) div:first-child div:nth-child(5) img:nth-child(4){
-          margin-top: 0px;
-        }
+    body header:first-child div:nth-child(3) div:first-child p:nth-child(2){
+      text-align: center;
+      color: #BD2079;
+      font-size: 1.8125rem;
+      font-weight: 600;
+    }
 
-      body main:nth-child(2) div:first-child div:nth-child(5){
-          margin-left: 11vw;
-        }
-        body main:nth-child(2) div:first-child div:nth-child(5){
-          margin-left: 9vw;
+    body header:first-child div:nth-child(3) {
+      background-image: url(../imagens/headerfloresC.png);
+      background-repeat: no-repeat;
+    }
+  
+    body header:first-child div:nth-child(3) div:first-child img:nth-child(3){
+      height: 70vw;
+      width: 100vw;
+      margin-top: 22px;
+    }
 
-          width: 88vw;
-        }
-        
-      body main:nth-child(2) div:first-child div:nth-child(6) a:first-child{
-          text-decoration: none;
-          color: inherit;
-        }
+    body header:first-child div:nth-child(3) div:first-child img:last-child{
+      width: 100vw;
+      margin-top: -5px;
+    }
   
-      body main:nth-child(2) div:first-child section:first-child div:nth-child(6) a:first-child p:first-child{
-          text-align: center;
-          color: white;
-          font-size: 1.6875rem;
-          margin-top: 15px;
-          padding-top: 10px;
-        }
-        
-      body main:nth-child(2) div:first-child div:nth-child(6){
-  
-          border-radius: 10px;
-          width: 83vw;
-          height: 58px;
-          margin-left: 08vw;
-          margin-top: 28px;
-          background-color: #A2185B;
-          margin-bottom: 15px;
-          cursor: pointer;
-        }
-  
-       
-  
-      body main:nth-child(2) div:nth-child(2) {
-          font-size: 1.6875rem;
-          margin-top: 30px;
-        }
-      body main:nth-child(2) div:nth-child(2) p:nth-child(1){
-          font-size: 1.6875rem;
-          margin-left: 06vw;
-          margin-top: 30px;
-        }
-      body main:nth-child(2) div:nth-child(2) p:nth-child(3){
-          font-size: 1.6875rem;
-          margin-left: 6vw;
-          margin-top: 30px;
-        }
-      body main:nth-child(2) div:nth-child(2) p:nth-child(2){
-          font-size: 1.6875rem;
-          margin-left: 11vw;
-          margin-top: 30px;
-        }
-  
-      body main:nth-child(2) div:nth-child(2) p:nth-child(4){
-          font-size: 1.5625rem;
-          margin-left: 11vw;
-          margin-top: 22px;
-        }
-        
-      body main:nth-child(2) div:nth-child(2) h2:nth-child(5){
-          font-size: 1.625rem;
-          text-align: center;
-          margin-top: 60px;
-          margin-top: 22px;
-          font-weight: bold;
-          color: #1B1B1D;
-        }
-  
-      body main:nth-child(2) div:nth-child(4) article:first-child h2:first-child{
-          margin-left: 06vw;
-          font-size: 2.4375rem;
-          font-weight: 600;
-          color: #1B1B1D  ;
-        }
-  
-        
-  
-      body main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(3) img:nth-child(2){
-          width: 34vw;
-          height: 46vw;
-          margin-left: 63vw;
-          margin-top: -195px;
-        }
-  
-      body main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(3) p:first-child{
-          font-size: 1.4375rem;
-          margin-top: 48px;
-          margin-bottom: -134px;
-          margin-left: 4vw;
-          width: 70vw;
-        }
-  
-      body main:nth-child(2) div:nth-child(4) article:first-child p:nth-child(5){
-          margin-left: 33vw;
-          font-size: 1.4375rem;
-          margin-top: 151px;
-        }
-  
-      body main:nth-child(2) div:nth-child(4) article:first-child img:nth-child(4){
-          width: 38vw;
-          height: 38vw;
-          margin-bottom: -458px;
-          margin-left: -02.5vw;
-        }
-  
-      body main:nth-child(2) div:nth-child(4) article:first-child p:nth-child(6){
-          font-size: 1.4375rem;
-          margin-right: 39vw;
-          margin-bottom: -252px;
-          margin-left: 04vw;
-          margin-top: 100px;
-        }
-  
-      body main:nth-child(2) div:nth-child(4) article:first-child img:nth-child(7){
-          width: 40vw;
-          height: 41vw;
-          margin-left: 56vw;
-          margin-bottom: 150px;
-        }
-  
-      body main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(8){
-          border-radius: 10px;
-          width: 83vw;
-          height: 58px;
-          margin-left: 08vw;
-          margin-top: 28px;
-          background-color: #A2185B;
-          margin-bottom: 40px;
-          cursor: pointer;
-        }
-  
-  
-  
-      body main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(8) a:first-child{
-          text-decoration: none;
-          color: white;
-        }
-  
-      body main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(8) a:first-child p:first-child{
-          text-align: center;
-          color: white;
-          font-size: 1.6875rem;
-          margin-top: 15px;
-          padding-top: 10px;
-          margin-bottom: 10px;
-        }
-  
-      body main:nth-child(2) div:nth-child(5) h2:first-child{
-          font-size: 3rem;
-          margin-left: 06vw;
-          margin-top: 15px;
-          margin-bottom: 10px;
-          color: #A2185B;
-          font-weight: bold;
-        }
-        
-      body main:nth-child(2) div:nth-child(5) h3:nth-child(2){
-          font-size: 2.2rem;
-          margin-left: 30vw;
-          margin-top: -21px;
-          color: #A2185B;
-          font-weight: 300;
-        }
-  
-      body main:nth-child(2) div:nth-child(5) h4:nth-child(3){
-          font-size: 3.375rem;
-          margin-left: 06vw;
-          margin-bottom: 22px;
-          font-weight: bold;
-        }
-  
-      body main:nth-child(2) div:nth-child(5) div:nth-child(4){
-          font-size: 1.3125rem;
-          text-align: center;
-          margin-left: 06vw;
-          margin-bottom: 25px;
-        }
-  
-      body main:nth-child(2) div:nth-child(5) div:nth-child(4) p:nth-child(2){
-          margin-top: -29px;
-          margin-bottom: -29px;
-        }
-        
-      body main:nth-child(2) div:nth-child(5) div:nth-child(5) h3:first-child{
-          margin-bottom: -11px;
-          font-weight: 500;
-        }
-        
-      body main:nth-child(2) div:nth-child(5) div:nth-child(5){
-          font-size: 1.625rem;
-          margin-left: 06vw;
-        }
-  
-        
-  
-      body main:nth-child(2) div:nth-child(5) div:nth-child(5) h2:nth-child(2){
-          margin-bottom: 20px;
-          margin-top: 10px;
-          color: #A2185B;
-          font-weight: 900;
-        }
-      body main:nth-child(2) div:nth-child(5) section:nth-child(7) img:first-child{
-          margin-top: 52px;
-        }
-      body main:nth-child(2) div:nth-child(5) section:nth-child(7) h3{
-          margin-left: 37vw;
-          font-size: 1.4375rem;
-          margin-top: -122px;
-          font-weight: bold;
-          color: #1B1B1D;
-        }
-  
-      body main:nth-child(2) div:nth-child(5) section:nth-child(7) img{
-          width: 24vw;
-          margin-left: 10vw;
-          margin-top: 14vw;
-        }
-  
-      body main:nth-child(2) div:nth-child(5) section:nth-child(7) img:nth-child(7){
-          margin-top: 150px;
-        }
-  
-      body main:nth-child(2) div:nth-child(5) section:nth-child(7) p{
-         height: 142px;
-         margin-left: 39.5vw;
-         font-size: 1.4375rem;
-         font-weight: 300;
-        }
-  
-      body main:nth-child(2) div:nth-child(5) article:nth-child(9) h3:first-child{
-          margin-bottom: -5px;
-          margin-top: 22px;
-          font-size: 1.9375rem;
-          margin-left: 6vw;
-          font-weight: 300;
-        }
-  
-      body main:nth-child(2) div:nth-child(5) article:nth-child(9) h2:nth-child(2){
-          font-size: 2.5rem;
-          margin-top: 5px;
-          margin-left: 06vw;
-          margin-bottom: 22px;
-          color: #A2185B;
-        }
-  
-      body main:nth-child(2) div:nth-child(5) article:nth-child(9) p:nth-child(3){
-          font-size: 1.75rem;
-          margin-left: 6vw;
-          margin-bottom: 22px;
-        }
-  
-      body main:nth-child(2) div:nth-child(5) article:nth-child(9) img:nth-child(4){
-          width: 41vw;
-          margin-top: 60px;
-        }
-  
-      body main:nth-child(2) div:nth-child(5) article:nth-child(9) p:nth-child(5){
-          font-size: 1.375rem;
-          margin-left: 39vw;
-          margin-top: -185px;
-          margin-bottom: 70px;
-         
-        }
+    body header:first-child div:nth-child(3) div:first-child div:nth-child(4) img:first-child{
+        margin-left: 37vw;
+    }
+
+    body header:first-child div:nth-child(3) div:first-child div:nth-child(4){
+      height: 32px;
+      margin-top: -11px;
+      background-color: #D7729B;
+    }
+
+    body main div:first-child div:first-child{
+      background-image: url(../imagens/floresvocesbiaC.png);
+      background-repeat: no-repeat;
+      padding-top: 55px;
+      background-position-y: 10px;
+    }
+
+
+    body main div:first-child div:first-child h2:first-child{
+      font-size: 2.5rem;
+      color: #A2185B;
+      font-weight: 500;
+      margin-left: 24vw;
+      margin-bottom: 12px;
+    }
+
+    body main div:first-child div:first-child h2:first-child strong{
+      font-weight: 600;
+    }
+
+    body main div:first-child div:first-child p:nth-child(2){
+      font-size: 1.25rem;
+      font-weight: 300;
+      color: #1B1B1D;
+      line-height: 30px;
+      width: 68.5vw;
+      margin-left: 25vw;
+      margin-bottom: 50px;
+    }
+
+    body main div:first-child div:first-child p:nth-child(3){
+      font-size: 1.25rem;
+      font-weight: 300;
+      color: #1B1B1D;
+      line-height: 30px;
+      width: 57.5vw;
+      margin-left: 07vw;
+    }
+
+    body main div:first-child div:nth-child(2) h2:first-child{
+      font-size: 1.5rem;
+      font-weight: 300;
+      text-align: center;
+      background-color: #A2185B;
+      color: white;
+      padding-top: 18px;
+      padding-bottom: 18px;
+      margin-bottom: 30px;
+    }
+
+    body main div:first-child div:nth-child(2) h2:first-child strong{
+      font-weight: 700;
+    }
+
+    body main div:first-child div:nth-child(2) div:nth-child(2){
+      width: 89vw;
+      margin-left: 10.5vw;
+    }
+
+    body main div:first-child div:nth-child(2) div:nth-child(2) img{
+      margin-bottom: 10px;
+      margin-right: 02vw;
+      width: 39vw;
+    }
+
+    body main div:first-child div:nth-child(3) {
+      background-color: #A2185B;
+      width: 79vw;
+      height: 45px;
+      border: solid #A2185B;
+      border-radius: 10px;
+      margin-left: 10.5vw;
+      margin-top: 45px;
+      margin-bottom: 55px;
+    }
+
+    body main  div:first-child div:nth-child(3)  a:first-child p:first-child{
+      color: white;
+      font-size: 1.5rem;
+      font-weight: 200;
+      text-decoration: none;
+      text-align: center;
+      padding-top: 5px;
+      width: auto;
+    }
+
+    body main div:nth-child(2){
+      background-image: url(../imagens/florestextdiresqC.png);
+      background-repeat: no-repeat;
+      background-position-y: 130px;
+    }
+
+    body main div:nth-child(2) p:nth-child(1), p:nth-child(3){
+      font-weight: 100;
+      font-style: italic;
+      font-size: 1.3rem;
+      width: 77vw;
+      margin-left: 09vw;
+      margin-bottom: 40px;
+    }
+
+    body main div:nth-child(2) p:nth-child(2), p:nth-child(4){
+      font-weight: 100;
+      font-style: italic;
+      font-size: 1.3rem;
+      width: 80vw;
+      margin-left: 17.5vw;
+      margin-bottom: 40px;
+    }
+
+    body main div:nth-child(2) p strong{
+      font-weight: 400;
+    }
+
+    body main div:nth-child(2) h2:last-child {
+      font-size: 1.3rem;
+      text-align: center;
+      width: 80vw;
+      margin-left: 09vw;
+      font-weight: 300;
+      margin-bottom: 35px;
+    }
+
+    body main div:nth-child(2) h2:last-child strong{
+      font-weight: 500;
+    }
+    body main img:nth-child(3){
+      margin-bottom: 0px;
+    }
+
+    body main div:nth-child(4) article:first-child{
+      background-image: url(../imagens/floresumpoucoC.png);
+      background-repeat: no-repeat;
+      padding-top: 50px;
+    }
+
+    body main div:nth-child(4) article:first-child h2:first-child{
+      margin-left: 09vw;
+    }
+
+    body main div:nth-child(4) article:first-child h2:first-child strong:first-child{
+      color: #A2185B;
+      font-size: 3.3rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    body main div:nth-child(4) article:first-child h2:first-child strong:nth-child(2){
+      font-size: 2.5rem;
+    }
+
+    body main div:nth-child(4) article:first-child h2:first-child{
+      font-weight: 100;
+      font-size: 2rem;
+    }
+
+    body main div:nth-child(4) article:first-child div:nth-child(3) p:first-child{
+      font-size: 1.25rem;
+      font-weight: 300;
+      width: 51vw;
+      margin-left: 09vw;
+      margin-top: 51px;
+      line-height: 36px;
+    }
+
+    body main div:nth-child(4) article:first-child div:nth-child(3) img:last-child{
+      width: 32.5vw;
+      position: relative;
+      bottom: 385px;
+      left: 62vw;
+    }
+
+    body main div:nth-child(4) article:first-child img:nth-child(4) {
+      width: 32.5vw;
+      position: relative;
+      left: 01vw;
+      bottom: 90px;
+    }
+
+    body main div:nth-child(4) article:first-child p:nth-child(5){
+      font-size: 1.25rem;
+      font-weight: 300;
+      width: 55vw;
+      margin-left: 40vw;
+      margin-top: -325px;
+      line-height: 36px;
+    }
+
+    body main div:nth-child(4) article:first-child p:nth-child(6){
+      font-size: 1.25rem;
+      font-weight: 300;
+      width: 51vw;
+      margin-left: 09vw;
+      margin-top: 51px;
+      line-height: 36px;
+    }
+
+    body main div:nth-child(4) article:first-child img:nth-child(7){
+      width: 32.5vw;
+      position: relative;
+      bottom: 270px;
+      left: 62vw;
+    }
+
+    body main div:nth-child(4) article:first-child div:last-child {
+      background-color: #A2185B;
+      width: 79vw;
+      height: 45px;
+      border: solid #A2185B;
+      border-radius: 10px;
+      margin-left: 10.5vw;
+      margin-top: -80px;
+      margin-bottom: 55px;
+    }
+
+    body main  div:nth-child(4) article:first-child div:last-child a:first-child p:first-child{
+      color: white;
+      font-size: 1.5rem;
+      font-weight: 200;
+      text-decoration: none;
+      text-align: center;
+      padding-top: 5px;
+      width: auto;
+    }
+
+    body main div:nth-child(5) h2:first-child {
+      color: #A2185B;
+      font-weight: 600;
+      font-size: 3rem;
+      margin-left: 10.5vw;
+      width: auto;
+    }
+
+    body main div:nth-child(5) h3:nth-child(2){
+      color: #A2185B;
+      font-weight: 300;
+      font-size: 2.5rem;
+      margin-left: 25.5vw;
+      width: auto;
+    }
+
+    body main div:nth-child(5) h4:nth-child(3){
+      color: #1B1B1D;
+      font-weight: 600;
+      font-size: 3rem;
+      margin-left: 10.5vw;
+      width: auto;
+      margin-top: 10px;
+    }
+
+    body main div:nth-child(5) div:nth-child(4) p:first-child{
+      color: #1B1B1D;
+      font-weight: 600;
+      font-size: 1rem;
+      margin-left: 10.5vw;
+      width: 76vw;
+      margin-top: 45px;
+      line-height: 34px;
+    }
+
+
+    body main div:nth-child(5) div:nth-child(5) h3:first-child{
+      color: #1B1B1D;
+      font-weight: 600;
+      font-size: 2rem;
+      margin-left: 10.5vw;
+      width: auto;
+      margin-top: 45px;
+    }
+
+    body main div:nth-child(5) div:nth-child(5) h2:nth-child(2){
+      color: #A2185B;
+      font-weight: 800;
+      font-size: 2rem;
+      margin-left: 10.5vw;
+      width: auto;
+    }
+
+    body main div:nth-child(5) section:nth-child(7) img{
+      width: 28vw;
+      margin-left: 10.5vw;
       
-      body main:nth-child(2) div:nth-child(5) article:nth-child(9) p:nth-child(6){
-          font-size: 1.375rem; 
-          margin-bottom: -24px; 
-          width: 52vw;
-          margin-left: 6vw;
-        }
-        
-      body main:nth-child(2) div:nth-child(5) article:nth-child(9) img:nth-child(7){
-          width: 35vw;
-         margin-left: 58vw;
-         margin-top: -272px;
-         margin-bottom: 200px;
-        }
-      body main:nth-child(2) div:nth-child(5) article:nth-child(9) img:nth-child(8){
-          width: 42vw;
-          margin-top: 70px;
-        }
-  
-      body main:nth-child(2) div:nth-child(5) article:nth-child(9) p:nth-child(9){
-          font-size: 1.375rem;
-          margin-left: 44vw;
-          margin-top: -200px;
-          margin-bottom: 70px;
-        }
-  
-      body main:nth-child(2) div:nth-child(5) article:nth-child(9) img:nth-child(11){
-          width: 41vw;
-          margin-left: 58vw;
-          margin-top: -272px;
-          margin-bottom: 150px;
-        }
-  
-      body main:nth-child(2) div:nth-child(5) article:nth-child(9) p:nth-child(10){
-          font-size: 1.375rem;
-          margin-bottom: -25px;
-          width: 52vw;
-          margin-left: 6vw;
-        }
-  
-      body main:nth-child(2) div:nth-child(5) article:nth-child(9) img:nth-child(12){
-          width: 42vw;
-          margin-top: 40px;
-          margin-left: 30vw;
-          margin-bottom: 170px;
-        }
-  
-      body main:nth-child(2) div:nth-child(5) article:nth-child(9) p:nth-child(13){
-          text-align: center;
-          font-size: 1.375rem;
-          margin-top: -197px;
-          color: #A2185B;
-        }
-  
-      body main:nth-child(2) div:nth-child(5) article:nth-child(9) div:nth-child(14){
-          border-radius: 10px;
-          width: 86vw;
-          height: 58px;
-          margin-left: 08vw;
-          margin-top: 28px;
-          background-color: #A2185B;
-          margin-bottom: 20px;
-          cursor: pointer;
-        }
-  
-      body main:nth-child(2) div:nth-child(5) article:nth-child(9) div:nth-child(14) a:first-child p:first-child{
-          text-align: center;
-          color: white;
-          font-size: 1.6875rem;
-          margin-top: 15px;
-          padding-top: 10px;
-          margin-bottom: 10px;
-        }
-  
-      body main:nth-child(2) div:nth-child(5) article:nth-child(9) div:nth-child(14) a:first-child{
-          text-decoration: none;
-          color: white;
-          
-        }
-  
-      body main:nth-child(2) div:nth-child(6) h2:first-child{
-          font-size: 2.875rem;
-          margin-left: 06vw;
-          color: #A2185B;
-        }
-  
-      body main:nth-child(2) div:nth-child(5) img:nth-child(10){
-          width: 100vw;
-          margin-bottom: 20px;
-        }
-  
-      body main:nth-child(2) div:nth-child(6) img{
-          width: 28vw;
-          margin-left: 7vw;
-          margin-top: 48px;
-        }
-      body main:nth-child(2) div:nth-child(6) hr{
-          margin-bottom: 69px;
-          
-        }
-      body main:nth-child(2) div:nth-child(6) img:nth-child(3){
-          margin-top: 0px;
-        }
-  
-      body main:nth-child(2) div:nth-child(6) h3 {
-          font-size: 1.5625rem;
-          margin-left: 37vw;
-          margin-top: -133px;
-          font-weight: bold;
-        }
-  
-      body main:nth-child(2) div:nth-child(6) section:first-child p{
-          margin-left: 37vw;
-          margin-top: 5px;
-          font-weight: 300;
-          width: 60vw;
-          height: 98px;
-          font-size: 1rem;
-        }
-  
-      body main:nth-child(2) div:nth-child(6) div:nth-child(15){
-          border-radius: 10px;
-          width: 83vw;
-          height: 58px;
-          margin-left: 08vw;
-          margin-top: 106px;
-          background-color: #A2185B;
-          margin-bottom: 40px;
-          cursor: pointer;
-        }
-      body main:nth-child(2) div:nth-child(6) div:nth-child(15) a:first-child{
-          text-decoration: none;
-          color: white;
-        }
-  
-      body main:nth-child(2) div:nth-child(6) div:nth-child(15) a:first-child p:first-child{
-          text-align: center;
-          color: white;
-          font-size: 1.6875rem;
-          margin-top: 15px;
-          padding-top: 10px;
-          margin-bottom: 10px;
-          margin-left: 1vw;
-          width: 81vw;
-          height: 43px;
-        }
+    }
+
+    body main div:nth-child(5) section:nth-child(7) img:nth-child(4), img:nth-child(7){
+      margin-top: -45px;
+    }
+
+    body main div:nth-child(5) section:nth-child(7) h3{
+      font-weight: 800;
+      color: #1B1B1D;
+      font-size: 1rem;
+      position: relative;
+      margin-left: 0px;
+      bottom: 130px;
+      left: 40vw;
+      width: auto;
+    }
+
+    body main div:nth-child(5) section:nth-child(7) p{
+      font-weight: 300;
+      color: #1B1B1D;
+      font-size: 1rem;
+      position: relative;
+      margin-left: 0px;
+      bottom: 130px;
+      left: 40vw;
+      width: 43vw;
+    }
+
     
+
   
+
+    hr{
+      border-top: 5px dotted black;
+      margin-bottom: 34px;
+      margin-top: 30px;
+      width: 86vw;
+      margin-left: 6vw;
+    }
+
+    #anuncio{ 
+      width: 100vw;
+    }
+
     body footer div:first-child{
-        padding-left: 1vw;
-        padding-bottom: 4vw;
-        color: white;
-        background-color: #D7729B;
-        width: 99vw;
-        height: 240px;
-        overflow: hidden;
-      }
+      padding-left: 1vw;
+      padding-bottom: 4vw;
+      color: white;
+      background-color: #D7729B;
+      height: 240px;
+      overflow: hidden;
+      padding-top: 20px;
+      padding-left: 10px;
+    }
       
   
     body footer div:first-child h2:first-child{
-        font-size: 1.6875rem;  
- }
+      font-size: 2rem;
+      font-weight: 300;
+      width: 52vw;  
+    }
 
-
-    body main:nth-child(2) div:first-child div:nth-child(5) img:nth-child(3){
-        margin-top: 0px;
-      }
-    body main:nth-child(2) div:first-child div:nth-child(5) img:nth-child(4){
-        margin-top: 0px;
-      }
-    body main:nth-child(2) div:first-child div:nth-child(5){
-        margin-left: 11vw;
-        width: 88vw;
-      }
-      
-    body main:nth-child(2) div:first-child div:nth-child(6) a:first-child{
-        text-decoration: none;
-        color: inherit;
-      }
-
-    body main:nth-child(2) div:first-child div:nth-child(6) a:first-child p:first-child{
-        text-align: center;
-        color: white;
-        font-size: 1.6875rem;
-        margin-top: 15px;
-        padding-top: 10px;
-      }
-      
-    body main:nth-child(2) div:first-child  div:nth-child(6){
-
-        border-radius: 10px;
-        width: 83vw;
-        height: 58px;
-        margin-left: 08vw;
-        margin-top: 28px;
-        background-color: #A2185B;
-        margin-bottom: 15px;
-        cursor: pointer;
-      }
-
-     
-
-    body main:nth-child(2) div:nth-child(2) {
-        font-size: 1.6875rem;
-        margin-top: 30px;
-      }
-    body main:nth-child(2) div:nth-child(2) p:nth-child(1){
-        font-size: 1.6875rem;
-        margin-left: 06vw;
-        margin-top: 30px;
-      }
-    body main:nth-child(2) div:nth-child(2) p:nth-child(3){
-        font-size: 1.6875rem;
-        margin-left: 6vw;
-        margin-top: 30px;
-      }
-    body main:nth-child(2) div:nth-child(2) p:nth-child(2){
-        font-size: 1.6875rem;
-        margin-left: 11vw;
-        margin-top: 30px;
-      }
-
-    body main:nth-child(2) div:nth-child(2) p:nth-child(4){
-        font-size: 1.5625rem;
-        margin-left: 11vw;
-        margin-top: 22px;
-      }
-      
-    body main:nth-child(2) div:nth-child(2) h2:nth-child(5){
-        font-size: 1.625rem;
-        text-align: center;
-        margin-top: 60px;
-        margin-top: 22px;
-        font-weight: bold;
-        color: #1B1B1D;
-      }
-
-    body main:nth-child(2) div:nth-child(4) article:first-child h2:first-child{
-        margin-left: 06vw;
-        font-size: 2.4375rem;
-        font-weight: 600;
-        color: #1B1B1D  ;
-      }
-
-      
-
-    body main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(3) img:nth-child(2){
-        width: 34vw;
-        height: 46vw;
-        margin-left: 63vw;
-        margin-top: -195px;
-      }
-
-    body main:nth-child(2) div:nth-child(4) article:first-child div:nth-child(3) p:first-child{
-        font-size: 1.4375rem;
-        margin-top: 48px;
-        margin-bottom: -134px;
-        margin-left: 4vw;
-        width: 70vw;
-        margin-bottom: 22px;
-      }
 
     body footer div:first-child address:nth-child(2) p:first-child{
-        margin-top: 5px;
-        margin-bottom: -16px;
-      }
+      margin-top: 10px
+    }
   
   
     body footer div:first-child address:nth-child(2) p:nth-child(3){
-        margin-bottom: 4px;
-        width: 38vw;
-      }
+      margin-bottom: 4px;
+      width: 57vw;
+      margin-left: 0px;
+      font-weight: 300;
+      font-size: 1rem;
+    }
   
     body footer div:first-child a{
-        text-decoration: none;
-      }
+      text-decoration: none;
+    }
   
     body footer div:first-child a img{
-        width: 11vw;
-        height: 11vw;
-        margin-bottom: 10px;
-      }
+      width: 11vw;
+      height: 11vw;
+      position: relative;
+      bottom: 200px;
+    }
   
     body footer div:first-child a:last-child img{
-        width: 45vw;
-        margin-top: -97vw;
-        margin-left: 50vw;
-        margin-bottom: 25px;
-        height: 230px;
-      }
+      width: 38vw;
+      height: 255px;
+      position: relative;
+      bottom: 215px;
+      left: 10vw;
+    }
   
     body footer div:first-child address:nth-child(2){
-        width: 90vw;
-        color: white;
-      }
-
-      hr{
-          border-top: 5px dotted black;
-          margin-bottom: 34px;
-          margin-top: 30px;
-          width: 86vw;
-          margin-left: 6vw;
-      }
+      width: 90vw;
+      color: white;
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 800px){
@@ -1146,7 +890,7 @@
 
     body main div:nth-child(4) article:first-child  h2:first-child{
       margin-left: 9vw;
-      font-size: 2.125rem;
+      font-size: 3rem;
       font-weight: 100;
     }
 
@@ -1158,7 +902,7 @@
 
     body main div:nth-child(4) article:first-child  h2:first-child strong:nth-child(2){
       font-weight: 600;
-      font-size: 2rem;
+      font-size: 4rem;
     }
 
     body main div:nth-child(4) article:first-child {

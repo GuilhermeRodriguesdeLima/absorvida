@@ -15,7 +15,6 @@
   
     p{
       font-weight: 300;
-      margin-right: 2vw;
     }
   
     .facet_sidebar{
@@ -134,60 +133,59 @@
       margin-top: 20px;
     }
   
-    body header:first-child div:first-child a:first-child img:first-child{
+    body header div:first-child a:first-child img:first-child{
       width: 13.5vw;
       position: relative;
       top: 2vw;
       left: 1vw;
     }
 
-    body header:first-child div:first-child img:nth-child(2){
+    body header div:first-child img:nth-child(2){
       width: 9vw;
       position: relative;
       left: 1vw;
     }
   
 
-    body header:first-child div:first-child a:nth-child(3) img{
+    body header div:first-child a:nth-child(3) img{
       height: 20vw;
       position: absolute;
       top: -1vw;
       right: 43vw;
     }
   
-    body header:first-child div:nth-child(3) div:first-child h1:first-child{
+    body header div:nth-child(3) div:first-child h1:first-child{
       text-align: center;
       margin-top: -10px;
     }
   
-    body header:first-child div:nth-child(3) div:first-child p:nth-child(2){
+    body header div:nth-child(3) div:first-child p:nth-child(2){
       text-align: center;
       color: #BD2079;
       font-size: 1.8125rem;
       font-weight: 600;
     }
 
-    body header:first-child div:nth-child(3) {
+    body header div:nth-child(3) {
       background-image: url(../imagens/headerfloresC.png);
       background-repeat: no-repeat;
     }
   
-    body header:first-child div:nth-child(3) div:first-child img:nth-child(3){
-      height: 70vw;
+    body header div:nth-child(3) div:first-child img:nth-child(3){
       width: 100vw;
       margin-top: 22px;
     }
 
-    body header:first-child div:nth-child(3) div:first-child img:last-child{
+    body header div:nth-child(3) div:first-child img:last-child{
       width: 100vw;
       margin-top: -5px;
     }
   
-    body header:first-child div:nth-child(3) div:first-child div:nth-child(4) img:first-child{
+    body header div:nth-child(3) div:first-child div:nth-child(4) img:first-child{
         margin-left: 37vw;
     }
 
-    body header:first-child div:nth-child(3) div:first-child div:nth-child(4){
+    body header div:nth-child(3) div:first-child div:nth-child(4){
       height: 32px;
       margin-top: -11px;
       background-color: #D7729B;
@@ -197,9 +195,7 @@
       background-image: url(../imagens/floresvocesbiaC.png);
       background-repeat: no-repeat;
       padding-top: 55px;
-      background-position-y: 10px;
     }
-
 
     body main div:first-child div:first-child h2:first-child{
       font-size: 2.5rem;
@@ -261,12 +257,12 @@
     body main div:first-child div:nth-child(3) {
       background-color: #A2185B;
       width: 79vw;
-      height: 45px;
+      height: 51px;
       border: solid #A2185B;
       border-radius: 10px;
       margin-left: 10.5vw;
-      margin-top: 45px;
       margin-bottom: 55px;
+      padding-top: 9px;
     }
 
     body main  div:first-child div:nth-child(3)  a:first-child p:first-child{
@@ -276,7 +272,7 @@
       text-decoration: none;
       text-align: center;
       padding-top: 5px;
-      width: auto;
+      width: 79vw;
     }
 
     body main div:nth-child(2){
@@ -346,7 +342,7 @@
 
     body main div:nth-child(4) article:first-child h2:first-child{
       font-weight: 100;
-      font-size: 2rem;
+      font-size: 1.7rem;
     }
 
     body main div:nth-child(4) article:first-child div:nth-child(3) p:first-child{
@@ -356,6 +352,7 @@
       margin-left: 09vw;
       margin-top: 51px;
       line-height: 36px;
+      margin-bottom: 50px;
     }
 
     body main div:nth-child(4) article:first-child div:nth-child(3) img:last-child{
@@ -400,12 +397,12 @@
     body main div:nth-child(4) article:first-child div:last-child {
       background-color: #A2185B;
       width: 79vw;
-      height: 45px;
+      height: 51px;
       border: solid #A2185B;
       border-radius: 10px;
       margin-left: 10.5vw;
-      margin-top: -80px;
       margin-bottom: 55px;
+      padding-top: 9px;
     }
 
     body main  div:nth-child(4) article:first-child div:last-child a:first-child p:first-child{
@@ -415,7 +412,7 @@
       text-decoration: none;
       text-align: center;
       padding-top: 5px;
-      width: auto;
+      width: 79vw;
     }
 
     body main div:nth-child(5) h2:first-child {
@@ -471,10 +468,13 @@
       width: auto;
     }
 
+    body main div:nth-child(5) hr:nth-child(6){
+      margin-bottom: 60px;
+    }
+
     body main div:nth-child(5) section:nth-child(7) img{
       width: 28vw;
-      margin-left: 10.5vw;
-      
+      margin-left: 10.5vw; 
     }
 
     body main div:nth-child(5) section:nth-child(7) img:nth-child(4), img:nth-child(7){
@@ -489,7 +489,7 @@
       margin-left: 0px;
       bottom: 130px;
       left: 40vw;
-      width: auto;
+      width: 50vw;
     }
 
     body main div:nth-child(5) section:nth-child(7) p{
@@ -503,71 +503,269 @@
       width: 43vw;
     }
 
+    body main div:nth-child(5) hr:nth-child(8) {
+      margin-top: -10px;
+    }
+
+    body main div:nth-child(5) article:nth-child(9){
+      background-image: url(../imagens/floresalemC.png);
+      background-repeat: no-repeat;
+      background-position-y: 90px;
+    }
+
+    body main div:nth-child(5) article:nth-child(9) h3:first-child{
+      font-size: 1.7rem;
+      font-weight: 300;
+      margin-left: 09vw;
+      margin-bottom: 10px;
+    }
+
+    body main div:nth-child(5) article:nth-child(9) h2:nth-child(2){
+      font-weight: 500;
+      font-size: 2.27rem;
+      margin-left: 4.2vw;
+      text-align: center;
+      color: #A2185B;
+      width: 88vw;
+      margin-bottom: 40px;
+    }
+
+    body main div:nth-child(5) article:nth-child(9) h2:nth-child(2) strong{
+      font-weight: 700;
+    }
+
+    body main div:nth-child(5) article:nth-child(9) p:nth-child(3){
+      font-weight: 300;
+      font-style: italic;
+      font-size: 1.5rem;
+      width: 85vw;
+      margin-left: 9vw;
+      margin-bottom: 40px;
+      line-height: 35px;
+    }
+
+    body main div:nth-child(5) article:nth-child(9) img{
+      width: 30vw;
+    }
+
+    body main div:nth-child(5) article:nth-child(9) img:nth-child(4){
+      margin-top: 30px;
+      margin-left: 03.5vw;
+    }
+
+
+    body main div:nth-child(5) article:nth-child(9) p:nth-child(5){
+      font-size: 1.5rem;
+      font-weight: 300;
+      line-height: 32px;
+      width: 57vw;
+      margin-left: 35vw;
+      margin-top: -158px;
+    }
+
+    body main div:nth-child(5) article:nth-child(9) p:nth-child(6){
+      font-size: 1.5rem;
+      font-weight: 300;
+      line-height: 32px;
+      width: 61vw;
+      margin-left: 09vw;
+      margin-top: 65px;
+    }
+
+    body main div:nth-child(5) article:nth-child(9) img:nth-child(7){
+      position: relative;
+      bottom: 325px;
+      left: 69vw;
+    }
+
+    body main div:nth-child(5) article:nth-child(9) img:nth-child(8){
+      position: relative;
+      right: 26vw;
+      margin-top: 100px;
+    }
+
+    body main div:nth-child(5) article:nth-child(9) p:nth-child(9){
+      font-size: 1.5rem;
+      font-weight: 300;
+      line-height: 32px;
+      width: 61vw;
+      margin-left: 35vw;
+      margin-top: -200px;
+    }
+
+    body main div:nth-child(5) article:nth-child(9) img:nth-child(11){
+      position: relative;
+      bottom: 200px;
+      left: 69vw;
+    }
+
+    body main div:nth-child(5) article:nth-child(9) p:nth-child(10){
+      font-size: 1.5rem;
+      font-weight: 300;
+      line-height: 32px;
+      width: 61vw;
+      margin-left: 09vw;
+      margin-top: 65px;
+    }
+
+    body main div:nth-child(5) article:nth-child(9) img:nth-child(12){
+      margin-left: 5vw;
+      margin-top: 10px;
+    }
+
+    body main div:nth-child(5) article:nth-child(9) p:nth-child(13){
+      color: #A2185B;
+      font-weight: 300;
+      text-align: center;
+      line-height: 32px;
+      font-size: 1.75rem;
+      width: 71vw;
+      margin-left: 14vw;
+      margin-bottom: 50px;
+    }
+
+    body main div:nth-child(5) article:nth-child(9) div:last-child {
+      background-color: #A2185B;
+      width: 79vw;
+      height: 51px;
+      border: solid #A2185B;
+      border-radius: 10px;
+      margin-left: 10.5vw;
+      margin-bottom: 55px;
+      padding-top: 9px;
+    }
+
+    body main  div:nth-child(5) article:nth-child(9) div:last-child a:first-child p:first-child{
+      color: white;
+      font-size: 1.5rem;
+      font-weight: 200;
+      text-decoration: none;
+      text-align: center;
+      padding-top: 5px;
+      width: 79vw;
+    }
+
+    body main div:nth-child(6){
+      background-image: url(../imagens/floresalgunsC.png);
+      background-repeat: no-repeat;
+      padding-top: 20px;
+      margin-top: 30px;
+    }
+
+    body main div:nth-child(6) section:first-child h2:first-child{
+      font-size: 2.5rem;
+      font-weight: 500;
+      margin-left: 09vw;
+      color: #A2185B;
+    }
+
+    body main div:nth-child(6) section:first-child h2:first-child strong{
+      font-weight: 700;
+    }
+
+    body main div:nth-child(6) img{
+      width: 27vw;
+      margin-left: 09vw;
+    }
+
+    body main div:nth-child(6) img:nth-child(2){
+      margin-top: 65px;
+    }
+
+    body main div:nth-child(6) p{
+      font-size: 1rem;
+      font-weight: 300;
+      color: #1B1B1D;
+      position: relative;
+      bottom: 130px;
+      left: 37vw;
+      margin-left: 0px;
+      width: 50vw;
+    }
+
+    body main div:nth-child(6) h3{
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #1B1B1D;
+      position: relative;
+      bottom: 130px;
+      left: 37vw;
+      width: 50vw;
+    }
     
 
-  
+    body main div:nth-child(6) section:first-child div:nth-child(14) {
+      background-color: #A2185B;
+      width: 79vw;
+      height: 51px;
+      border: solid #A2185B;
+      border-radius: 10px;
+      margin-left: 10.5vw;
+      margin-bottom: 55px;
+      padding-top: 9px;
+      margin-top: 65px;
+    }
+
+    body main  div:nth-child(6) section:first-child div:nth-child(14) a:first-child p:first-child{
+      color: white;
+      font-size: 1.5rem;
+      font-weight: 200;
+      text-decoration: none;
+      text-align: center;
+      padding-top: 5px;
+      width: 79vw;
+      position: static;
+    }
 
     hr{
       border-top: 5px dotted black;
       margin-bottom: 34px;
       margin-top: 30px;
-      width: 86vw;
-      margin-left: 6vw;
+      width: 77vw;
+      margin-left: 10vw;
     }
 
     #anuncio{ 
       width: 100vw;
     }
 
-    body footer div:first-child{
-      padding-left: 1vw;
-      padding-bottom: 4vw;
+    body footer {
       color: white;
       background-color: #D7729B;
-      height: 240px;
-      overflow: hidden;
-      padding-top: 20px;
       padding-left: 10px;
+      padding-top: 20px;
     }
-      
-  
+
+    body footer div:first-child a{
+      text-decoration: none;
+    }
+
+    body footer div:first-child a img{
+      width: 11vw;
+      height: 11vw;
+    }
+
+    body footer div:first-child a:last-child img{
+      width: 43vw;
+      height: 57vw;
+      margin-top: -59vw;
+      margin-left: 54vw;
+      margin-bottom: 25px;
+    }
+
     body footer div:first-child h2:first-child{
       font-size: 2rem;
-      font-weight: 300;
+      font-weight: 200;
       width: 52vw;  
+      margin-bottom: 20px;
     }
 
-
-    body footer div:first-child address:nth-child(2) p:first-child{
-      margin-top: 10px
-    }
-  
-  
     body footer div:first-child address:nth-child(2) p:nth-child(3){
-      margin-bottom: 4px;
+      margin-bottom: 20px;
       width: 57vw;
       margin-left: 0px;
       font-weight: 300;
       font-size: 1rem;
-    }
-  
-    body footer div:first-child a{
-      text-decoration: none;
-    }
-  
-    body footer div:first-child a img{
-      width: 11vw;
-      height: 11vw;
-      position: relative;
-      bottom: 200px;
-    }
-  
-    body footer div:first-child a:last-child img{
-      width: 38vw;
-      height: 255px;
-      position: relative;
-      bottom: 215px;
-      left: 10vw;
     }
   
     body footer div:first-child address:nth-child(2){

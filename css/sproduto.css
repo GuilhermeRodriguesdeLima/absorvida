@@ -164,31 +164,62 @@
           color: #A2185B;
         }
         body main div:first-child article:first-child h2:nth-child(2){
-          font-weight: 500;
-          font-size: 2.8125rem;
-          margin-left: 06vw;
-          color: #A2185B;
-          margin-bottom: 50px;
-          margin-top: 0.1px ;
+            font-weight: 500;
+            font-size: 2.8125rem;
+            margin-left: 06vw;
+            color: #A2185B;
+            margin-bottom: 50px;
+            margin-top: 0.1px ;
+            position: static;
         }
         body main div:first-child article:first-child img {
           width: 39vw;
           margin-left: 06vw;
           margin-bottom: 10px;
+          margin-top: -90px;
         }
+
+        body main div:first-child article:first-child img:nth-child(3){
+          margin-top: 10px;
+        }
+
         body main div:first-child article:first-child h2{
-          margin-left: 46vw;
           font-size: 1.5rem;
-          margin-top: -134px;
           font-weight: 600;
-          width: 50vw;
+          width: 52vw;
+          position: relative;
+          bottom: 190px;
+          left: 46vw;
         }
-        body main div:first-child article:first-child p{
-          margin-left: 46vw;
-          font-size: 1rem;
+
+        body main div:first-child article:first-child p:nth-child(4), p:nth-child(9), p:nth-child(14), p:nth-child(19), p:nth-child(24), p:nth-child(29), p:nth-child(34){
+          font-weight: 500;
+          font-size: 1.5rem;
+          bottom: 200px;
+          position: relative;
+          bottom: 190px;
+          left: 46vw;
+        }
+
+        body main div:first-child article:first-child p:nth-child(6), p:nth-child(11), p:nth-child(16), p:nth-child(21), p:nth-child(26), p:nth-child(31), p:nth-child(36) {
+          font-size: 1.125rem;
           font-weight: 300;
-          margin-bottom: 110px;
+          width: 52vw;
+          position: relative;
+          bottom: 190px;
+          left: 46vw;
         }
+
+        body main div:first-child article:first-child p:nth-child(7), p:nth-child(12), p:nth-child(17), p:nth-child(22), p:nth-child(27), p:nth-child(32), p:nth-child(37){
+          font-size: 0.5rem;
+          font-weight: 200;
+          position: relative;
+          bottom: 190px;
+          left: 46vw;
+          width: 40vw;
+        }
+
+        
 
         body main div:first-child article:first-child div:last-child{
         width: 83vw;
@@ -199,13 +230,8 @@
         color: white;
         box-shadow: 0px 0px 16px 5px #f786c6;
         margin-left: 30px;
-        margin-top: 80px;
+        margin-top: -80px;
         margin-bottom: 116px;
-        }
-
-        body main div:first-child article:first-child div:last-child a{
-          text-decoration: none;
-          color: inherit;
         }
         
         body main div:first-child article:first-child div:last-child a p{   
@@ -217,86 +243,61 @@
         margin-left: 0px;
       }
 
-        body footer:nth-child(3){
-            color: white;
-            background-color: #D7729B;
-            width: 100vw;
-            height: 240px;
-          }
+      hr{
+        border-top: 5px dotted black;
+        margin-bottom: 34px;
+        margin-top: 30px;
+        width: 77vw;
+        margin-left: 10vw;
+      }
+  
+      #anuncio{ 
+        width: 100vw;
+      }
+  
+      body footer {
+        color: white;
+        background-color: #D7729B;
+        padding-left: 10px;
+        padding-top: 20px;
+      }
+  
+      body footer div:first-child a{
+        text-decoration: none;
+      }
+  
+      body footer div:first-child a img{
+        width: 11vw;
+        height: 11vw;
+      }
+  
+      body footer div:first-child a:last-child img{
+        width: 43vw;
+        height: 57vw;
+        margin-top: -59vw;
+        margin-left: 54vw;
+        margin-bottom: 25px;
+      }
+  
+      body footer div:first-child h2:first-child{
+        font-size: 2rem;
+        font-weight: 200;
+        width: 52vw;  
+        margin-bottom: 20px;
+      }
+  
+      body footer div:first-child address:nth-child(2) p:nth-child(3){
+        margin-bottom: 20px;
+        width: 57vw;
+        margin-left: 0px;
+        font-weight: 300;
+        font-size: 1rem;
+      }
     
-          body footer:nth-child(3) div:first-child{
-            margin-left: 2vw;
-          }
-    
-          body footer:nth-child(3) div:first-child h2:first-child{
-            font-size: 1.6875rem;  
-            width: 70vw;
-            margin-bottom: 22px;
-          }
-          body footer:nth-child(3) div:first-child address:nth-child(2) p:first-child{
-            margin-top: -21px;
-            margin-bottom: -16px;
-          }
-    
-          body footer:nth-child(3){
-          color: white;
-          background-color: #D7729B;
-          width: 100vw;
-          height: 240px;
-        }
-    
-        body footer:nth-child(3) div:first-child{
-          margin-left: 2vw;
-        }
-    
-        body footer:nth-child(3) div:first-child h2:first-child{
-          font-size: 1.6875rem;  
-          width: 70vw;
-          margin-bottom: 22px;
-        }
-        body footer:nth-child(3) div:first-child address:nth-child(2) p:first-child{
-          margin-top: -21px;
-          margin-bottom: -16px;
-        }
-    
-        body footer:nth-child(3) div:first-child{
-          height: 219px;
-          width: 90vw;
-        }
-    
-        body footer:nth-child(3) div:first-child address:nth-child(2) p:nth-child(3){
-          margin-bottom: 4px;
-          width: 38vw;
-        }
-    
-        body footer:nth-child(3) div:first-child a{
-          text-decoration: none;
-        }
-    
-        body footer:nth-child(3) div:first-child a img{
-          width: 11vw;
-          height: 11vw;
-        }
-    
-        body footer:nth-child(3) div:first-child a:last-child img{
-          width: 45vw;
-          margin-top: -97vw;
-          margin-left: 50vw;
-          margin-bottom: 25px;
-          height: 230px;
-        }
-    
-        body footer:nth-child(3) div:first-child address:nth-child(2){
-          width: 90vw;
-          color: white;
-        }
-        hr{
-          border-top: 5px dotted black;
-          margin-bottom: 34px;
-          margin-top: 30px;
-          width: 86vw;
-          margin-left: 6vw;
-        }
+      body footer div:first-child address:nth-child(2){
+        width: 90vw;
+        color: white;
+      }
       
 }
 

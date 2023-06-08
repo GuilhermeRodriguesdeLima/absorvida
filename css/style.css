@@ -677,18 +677,18 @@
       font-weight: 300;
       color: #1B1B1D;
       position: relative;
-      bottom: 130px;
+      bottom: 27vw;
       left: 37vw;
       margin-left: 0px;
       width: 50vw;
     }
 
     body main div:nth-child(6) h3{
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       font-weight: 700;
       color: #1B1B1D;
       position: relative;
-      bottom: 130px;
+      bottom: 27vw;
       left: 37vw;
       width: 50vw;
     }

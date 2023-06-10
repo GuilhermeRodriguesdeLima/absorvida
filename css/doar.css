@@ -36,6 +36,7 @@
       left: 53vw;
       z-index: 1;
       overflow: hidden;
+      background-image: none;
       }
     
       #painel-menu a {
@@ -130,29 +131,52 @@
       background-color: #D7729B;
     } 
   
-  
-    header div:nth-child(3) img:first-child{
-      width: 44vw;
-      height: 50vw;
-      margin-left: 26vw; 
-      margin-top: 20px;
-    }
-  
-    body header div:first-child a:first-child img:first-child{
+    body header nav div:first-child a:first-child img:first-child{
       width: 13.5vw;
       position: relative;
       top: 2vw;
       left: 1vw;
     }
 
-    body header div:first-child img:nth-child(2){
+    body header nav div:first-child  form:nth-child(2) img{
       width: 9vw;
       position: relative;
-      left: 1vw;
+      left: 5vw;
+      bottom: 10vw;
     }
-  
 
-    body header div:first-child a:nth-child(3) img{
+    body header nav div:first-child  form:nth-child(2) input:first-child{
+      opacity: 0;
+      width: 9vw;
+      height: 9vw;
+      position: relative;
+      left: 12vw;
+      bottom: 10vw;
+      z-index: 2;
+    }
+
+    body header nav div:first-child form:nth-child(2) input:nth-child(3){
+      width: 0vw;
+    }
+
+    body header nav div:first-child form:nth-child(2) input:nth-child(3){
+      display: none;
+      position: relative;
+      left: 5vw;
+      bottom: 13.5vw;
+      z-index: 3;
+      border: 1px solid white;
+      border-radius: 10px;
+      height: 25px;
+    }
+
+    body header nav div:first-child form:nth-child(2) input:checked~input:nth-child(3){
+      display: inline;
+      transition: transform 0.7s ease;
+      width: 33vw;
+    }
+
+    body header nav div:first-child a:nth-child(3) img{
       height: 20vw;
       position: absolute;
       top: -1vw;
@@ -275,9 +299,10 @@
           border-top: 5px dotted black;
           margin-bottom: 34px;
           margin-top: 30px;
-          width: 77vw;
-          margin-left: 10vw;
+          width: 79vw;
+          margin-left: 10.5vw;
         }
+    
     
         #anuncio{ 
           width: 100vw;
@@ -345,6 +370,7 @@
     left: 53vw;
     z-index: 1;
     overflow: hidden;
+    background-image: none;
     }
   
     #painel-menu a {
@@ -362,7 +388,7 @@
       cursor: pointer;
       opacity: 0;
       z-index: 3;
-    }
+    } 
   
     #painel-menu span {
       display         : block;
@@ -436,56 +462,61 @@
       height: 100px;
     }
 
-    body header div:first-child a{
+    body header nav div:first-child a{
       color: transparent;
     }
 
-    body header div:first-child a:first-child img{ 
+    body header nav div:first-child a:first-child img{ 
       width: 11vw;
       position: absolute;
       top: 1vw;
       left: 2vw;
     }
 
-    body header div:first-child img:nth-child(2) {
+    body header nav div:first-child  form:nth-child(2) img{
       width: 7vw;
-      position: absolute;
-      top: 3vw;
-      left: 14vw;
+      position: relative;
+      left: 4vw;
+      top: 1vw;
+    }
+
+    body header nav div:first-child  form:nth-child(2) input:first-child{
+      opacity: 0;
+      width: 9vw;
+      height: 9vw;
+      position: relative;
+      left: 12vw;
+      top: 2vw;
+      z-index: 2;
+    }
+
+    body header nav div:first-child form:nth-child(2) input:nth-child(3){
+      width: 0vw;
+    }
+
+    body header nav div:first-child form:nth-child(2) input:nth-child(3){
+      display: none;
+      position: relative;
+      left: 5vw;
+      bottom: 2vw;
+      z-index: 3;
+      border: 1px solid white;
+      border-radius: 10px;
+      height: 25px;
+    }
+
+    body header nav div:first-child form:nth-child(2) input:checked~input:nth-child(3){
+      display: inline;
+      transition: transform 0.7s ease;
+      width: 35vw;
     }
     
 
-    body header div:first-child a:nth-child(3) img{
-      margin-left: 44.5vw;
-      padding-bottom: 1vw;
+    body header nav div:first-child a:nth-child(3) img{
+      position: absolute;
+      top: -1vw;
+      left: 45vw;
       width: 10vw;
-      height: 97px;
-    }
-
-    body header div:nth-child(3) img:first-child{
-      width: 0px;
-      height: 0px;
-      z-index: 0;
-    }
-
-    body header div:nth-child(3) div:first-child p:nth-child(2) {
-      font-size: 1.5rem;
-      font-weight: 800;
-      color: #A2185B;
-      text-align: center;
-      margin-top: 71px;
-    }
-
-    body header div:nth-child(3) div:first-child img:nth-child(3){
-      width: 60vw;
-      margin-left: 19vw;
-      margin-top: 34px;
-    }
-
-    body header div:nth-child(3) div:first-child img:last-child{
-      width: 100vw;
-      height: 48px;
-      margin-top: -5px;
     }
 
 

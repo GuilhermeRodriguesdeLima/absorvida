@@ -1662,4 +1662,192 @@
 
 }
 
+@media screen and (min-width: 801px) and (max-width: 1920px){
+  a{
+    color: transparent;
+  }
 
+  #painel-menu { 
+    width: 47vw;
+    height: 310px;
+    display: block;
+    position: absolute;
+    top: 0.1px;
+    left: 53vw;
+    z-index: 1;
+    overflow: hidden;
+    background-image: none;
+    }
+  
+    #painel-menu a {
+      text-decoration: none;
+      color          : black;
+    }
+
+    #painel-menu input {
+      display: block;
+      width: 4vw;
+      height: 5vw;
+      position: absolute;
+      top: 1vw;
+      left: 39vw;
+      cursor: pointer;
+      opacity: 0;
+      z-index: 3;
+    } 
+  
+    #painel-menu span {
+      display         : block;
+      width           : 57px;
+      height          : 9px;
+      margin-bottom   : 10px;
+      border-radius   : 3px;
+      background-color: rgb(250, 246, 246);
+      position        : relative;
+      top             : 1vw;
+      left            : 39vw;
+      transform-origin: 4px 0px;
+      transition      : transform 0.7s ease;
+      z-index         : 2;
+    }
+  
+    #painel-menu span:first-child {
+      transform-origin: 0 0;
+    }
+    #painel-menu span:nth-last-child(2) {
+      transform-origin: 0% 100%;
+    }
+  
+    #painel-menu input:checked~span {
+      opacity: 1;
+      width: 57px;
+      height: 9px;
+      transform: rotate(44deg) translate(0.5vw, -0.4vw);
+      background-color: #FF87CF;
+    }
+  
+    #painel-menu input:checked~span:nth-last-child(3) {
+      opacity  : 0;
+      transform: rotate(0deg) scale(0.2, 0.2);
+    }
+  
+    #painel-menu input:checked~span:nth-last-child(2) {
+      transform: rotate(-45deg) translate(0.6vw, 0.4vw);
+    }
+
+
+  
+    ul {
+      list-style-type: none;
+      position: absolute;
+      width: 28vw;
+      height: 200px;
+      margin: -100px 0 0 -150px;
+      padding: 105px 0 0 20px;
+      background-color: white;
+      border: solid 1px #FF87CF;
+      transform-origin: 0 0;
+      transform: translate(100%, 0);
+      transition: transform 0.7s ease;
+      font-size: 4.2vw;
+      left: 40vw;
+    }
+  
+    ul li {
+      padding  : 10px 0;
+      font-size: 22px;
+    }
+
+    #painel-menu input:checked~ul {
+      transform: none;
+    }  
+
+    .divheader{
+      background-color: #D7729B;
+      width: 100vw;
+      height: 87px;
+    }
+
+    body header nav div:first-child  form:nth-child(2) img{
+      width: 0px;
+      position: relative;
+      left: 36vw;
+      bottom: 80px;
+    }
+
+    body header nav div:first-child  form:nth-child(2) input:first-child{
+      opacity: 0;
+      width: 0px;
+      height: 0px;
+      position: relative;
+      left: 36vw;
+      bottom: 3.5vw;
+      z-index: 2;
+    }
+
+    body header nav div:first-child form:nth-child(2){
+      height: 0px;
+      width: 0px;
+    }
+
+    body header nav div:first-child form:nth-child(2) input:nth-child(3){
+      position: relative;
+      left: 35vw;
+      bottom: 4.5vw;
+      z-index: 3;
+      border: 1px solid white;
+      border-radius: 72px;
+      width: 29vw;
+      height: 40px;
+      padding-left: 10px;
+    }
+
+    #search::placeholder{
+      color: #797979;
+      text-align: center;
+    }
+
+    body header nav div:first-child a:nth-child(3) img:first-child{
+      width: 9.2vw;
+      position: relative;
+      bottom: 130px;
+      left: 3.5vw;
+    }
+
+    body header nav div:first-child a:first-child img:first-child{
+      width: 4.5vw;
+      position: relative;
+      left: 85vw;
+      top: 0.2vw;
+    }
+
+    body header div:nth-child(2) div:first-child img:first-child{
+      width: 0px;
+      height: 0px;
+    }
+
+    body header div:nth-child(2) div:first-child{
+      background-image: url(../imagens/floresheaderPC.png);
+      background-repeat: no-repeat; 
+    }
+
+    body header div:nth-child(2) div:first-child p:nth-child(2){
+      font-size: 2rem;
+      font-weight: bold;
+      color: #A2185B;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    body header div:nth-child(2) div:first-child img:nth-child(3){
+      width: 45.5vw;
+      margin-top: 105px;
+      margin-left: 27.5vw;
+    }
+
+    body header div:nth-child(2) div:first-child img:nth-child(4){
+      width: 100vw;
+      height: 50px;
+      margin-top: -5px;
+    }
+}

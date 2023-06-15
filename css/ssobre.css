@@ -376,11 +376,13 @@
       
 }
 
-@media (min-width: 481px) and (max-width: 800px) {
+@media screen and (min-width: 481px) and (max-width: 1024px){
+
   body {
-    background-image: url(../imagens/floresajudarT.png);
+    background-image: url(../imagens/floressobreT.png);
     background-repeat: no-repeat;
-    background-position-y: 95px;
+    background-size: 100vw;
+    background-position-y: 70px;
   }
 
   #painel-menu { 
@@ -405,7 +407,7 @@
       width: 4vw;
       height: 5vw;
       position: absolute;
-      top: 3.5vw;
+      top: 2.5vw;
       left: 39vw;
       cursor: pointer;
       opacity: 0;
@@ -420,7 +422,7 @@
       border-radius   : 3px;
       background-color: rgb(250, 246, 246);
       position        : relative;
-      top             : 3.5vw;
+      top             : 2.5vw;
       left            : 39vw;
       transform-origin: 4px 0px;
       transition      : transform 0.7s ease;
@@ -481,7 +483,7 @@
     .divheader{
       background-color: #D7729B;
       width: 100vw;
-      height: 100px;
+      height: 9vw;
     }
 
     body header nav div:first-child a{
@@ -489,25 +491,24 @@
     }
 
     body header nav div:first-child a:first-child img{ 
-      width: 11vw;
+      width: 9vw;
       position: absolute;
-      top: 1vw;
-      left: 2vw;
+      left: 3vw;
     }
 
     body header nav div:first-child  form:nth-child(2) img{
-      width: 7vw;
-      position: relative;
-      left: 4vw;
-      top: 1vw;
+      width: 5.6vw;
+      position: absolute;
+      left: 12vw;
+      top: 1.5vw;
     }
 
     body header nav div:first-child  form:nth-child(2) input:first-child{
       opacity: 0;
-      width: 9vw;
-      height: 9vw;
-      position: relative;
-      left: 12vw;
+      width: 6vw;
+      height: 6vw;
+      position: absolute;
+      left: 13vw;
       top: 2vw;
       z-index: 2;
     }
@@ -518,14 +519,16 @@
 
     body header nav div:first-child form:nth-child(2) input:nth-child(3){
       display: none;
-      position: relative;
-      left: 5vw;
-      bottom: 2vw;
+      position: absolute;
+      left: 23vw;
+      top: 2.5vw;
       z-index: 3;
       border: 1px solid white;
       border-radius: 10px;
       height: 25px;
     }
+
+
 
     body header nav div:first-child form:nth-child(2) input:checked~input:nth-child(3){
       display: inline;
@@ -536,14 +539,14 @@
 
     body header nav div:first-child a:nth-child(3) img{
       position: absolute;
-      top: -1vw;
+      top: -2vw;
       left: 45vw;
-      width: 10vw;
+      width: 9vw;
     }
 
-    body main div:first-child div:first-child {
-      margin-top: 85px;
-      margin-bottom: 55px;
+    #search::placeholder{
+      color: #797979;
+      padding-left: 10px;
     }
 
 
@@ -555,6 +558,7 @@
 
     body main div:first-child div:first-child h3:first-child{
       font-weight: 100;
+      margin-top: 40px;
     }
 
     body main div:first-child div:first-child h1:nth-child(2){
@@ -575,10 +579,10 @@
     }
 
     body main div:first-child article:nth-child(3) img:nth-child(4) {
-      width: 30vw;
+      width: 25vw;
       position: relative;
-      left: 60vw;
-      bottom: 355px;
+      left: 65vw;
+      bottom: 365px;
     }
 
     body main div:first-child article:nth-child(3) p:nth-child(3){
@@ -592,13 +596,15 @@
     body main div:first-child article:nth-child(3) h3:nth-child(5){
       font-size: 2.188rem;
       font-weight: 100;
-      margin-left: 56.5vw;
+      margin-right: 12vw;
+      text-align: right;
     }
 
     body main div:first-child article:nth-child(3) h2:nth-child(6){
       font-size: 2.188rem;
       font-weight: 300;
-      margin-left: 60.1vw;
+      margin-right: 14.5vw;
+      text-align: right;
     }
 
     body main div:first-child article:nth-child(3) p:nth-child(7){
@@ -611,29 +617,29 @@
     }
 
     body main div:first-child article:nth-child(3) img:nth-child(8) {
-      width: 30vw;
+      width: 25vw;
       position: relative;
       left: 9vw;
-      bottom: 355px;
+      bottom: 360px;
     }
 
     body main div:first-child article:nth-child(3) div:nth-child(9){
       display: flex;
       margin-top: -160px;
+      text-align: center;
+      font-size: 2.5rem;
+      align-items: baseline;
+      position: relative;
     }
 
 
     body main div:first-child article:nth-child(3) div:nth-child(9) h3{
-      font-size: 2.5rem;
       color: #1B1B1D;
       font-weight: 300;
-      margin-top: 69px;
-      text-align: center;
-      margin-left: 25.5vw;
+      margin-top: 60px;
     }
 
     body main div:first-child article:nth-child(3) div:nth-child(9) h2{
-      font-size: 2.5rem;
       color: #1B1B1D;
       font-weight: bold;
       margin-top: 69px;
@@ -646,11 +652,11 @@
     }
 
     body main div:first-child article:nth-child(3) p:nth-child(10){
-      width: 60vw;
+      width: 45vw;
       text-align: center;
       margin-top: 10px;
       line-height: 27px;
-      margin-left: 22vw;
+      margin-left: 32vw;
       font-size: 1.375rem;
       font-weight: 300;
     }

@@ -461,14 +461,14 @@
 
     body main div:nth-child(5) div:first-child{
       display: grid;
-      grid-template-columns: 175px;
+      grid-template-columns: 35.5vw;
       grid-template-rows: 1fr 1fr;
       background-image: none;
       text-align: center;
     }
 
     body main div:nth-child(5) div:first-child h2:first-child {
-      font-size: 3.438rem;
+      font-size: 3rem;
       font-weight: 600;
       color: #A2185B;
       text-align: end;
@@ -477,7 +477,7 @@
     }
 
     body main div:nth-child(5) div:first-child h3:nth-child(2){
-      font-size: 2.375rem;
+      font-size: 2rem;
       font-weight: 300;
       color: #A2185B;
       text-align: left;
@@ -625,11 +625,12 @@
       width: 61vw;
       margin-left: 09vw;
       margin-top: 65px;
+      margin-bottom: 50px;
     }
 
     body main div:nth-child(5) article:nth-child(8) img:nth-child(7){
       position: relative;
-      bottom: 325px;
+      bottom: 380px;
       left: 69vw;
     }
 
@@ -1923,6 +1924,7 @@
 
     body header div:nth-child(2) div:first-child img:nth-child(4){
       width: 100vw;
+      height: 2.6vw;
       margin-top: -0.55vw;
     }
 
@@ -2320,13 +2322,192 @@
       right: 2.7vw;
     }
 
-    
-    
-    
-    
-    
-    
-    
+    body main div:nth-child(5) hr:nth-child(7) {
+      margin-top: 75px;
+      margin-bottom: 75px;
+    }
+
+    body main div:nth-child(5) article:nth-child(8) h3:first-child{
+      font-size: 3.5rem;
+      font-weight: 300;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    body main div:nth-child(5) article:nth-child(8) h2:nth-child(2){
+      font-size: 4rem;
+      font-weight: 300;
+      text-align: center;
+      color: #A2185B;
+      margin-bottom: 50px;
+    }
+
+    body main div:nth-child(5) article:nth-child(8) h2:nth-child(2) strong{
+      font-size: 700;
+    }
+
+    body main div:nth-child(5) article:nth-child(8) p{
+      font-size: 1.25rem;
+      line-height: 34px;
+      margin-bottom: 75px;
+      font-weight: 300;
+    }
+
+
+    body main div:nth-child(5) article:nth-child(8) p:nth-child(3){
+      text-align: center;
+      width: 32vw;
+      margin-left: 35vw;
+      margin-bottom: 0px;
+    }
+
+    body main div:nth-child(5) article:nth-child(8) p:nth-child(5){
+      width: 38vw;
+      margin-top: -130px;
+      margin-left: 21vw;
+    }
+
+    body main div:nth-child(5) article:nth-child(8) img:nth-child(4){
+      width: 9vw;
+      margin-left: 72vw;
+      margin-top: 75px;
+    }
+
+    body main div:nth-child(5) article:nth-child(8) p:nth-child(6){
+      width: 45vw;
+      text-align: end;
+      margin-left: 34.5vw;
+      margin-top: 110px;
+      margin-bottom: 0px;
+    }
+
+    body main div:nth-child(5) article:nth-child(8) img:nth-child(7){
+      width: 08vw;
+      position: relative;
+      left: 20vw;
+      top: -211px;
+    }
+
+    body main div:nth-child(5) article:nth-child(8) p:nth-child(9){
+      width: 39vw;
+      margin-top: -130px;
+      margin-left: 21vw;
+    }
+
+    body main div:nth-child(5) article:nth-child(8) img:nth-child(8){
+      width: 8vw;
+      margin-left: 64.5vw;
+      margin-top: 75px;
+    }
+
+    body main div:nth-child(5) article:nth-child(8) p:nth-child(10){
+      width: 45vw;
+      text-align: end;
+      margin-left: 34.5vw;
+      margin-top: 110px;
+      margin-bottom: 0px;
+    }
+
+    body main div:nth-child(5) article:nth-child(8) img:nth-child(11){
+      width: 07vw;
+      position: relative;
+      left: 20vw;
+      top: -300px;
+    }
+
+    body main div:nth-child(5) article:nth-child(8) p:nth-child(13){
+      text-align: center;
+      width: 45vw;
+      color: #A2185B;
+      font-size: 2rem;
+      margin-left: 27.5vw;
+      line-height: 67px;
+    }
+
+    body main div:nth-child(5) article:nth-child(8) img:nth-child(12){
+      width: 08vw;
+      margin-left: 38.7vw;
+      margin-top: 150px;
+    }
+
+    body main div:nth-child(5) article:nth-child(8) div:last-child {
+      background-color: #A2185B;
+      width: 30vw;
+      height: 82px;
+      border: solid #A2185B;
+      border-radius: 10px;
+      margin-left: 35vw;
+      margin-bottom: 55px;
+      padding-top: 9px;
+    }
+
+    body main div:nth-child(5) article:nth-child(8) div:last-child a:first-child p:first-child{
+      color: white;
+      font-size: 1.875rem;
+      font-weight: 200;
+      text-decoration: none;
+      text-align: center;
+      padding-top: 15px;
+      width: 30vw;
+    }  
+
+    body main div:nth-child(6) section:first-child h2:first-child{
+      font-size: 3rem;
+      font-weight: 500;
+      color: #A2185B;
+      width: 47vw;
+      margin-left: 27vw;
+      text-align: center;
+      margin-bottom: 75px;
+      margin-top: 75px;
+    }
+
+    body main div:nth-child(6) section:first-child h2:first-child strong{
+      font-weight: 600;
+    }
+
+    body main div:nth-child(6) section:first-child img:nth-child(2){
+      width: 11vw;
+      margin-left: 21vw;
+    }
+
+    body main div:nth-child(6) section:first-child h3:nth-child(3){
+      font-weight: 600;
+      font-size: 1.25rem;
+      width: 17vw;
+      position: relative;
+      left: 33vw;
+      bottom: 200px;
+    }
+
+    body main div:nth-child(6) section:first-child p{
+      font-weight: 300;
+      font-size: 1.25rem;
+      width: 14vw;
+      position: relative;
+      left: 33vw;
+      bottom: 200px;
+      margin-left: 0px;
+      margin-top: 0px;
+    }
+
+    body main div:nth-child(6) section:first-child div:nth-child(2){
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    body main div:nth-child(6) section:first-child div:nth-child(2) img{
+      width: 11vw;
+    }
+
+    body main div:nth-child(6) section:first-child div:nth-child(2) h3:nth-child(3){
+
+    }
+
+    body main div:nth-child(6) section:first-child div:nth-child(2) p:nth-child(4){
+
+    }
+
     #divisor { 
       background-color: #D7729B;
       height: 50px;
@@ -2353,6 +2534,7 @@
     }
 
     body footer {
+      margin-top: 150px;
       background-color: #D7729B;
       color: #FFFFFF;
       padding-left: 70px;
@@ -2374,6 +2556,7 @@
 
     body footer div:first-child address:nth-child(2) p:nth-child(3){
       margin-top: 15px;
+      margin-left: 0px;
     }
 
     body footer a{
@@ -2383,7 +2566,7 @@
     body footer a img{
       width: 3vw;
       position: relative;
-      bottom: 16vw;
+      bottom: 18vw;
     }
 
     body footer a:nth-child(5) img{

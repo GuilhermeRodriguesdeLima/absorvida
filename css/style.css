@@ -226,7 +226,7 @@
 
     body header div:nth-child(2) div:first-child img:nth-child(5){
       width: 100vw;
-      height: 44px;
+      height: 09vw;
       margin-top: -5px;
     }
 
@@ -719,16 +719,28 @@
       font-weight: 700;
     }
 
-    body main div:nth-child(6) img{
+    body main div:nth-child(6) section:first-child div:nth-child(2) img{
       width: 27vw;
       margin-left: 09vw;
     }
 
-    body main div:nth-child(6) img:nth-child(2){
+    body main div:nth-child(6) section:first-child div:nth-child(2) img:first-child{
       margin-top: 65px;
     }
 
-    body main div:nth-child(6) p{
+    body main div:nth-child(6) section:first-child div:nth-child(2) img:nth-child(4){
+      margin-top: -75px;
+    }
+
+    body main div:nth-child(6) section:first-child div:nth-child(2) img:nth-child(7){
+      margin-top: -30px;
+    }
+
+    body main div:nth-child(6) section:first-child div:nth-child(2) img:nth-child(10){
+      margin-top: -55px;
+    }
+
+    body main div:nth-child(6) section:first-child div:nth-child(2) p{
       font-size: 1rem;
       font-weight: 300;
       color: #1B1B1D;
@@ -739,7 +751,7 @@
       width: 50vw;
     }
 
-    body main div:nth-child(6) h3{
+    body main div:nth-child(6) section:first-child div:nth-child(2) h3{
       font-size: 1.2rem;
       font-weight: 700;
       color: #1B1B1D;
@@ -750,7 +762,7 @@
     }
     
 
-    body main div:nth-child(6) section:first-child div:nth-child(14) {
+    body main div:nth-child(6) section:first-child div:nth-child(3) {
       background-color: #A2185B;
       width: 79vw;
       height: 51px;
@@ -759,10 +771,9 @@
       margin-left: 10.5vw;
       margin-bottom: 55px;
       padding-top: 9px;
-      margin-top: 65px;
     }
 
-    body main  div:nth-child(6) section:first-child div:nth-child(14) a:first-child p:first-child{
+    body main  div:nth-child(6) section:first-child div:nth-child(3) a:first-child p:first-child{
       color: white;
       font-size: 1.5rem;
       font-weight: 200;
@@ -790,6 +801,7 @@
       background-color: #D7729B;
       padding-left: 10px;
       padding-top: 20px;
+      margin-top: 75px;
     }
 
     body footer div:first-child a{
@@ -1036,7 +1048,7 @@
 
     body header div:nth-child(2) div:first-child img:nth-child(6){
       width: 100vw;
-      height: 48px;
+      height: 4.7vw;
       margin-top: -5px;
     }
 
@@ -1581,17 +1593,17 @@
       margin-top: 50px;
     } 
 
-    body main div:nth-child(6) section:first-child img{
+    body main div:nth-child(6) section:first-child div:nth-child(2) img{
       width: 18vw;
       height: 18vw;
       margin-left: 23vw;
     }
 
-    body main div:nth-child(6) section:first-child img:nth-child(2) {
+    body main div:nth-child(6) section:first-child div:nth-child(2) img:first-child{
       margin-top: 90px;
     }
 
-    body main div:nth-child(6) section:first-child p{
+    body main div:nth-child(6) section:first-child div:nth-child(2) p{
       font-size: 1.125rem;
       position: relative;
       top: -130px;
@@ -1602,7 +1614,7 @@
       text-align: left;
     }
 
-    body main div:nth-child(6) section:first-child h3{
+    body main div:nth-child(6) section:first-child div:nth-child(2) h3{
       font-size: 1.5rem;
       font-weight: 600;
       color: #1B1B1D;
@@ -1612,7 +1624,7 @@
       width: 41vw;
     }
 
-    body main div:nth-child(6) section:first-child div:nth-child(14) {
+    body main div:nth-child(6) section:first-child div:nth-child(3) {
       background-color: #A2185B;
       width: 50vw;
       height: 60px;
@@ -1623,7 +1635,7 @@
       margin-bottom: 127px;
     }
 
-    body main div:nth-child(6) section:first-child div:nth-child(14) a:first-child p:first-child {
+    body main div:nth-child(6) section:first-child div:nth-child(3) a:first-child p:first-child {
       color: white;
       font-size: 1.5rem;
       text-decoration: none;

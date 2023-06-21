@@ -629,6 +629,14 @@
     color: transparent;
   }
 
+
+  body{
+    background-image: url(../imagens/floresloginPC.png);
+    background-repeat: no-repeat;
+    background-position-y: 90px;
+    background-size: 100vw;
+  }
+
   #painel-menu { 
     width: 47vw;
     height: 310px;
@@ -787,16 +795,72 @@
     }
 
 
+    body main h1:first-child{
+      font-size: 3.5rem;
+      text-align: center;
+      margin-top: 75px;
+      font-weight: 300;
+      color: #1B1B1D;
+      margin-bottom: 75px;
+    }
+
+    body main img:nth-child(3){
+      width: 36vw;
+      margin-left: 32.5vw;
+      margin-bottom: 40px;
+    }
+
+    body main form:nth-child(4) label{
+      margin-left: 33vw;
+      font-size: 1.25rem;
+      font-weight: 300;
+      color: #1B1B1D;
+    }
+
+    body main form:nth-child(4) input{
+      margin-left: 32.5vw;
+      width: 36vw;
+      height: 48px;
+      border: 1px #D7729B solid;
+      border-radius: 35px;
+      margin-bottom: 75px;
+      margin-top: 2px;
+    }
+
+    body main form:nth-child(4) p{
+      text-align: center;
+    }   
+
+    body main form:nth-child(4) p a{
+      color: #02A7F0;
+    }
+
+    body form:nth-child(4) input:last-child {
+      background-color: #A2185B;
+      width: 36vw;
+      height: 83px;
+      border: solid #A2185B;
+      box-shadow: 3px 2px 35px #A2185B;
+      border-radius: 46px;
+      margin-left: 32.5vw;
+      color: white;
+      font-size: 2rem;
+      margin-top: 80px;
+      margin-bottom: 115px;
+    }
+
+
+
 
     
 
-
-
-
-
-
-
-
+    hr{
+      border-top: 5px dotted black;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      width: 58.5vw;
+      margin-left: 21vw;
+    }
 
     body footer {
       background-color: #D7729B;

@@ -771,6 +771,13 @@
     color: transparent;
   }
 
+  body{
+    background-image: url(../imagens/floresajudarPC.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position-y: 85px;
+  }
+
   #painel-menu { 
     width: 47vw;
     height: 310px;
@@ -928,6 +935,43 @@
       top: 0.3vw;
     }
 
+    body main div:first-child div:first-child h3{
+      text-align: center;
+      width: 22vw;
+      margin-left: 39vw;
+      font-size: 3.5rem;
+      font-weight: 200;
+      margin-top: 75px;
+      margin-bottom: 5px;
+      color: #A2185B;
+    }
+
+    body main div:first-child div:first-child h1{
+      font-size: 3.5rem;
+      font-weight: 700;
+      text-align: center;
+      color: #A2185B;
+    } 
+
+    body main div:first-child article:nth-child(3){
+      display: grid;
+      grid-template-columns: 12vw 19vw 12vw 18vw;
+    }
+
+    body main div:first-child article:nth-child(3) h3:first-child{
+      font-weight: 200;
+      font-size: 2.5rem;
+    }
+
+    body main div:first-child article:nth-child(3) h2:nth-child(2){
+      font-weight: 700;
+      font-size: 2.5rem;
+    }
+
+    body main div:first-child article:nth-child(3) img:nth-child(4){
+      width: 12vw;
+    }
+
 
 
     
@@ -938,6 +982,13 @@
 
 
 
+    hr{
+      border-top: 5px dotted black;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      width: 58.5vw;
+      margin-left: 21vw;
+    }
 
 
     body footer {

@@ -88,7 +88,7 @@
         <div>
             <h3>Deseja doar alguma quantia em dinheiro?</h3>
             <select>
-                <option value="N/A">N/A</option>
+                <option value="N/A" selected>N/A</option>
                 <option value="05">05R$</option>
                 <option value="10">10R$</option>
                 <option value="15">15R$</option>
@@ -105,6 +105,7 @@
         <div> 
             <h3>Formato de pagamento</h3>
             <select>
+                <option selected>Selecione uma opção</option>
                 <option value="crédito">Cartão de crédito</option>
                 <option value="PIX">PIX</option>
                 <option value="Paypal">Paypal</option>
@@ -114,9 +115,9 @@
         </div>
         <form> 
             <label for="telefone">Telefone para contato</label><br>
-            <input type="tel" name="telefone" id="telefone"><br>
+            <input type="tel" name="telefone" id="telefone" required ><br>
             <label for="email">Email para contato</label><br>
-            <input type="email" name="email" id="email"><br>
+            <input type="email" name="email" id="email" required ><br>
 
             <input type="submit" value="ENVIAR">
         </form>

@@ -2580,6 +2580,29 @@
       margin-top: 75px;
     }
 
+
+    body main div:nth-child(6) section:first-child div:nth-child(3) {
+      background-color: #A2185B;
+      width: 30vw;
+      height: 82px;
+      border: solid #A2185B;
+      border-radius: 10px;
+      margin-left: 35vw;
+      margin-bottom: 55px;
+      padding-top: 9px;
+      margin-top: 75px;
+    }
+
+    body main div:nth-child(6) section:first-child div:nth-child(3) a:first-child p:first-child{
+      color: white;
+      font-size: 1.875rem;
+      font-weight: 200;
+      text-decoration: none;
+      text-align: center;
+      padding-top: 15px;
+      width: 30vw;
+    }  
+
     
 
 

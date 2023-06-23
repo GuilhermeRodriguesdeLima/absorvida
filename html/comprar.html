@@ -72,6 +72,7 @@
         <div> 
             <h3>Quais produtos deseja comprar?</h3>
             <select> 
+                <option selected>Selecione uma opção</option>
                 <option value="Absorvente Intimus TRIPLA proteção com abas 32un.">Absorvente Intimus TRIPLA proteção com abas 32un.</option>
                 <option value="Absorvente Intimus TRIPLA proteção sem abas cobertura seca 8un.">Absorvente Intimus TRIPLA proteção sem abas cobertura seca 8un.</option>
                 <option value="Absorvente Intimus noturno para fluxo intenso com abas cobertura seca 8un.">Absorvente Intimus noturno para fluxo intenso com abas cobertura seca 8un.</option>
@@ -84,6 +85,7 @@
         <div> 
             <h3>Formato de pagamento</h3>
             <select>
+                <option selected>Selecione uma opção</option>
                 <option value="crédito">Cartão de crédito</option>
                 <option value="PIX">PIX</option>
                 <option value="Paypal">Paypal</option>
@@ -93,19 +95,19 @@
         </div>
         <form action="compras">
             <label for="cep">CEP</label><br>
-            <input type="number" name="cep" id="cep"><br>
+            <input type="number" name="cep" id="cep" required ><br>
             <label for="casa">Número da Casa</label><br> 
-            <input type="number" name="casa" id="casa"><br> 
+            <input type="number" name="casa" id="casa" required ><br> 
             <label for="estado">Estado/Província</label><br> 
-            <input type="text" name="estado" id="estado"><br> 
+            <input type="text" name="estado" id="estado" required ><br> 
             <label for="cidade">Cidade</label><br> 
-            <input type="text" name="cidade" id="cidade"><br> 
+            <input type="text" name="cidade" id="cidade" required ><br> 
             <label for="bairro">Bairro</label><br> 
-            <input type="text" name="bairro" id="bairro"><br> 
+            <input type="text" name="bairro" id="bairro" required ><br> 
             <label for="cpf">CPF</label><br> 
-            <input type="number" name="cpf" id="cpf"> <br> 
+            <input type="number" name="cpf" id="cpf" required > <br> 
             <label for="tel">Telefone para contato</label><br> 
-            <input type="tel" name="tel" id="tel"> <br> 
+            <input type="tel" name="tel" id="tel" required > <br> 
 
             <input type="submit" value="COMPRAR">
         </form>

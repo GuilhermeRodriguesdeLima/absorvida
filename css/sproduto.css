@@ -699,6 +699,13 @@
     color: transparent;
   }
 
+  body{
+    background-image: url(../imagens/floresprodutosPC.png);
+    background-size: 100vw;
+    background-position-y: 85px;
+    background-repeat: no-repeat;
+  }
+
   #painel-menu { 
     width: 47vw;
     height: 310px;
@@ -856,7 +863,68 @@
       top: 0.3vw;
     }
 
+    body main div:first-child article:first-child h1:first-child{
+      font-size: 3.5rem;
+      text-align: center;
+      color: #A2185B;
+      margin-top: 75px;
+      font-weight: 700;
+    }
 
+    body main div:first-child article:first-child h2:nth-child(2){
+      font-size: 3.5rem;
+      text-align: center;
+      color: #A2185B;
+      width: 32vw;
+      margin-left: 34.2vw;
+      font-weight: 300;
+    }
+
+    body main div:first-child article:first-child h2{
+      position: relative;
+    }
+
+    body main div:first-child article:first-child p{
+      position: relative;
+    }
+
+    body main div:first-child article:first-child img{
+      width: 12.5vw;
+      position: relative; 
+    }
+
+    body main div:first-child article:first-child{
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+    }
+
+    body main div:first-child article:first-child img:nth-child(3){
+      
+    }
+
+    body main div:first-child article:first-child p:nth-child(4){
+      
+    }
+
+    body main div:first-child article:first-child h2:nth-child(5){
+      
+    }
+
+    body main div:first-child article:first-child p:nth-child(6){
+      
+    }
+
+    body main div:first-child article:first-child p:nth-child(7){
+      
+    }
+
+    
+
+
+
+
+
+    
 
     
 
@@ -866,6 +934,44 @@
 
 
 
+
+    
+
+
+
+
+
+
+    body main div:first-child article:first-child div:last-child {
+      background-color: #A2185B;
+      width: 50vw;
+      height: 83px;
+      border: solid #A2185B;
+      box-shadow: 3px 2px 35px #A2185B;
+      border-radius: 12px;
+      margin-left: 25vw;
+      margin-top: -65px;
+      margin-bottom: 127px;
+    }
+
+    body main div:first-child article:first-child div:last-child a:first-child p:first-child{
+      color: white;
+      font-size: 2rem;
+      font-weight: 100;
+      text-decoration: none;
+      text-align: center;
+      padding-top: 20px;
+      position: static;
+      width: auto;
+    }
+
+    hr{
+      border-top: 5px dotted black;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      width: 58.5vw;
+      margin-left: 21vw;
+    }
 
 
     body footer {

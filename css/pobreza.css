@@ -1126,6 +1126,13 @@
     color: transparent;
   }
 
+  body{
+    background-image: url(../imagens/florespobrezaPC.png);
+    background-size: 100vw;
+    background-position-y: 85px;
+    background-repeat: no-repeat;
+  }
+
   #painel-menu { 
     width: 47vw;
     height: 310px;
@@ -1283,6 +1290,135 @@
       top: 0.3vw;
     }
 
+    body main div:first-child section:first-child h2:first-child{
+      font-size: 3.75rem;
+      text-align: center;
+      font-weight: 300;
+      color: #910012;
+      margin-top: 75px;
+    }
+
+    body main div:first-child section:first-child h1:nth-child(2){
+      font-size: 3.75rem;
+      text-align: center;
+      font-weight: 700;
+      color: #910012;
+    }
+
+    body main div:first-child section:first-child h2:nth-child(3){
+      font-size: 3.75rem;
+      text-align: center;
+      font-weight: 300;
+      color: #910012;
+    }
+
+    body main div:first-child section:first-child p:nth-child(4){
+      font-size: 1.4rem;
+      font-weight: 200;
+      margin-left: 10vw;
+      width: 43vw;
+      margin-top: 75px;
+      margin-bottom: 50px;
+    }
+
+    body main div:first-child section:first-child p:nth-child(5){
+      font-size: 1.4rem;
+      font-weight: 200;
+      width: 43vw;
+      text-align: end;
+      margin-left: 50vw;
+      margin-bottom: 95px;
+    }
+
+    body main div:first-child article:nth-child(2) h2:first-child{
+      font-size: 3.125rem;
+      font-weight: 200;
+      color: #910012;
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    body main div:first-child article:nth-child(2) h3:nth-child(2){
+      font-size: 3.125rem;
+      font-weight: 200;
+      color: #910012;
+      text-align: center;
+    }
+
+    body main div:first-child article:nth-child(2) h2:nth-child(3){
+      font-size: 3.125rem;
+      font-weight: 600;
+      color: #910012;
+      text-align: center;
+      margin-bottom: 100px;
+    }
+
+    body main div:first-child article:nth-child(2) p:nth-child(4){
+      font-size: 1.438rem;
+      font-weight: 200;
+      width: 43vw;
+      text-align: center;
+      margin-left: 29vw;
+      margin-bottom: 100px;
+    }
+
+    body main div:first-child article:nth-child(2) img:nth-child(5){
+      width: 23vw;
+      margin-left: 39vw;
+      margin-bottom: 50px;
+    }
+
+    body main div:first-child article:nth-child(2) p:nth-child(6){
+      font-size: 1.438rem;
+      text-align: center;
+      width: 38vw;
+      color: #A2185B;
+      font-weight: 200;
+      margin-bottom: 50px;
+      margin-left: 32vw;
+    }
+
+    body main div:first-child article:nth-child(2) p:nth-child(7){
+      font-size: 1.438rem;
+      text-align: center;
+      width: 38vw;
+      color: #A2185B;
+      font-weight: 200;
+      margin-bottom: 50px;
+      margin-left: 32vw;
+    }
+
+    body main div:first-child article:nth-child(2) p:nth-child(8){
+      text-align: center;
+      font-size: 1.438rem;
+      font-weight: 200;
+      font-style: italic;
+      color: #A2185B;
+      margin-bottom: 75px;
+    }
+
+    body main div:first-child article:nth-child(3) h2:first-child{
+      font-size: 3.125rem;
+      font-weight: 700;
+      color: #910012;
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    body main div:first-child article:nth-child(3) h2:nth-child(2){
+      font-size: 3.125rem;
+      font-weight: 200;
+      color: #910012;
+      text-align: center;
+      width: 45vw;
+      margin-left: 28vw;
+      margin-bottom: 100px;
+    }
+
+    body main div:first-child article:nth-child(3) h2:nth-child(2) strong{
+      font-weight: 700;
+    }
+
 
 
     
@@ -1294,6 +1430,13 @@
 
 
 
+    hr{
+      border-top: 5px dotted black;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      width: 58.5vw;
+      margin-left: 21vw;
+    }
 
     body footer {
       background-color: #D7729B;

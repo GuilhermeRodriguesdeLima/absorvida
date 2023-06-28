@@ -196,11 +196,11 @@
             width: 100vw;
             height: 100vw;
         }
-        main div p a{
+        main div form:nth-child(4)  p:first-child a{
             text-decoration: none;
             color: #02A7F0;
         }
-        main div p:nth-child(4){
+        main div form:nth-child(4)  p:first-child{
             text-align: center;
             font-weight: 100;
             font-size: 1rem;
@@ -209,12 +209,12 @@
             width: 70vw;
             margin-left: 15vw;
         }
-        main div div:nth-child(5) h3:first-child{
+        main div form:nth-child(4) div:nth-child(2) h3:first-child{
             font-size: 1rem;
             font-weight: 300;
             margin-left: 6vw;
         }
-        main div div:nth-child(5) select:nth-child(2){
+        main div  form:nth-child(4) div:nth-child(2)  select:nth-child(2){
             width: 83vw;
             border-radius: 35px;
             border: 1px solid #D7729B; 
@@ -224,12 +224,12 @@
             font-size: 0.8125rem;
             height: 34px;
         }
-        main div div:nth-child(6) h3:first-child{
+        main div  form:nth-child(4) div:nth-child(3)  h3:first-child{
             font-size: 1rem;
             font-weight: 300;
             margin-left: 6vw;
         }
-        main div div:nth-child(6) select:nth-child(2){
+        main div  form:nth-child(4) div:nth-child(3)  select:nth-child(2){
             width: 83vw;
             border-radius: 35px;
             border: 1px solid #D7729B; 
@@ -239,12 +239,12 @@
             font-size: 0.8125rem;
             height: 34px;
         }
-        main div div:nth-child(7) h3:first-child{
+        main div  form:nth-child(4) div:nth-child(4)  h3:first-child{
             font-size: 1rem;
             font-weight: 300;
             margin-left: 7vw;
         }
-        main div div:nth-child(7) select:nth-child(2){
+        main div  form:nth-child(4) div:nth-child(4)  select:nth-child(2){
             width: 83vw;
             border-radius: 35px;
             border: 1px solid #D7729B; 
@@ -542,7 +542,7 @@
       margin-left: 18.6vw;
     }
 
-    body main div:first-child p:nth-child(4) {
+    body main div:first-child form:nth-child(4) p:first-child{
       font-size: 1.313rem;
       color: #1B1B1D;
       font-weight: 200;
@@ -553,19 +553,19 @@
     }
 
 
-    body main div:first-child p:nth-child(4) a:first-child{
+    body main div:first-child form:nth-child(4) p:first-child a:first-child{
       color: #02A7F0;
       font-weight: 200;
     }
 
-    body main div:first-child div:nth-child(5) h3:first-child{
+    body main div:first-child form:nth-child(4) div:nth-child(2) h3:first-child{
       font-size: 1rem;
       font-weight: 300;
       color: #1B1B1D;
       margin-left: 24.5vw;
     }
 
-    body main div:first-child div:nth-child(5) select:nth-child(2) {
+    body main div:first-child form:nth-child(4) div:nth-child(2) select:nth-child(2) {
       width: 50vw;
       border-radius: 35px;
       border: 1px solid #D7729B; 
@@ -577,19 +577,19 @@
 
     
 
-    body main div:first-child div:nth-child(5) select:nth-child(2) option{
+    body main div:first-child form:nth-child(4) div:nth-child(2) select:nth-child(2) option{
       font-size: 0.65rem;
       padding: 5px;
     }
 
-    body main div:first-child div:nth-child(6) h3:first-child{
+    body main div:first-child form:nth-child(4) div:nth-child(3) h3:first-child{
       font-size: 1rem;
       font-weight: 300;
       color: #1B1B1D;
       margin-left: 24.5vw;
     }
 
-    body main div:first-child div:nth-child(6) select:nth-child(2) {
+    body main div:first-child form:nth-child(4) div:nth-child(3) select:nth-child(2) {
       width: 50vw;
       border-radius: 35px;
       border: 1px solid #D7729B; 
@@ -601,19 +601,19 @@
 
     
 
-    body main div:first-child div:nth-child(6) select:nth-child(2) option{
+    body main div:first-child form:nth-child(4) div:nth-child(3) select:nth-child(2) option{
       font-size: 0.65rem;
       padding: 5px;
     }
 
-    body main div:first-child div:nth-child(7) h3:first-child{
+    body main div:first-child form:nth-child(4) div:nth-child(4) h3:first-child{
       font-size: 1rem;
       font-weight: 300;
       color: #1B1B1D;
       margin-left: 24.5vw;
     }
 
-    body main div:first-child div:nth-child(7) select:nth-child(2) {
+    body main div:first-child form:nth-child(4) div:nth-child(4) select:nth-child(2) {
       width: 50vw;
       border-radius: 35px;
       border: 1px solid #D7729B; 
@@ -623,12 +623,12 @@
       height: 34px;
     }
 
-    body main div:first-child div:nth-child(7) select:nth-child(2) option{
+    body main div:first-child form:nth-child(4) div:nth-child(4) select:nth-child(2) option{
       font-size: 0.65rem;
       padding: 5px;
     }
 
-    main div:first-child form:nth-child(8) input{
+    main div:first-child form:nth-child(4) input{
       width: 49vw;
       border-radius: 35px;
       border: 1px solid #D7729B; 
@@ -638,14 +638,14 @@
       height: 34px;
      }
 
-    main div:first-child form:nth-child(8) label{
+    main div:first-child form:nth-child(4) label{
       font-size: 1rem;
       font-weight: 300;
       color: #1B1B1D;
       margin-left: 24.5vw;
     }
 
-    main div:first-child form:nth-child(8) input:last-child{
+    main div:first-child form:nth-child(4) input:last-child{
       background-color: #A2185B;
       width: 50vw;
       height: 83px;
@@ -945,7 +945,7 @@
       margin-left: 37vw;
     }
 
-    body main div:first-child p:nth-child(4) {
+    body main div:first-child form:nth-child(4) p:first-child {
       font-size: 1.313rem;
       color: #1B1B1D;
       font-weight: 200;
@@ -956,19 +956,19 @@
     }
 
 
-    body main div:first-child p:nth-child(4) a:first-child{
+    body main div:first-child form:nth-child(4) p:first-child a:first-child{
       color: #02A7F0;
       font-weight: 200;
     }
 
-    body main div:first-child div:nth-child(5) h3:first-child{
+    body main div:first-child form:nth-child(4) div:nth-child(2) h3:first-child{
       font-size: 1.2rem;
       font-weight: 300;
       color: #1B1B1D;
       margin-left: 37.5vw;
     }
 
-    body main div:first-child div:nth-child(5) select:nth-child(2) {
+    body main div:first-child form:nth-child(4) div:nth-child(2) select:nth-child(2) {
       width: 26vw;
       height: 40px;
       border-radius: 35px;
@@ -980,19 +980,19 @@
 
     
 
-    body main div:first-child div:nth-child(5) select:nth-child(2) option{
+    body main div:first-child form:nth-child(4) div:nth-child(2) select:nth-child(2) option{
       font-size: 0.65rem;
       padding: 5px;
     }
 
-    body main div:first-child div:nth-child(6) h3:first-child{
+    body main div:first-child form:nth-child(4) div:nth-child(3) h3:first-child{
       font-size: 1.2rem;
       font-weight: 300;
       color: #1B1B1D;
       margin-left: 37.5vw;
     }
 
-    body main div:first-child div:nth-child(6) select:nth-child(2) {
+    body main div:first-child form:nth-child(4) div:nth-child(3) select:nth-child(2) {
       width: 26vw;
       height: 40px;
       border-radius: 35px;
@@ -1004,19 +1004,19 @@
 
     
 
-    body main div:first-child div:nth-child(6) select:nth-child(2) option{
+    body main div:first-child form:nth-child(4) div:nth-child(3) select:nth-child(2) option{
       font-size: 0.65rem;
       padding: 5px;
     }
 
-    body main div:first-child div:nth-child(7) h3:first-child{
+    body main div:first-child form:nth-child(4) div:nth-child(4) h3:first-child{
       font-size: 1.2rem;
       font-weight: 300;
       color: #1B1B1D;
       margin-left: 37.5vw;
     }
 
-    body main div:first-child div:nth-child(7) select:nth-child(2) {
+    body main div:first-child form:nth-child(4) div:nth-child(4) select:nth-child(2) {
       width: 26vw;
       height: 40px;
       border-radius: 35px;
@@ -1026,12 +1026,12 @@
       margin-bottom: 50px;
     }
 
-    body main div:first-child div:nth-child(7) select:nth-child(2) option{
+    body main div:first-child form:nth-child(4) div:nth-child(4) select:nth-child(2) option{
       font-size: 0.65rem;
       padding: 5px;
     }
 
-    main div:first-child form:nth-child(8) input{
+    main div:first-child form:nth-child(4) input{
       width: 25.5vw;
       height: 40px;
       border-radius: 35px;
@@ -1041,14 +1041,14 @@
       margin-bottom: 50px;
      }
 
-    main div:first-child form:nth-child(8) label{
+    main div:first-child form:nth-child(4) label{
       font-size: 1.2rem;
       font-weight: 300;
       color: #1B1B1D;
       margin-left: 37.5vw;
     }
 
-    main div:first-child form:nth-child(8) input:last-child{
+    main div:first-child form:nth-child(4) input:last-child{
       background-color: #A2185B;
       width: 26vw;
       height: 83px;
@@ -1068,7 +1068,7 @@
       font-size: 1.5rem;
       text-align: center;
       width: 33vw;
-      margin-left: 37vw;
+      margin-left: 33.5vw;
       margin-bottom: 90px;
     }
 

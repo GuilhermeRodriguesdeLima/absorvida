@@ -780,7 +780,7 @@
     ul {
       list-style-type: none;
       position: absolute;
-      width: 28vw;
+      width: 30vw;
       height: 200px;
       margin: -100px 0 0 -150px;
       padding: 105px 0 0 20px;
@@ -790,7 +790,7 @@
       transform: translate(100%, 0);
       transition: transform 0.7s ease;
       font-size: 4.2vw;
-      left: 40vw;
+      left: 36vw;
     }
   
     ul li {

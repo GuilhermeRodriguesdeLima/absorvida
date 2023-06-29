@@ -1,158 +1,508 @@
 *{
-    font-family: 'Montserrat';
-    margin: 0px 0px 0px 0px;
-    text-decoration: none;
-    }
-    
+  font-family: 'Montserrat';
+  margin: 0px 0px 0px 0px;
+  text-decoration: none;
+  }
+  
+  a{
+    cursor: pointer;
+  }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-    
+  
 @media (max-width: 480px) {
 
-  body{
-    background-image: url(../imagens/florescadastroC.png);
-    background-repeat: no-repeat;
-    background-position-y: 93px;
+body{
+  background-image: url(../imagens/florescadastroC.png);
+  background-repeat: no-repeat;
+  background-position-y: 93px;
+}
+  
+header div a{
+  color: transparent;
+}
+
+p{
+  font-weight: 300;
+}
+
+.facet_sidebar{
+  display: none;
+}
+
+
+#painel-menu { 
+  width: 47vw;
+  height: 310px;
+  display: block;
+  position: absolute;
+  top: 0.1px;
+  left: 53vw;
+  z-index: 1;
+  overflow: hidden;
+  background-image: none;
   }
-    
-  header div a{
+
+  #painel-menu a {
+    text-decoration: none;
+    color          : black;
+  }
+
+  #painel-menu input {
+    display: block;
+    width: 8vw;
+    height: 8vw;
+    position: absolute;
+    top: 5vw;
+    left: 34vw;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 3;
+  }
+
+  #painel-menu span {
+    display         : block;
+    width           : 30px;
+    height          : 5px;
+    margin-bottom   : 8px;
+    border-radius   : 3px;
+    background-color: rgb(250, 246, 246);
+    position        : relative;
+    top             : 5.2vw;
+    left            : 35vw;
+    transform-origin: 4px 0px;
+    transition      : transform 0.7s ease;
+    z-index         : 2;
+  }
+
+  #painel-menu span:first-child {
+    transform-origin: 0 0;
+  }
+  #painel-menu span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+
+  #painel-menu input:checked~span {
+    opacity         : 1;
+    transform       : rotate(45deg) translate(0.5vw, 0vw);
+    background-color: #FF87CF;
+  }
+
+  #painel-menu input:checked~span:nth-last-child(3) {
+    opacity  : 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  #painel-menu input:checked~span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(1.5vw, -0.5vw);
+  }
+
+  ul {
+    list-style-type: none;
+    position: absolute;
+    width: 41vw;
+    height: 200px;
+    margin: -100px 0 0 -150px;
+    padding: 105px 0 0 20px;
+    background-color: white;
+    border: solid 1px #FF87CF;
+    transform-origin: 0 0;
+    transform: translate(100%, 0);
+    transition: transform 0.7s ease;
+    left: 46vw;
+  }
+
+  ul li {
+    padding  : 10px 0;
+    font-size: 1rem;
+  }
+
+  #painel-menu input:checked~ul {
+    transform: none;
+  }
+
+#divisor { 
+  background-color: #D7729B;
+  height: 21px;
+  width: 100vw;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+.divheader{
+  overflow: hidden;
+  height: 19vw;
+  background-color: #D7729B;
+} 
+
+body header nav div:first-child a:first-child img:first-child{
+  width: 13.5vw;
+  position: relative;
+  top: 2vw;
+  left: 1vw;
+}
+
+body header nav div:first-child  form:nth-child(2) img{
+  width: 8.5vw;
+  position: relative;
+  left: 5vw;
+  bottom: 10.5vw;
+}
+
+body header nav div:first-child  form:nth-child(2) input:first-child{
+  opacity: 0;
+  width: 9vw;
+  height: 9vw;
+  position: relative;
+  left: 12vw;
+  bottom: 10vw;
+  z-index: 2;
+}
+
+body header nav div:first-child form:nth-child(2) input:nth-child(3){
+  width: 0vw;
+}
+
+body header nav div:first-child form:nth-child(2) input:nth-child(3){
+  display: none;
+  position: relative;
+  left: 5vw;
+  bottom: 13.5vw;
+  z-index: 3;
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 25px;
+}
+
+body header nav div:first-child form:nth-child(2) input:checked~input:nth-child(3){
+  display: inline;
+  transition: transform 0.7s ease;
+  width: 33vw;
+}
+
+body header nav div:first-child a:nth-child(3) img{
+  height: 20vw;
+  position: absolute;
+  top: -1vw;
+  right: 43vw;
+}
+
+
+.logo{
+  height: 20vw;
+  position: absolute;
+  top: -1vw;
+  right: 43vw;
+} 
+
+    body main:nth-child(2) div:first-child section:first-child h2:first-child{
+        margin-top: 559px;
+        margin-left: 35vw;
+        font-size: 2.4375rem;
+      }
+
+      main h1{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 3rem;
+        font-weight: 300;
+      }
+
+      main img:nth-child(3){
+        width: 100vw;
+      }
+
+      main form input:last-child{
+        width: 83vw;
+        height: 83px;
+        font-size: 1.94rem;
+        background-color: #A2185B;
+        border-radius: 40px;
+        color: white;
+        box-shadow: 0px 0px 16px 5px #f786c6;
+        margin-left: 30px;
+        margin-top: 80px;
+        margin-bottom: 116px;
+       }
+
+       main form input{
+        border-radius: 35px;
+        width: 88vw;
+        height: 29px;
+        border: 1px solid #D7729B;
+        margin-left: 04vw;
+        margin-bottom: 20px;
+        
+       }
+
+       main form label{
+        margin-left: 05.4vw;
+        font-weight: 300;
+        font-size: 1rem;
+       }
+       main form:nth-child(4) div:nth-child(21) h3{
+        margin-left: 8vw;
+        font-weight: 300;
+       }
+       main form:nth-child(4) div:nth-child(21){
+        align-items: center;
+       }
+      
+      .radio , .checkbox{
+        appearance: none;
+        margin-bottom: 4px;
+        margin-top: 10px;
+        margin-left: 8vw;
+        border: 1px solid #D7729B;
+        background-color: white;
+        cursor: pointer;
+        position: relative;
+        width: 4vw;
+        height: 4vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       }
+       .radio:before , .checkbox:before{
+        position: absolute;
+        width: 2vw;
+        height: 2vw;
+        content: '';
+        background: #D7729B;
+        border-radius: 25px;
+        opacity: 0;
+       }
+       .radio:checked:before , .checkbox:checked:before{
+        opacity: 1;
+       }
+
+       main form:nth-child(4) div:nth-child(21) label{
+        position: absolute;
+        cursor: pointer;
+        margin-top: -23px;
+        margin-left: 14vw;
+       }
+       
+      main form:nth-child(4) div:nth-child(33) {
+        background-color: #F3D3DF;
+        border-radius: 25px;
+        width: 88vw;
+        margin-left: 05vw;
+        padding-top: 5px;
+      }
+
+      main form:nth-child(4) div:nth-child(33) div input{
+        margin-left: 2.5vw;
+        border-radius: 2px;
+      }
+      
+      main form:nth-child(4) div:nth-child(33) div label{
+        position: absolute;
+        cursor: pointer;
+        margin-top: -23px;
+        margin-left: 8vw;
+        color: #1B1B1D;
+        
+      }
+
+      main form div:nth-child(33) div h3{
+        font-size: 1rem;
+        opacity: 100;
+        margin-left: 03vw;
+        margin-top: 14px;
+        font-weight: 300;
+      }
+
+
+      hr{
+        border-top: 5px dotted black;
+        margin-bottom: 34px;
+        margin-top: 30px;
+        width: 79vw;
+        margin-left: 10.5vw;
+      }
+
+  body footer {
+    color: white;
+    background-color: #D7729B;
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+
+  body footer div:first-child a{
+    text-decoration: none;
+  }
+
+  body footer div:first-child a img{
+    width: 11vw;
+    height: 11vw;
+  }
+
+  body footer div:first-child a:last-child img{
+    width: 43vw;
+    height: 57vw;
+    margin-top: -59vw;
+    margin-left: 54vw;
+    margin-bottom: 25px;
+  }
+
+  body footer div:first-child h2:first-child{
+    font-size: 2rem;
+    font-weight: 200;
+    width: 52vw;  
+    margin-bottom: 20px;
+  }
+
+  body footer div:first-child address:nth-child(2) p:nth-child(3){
+    margin-bottom: 20px;
+    width: 57vw;
+    margin-left: 0px;
+    font-weight: 300;
+    font-size: 1rem;
+  }
+
+  body footer div:first-child address:nth-child(2){
+    width: 90vw;
+    color: white;
+  }
+}
+
+
+
+@media screen and (min-width: 481px) and (max-width: 1024px){
+
+
+body {
+  background-image: url(../imagens/florescadastroT.png);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position-y: 140px;
+}
+
+#painel-menu { 
+  width: 47vw;
+  height: 310px;
+  display: block;
+  position: absolute;
+  top: 0.1px;
+  left: 53vw;
+  z-index: 1;
+  overflow: hidden;
+  background-image: none;
+  }
+
+  #painel-menu a {
+    text-decoration: none;
+    color          : black;
+  }
+
+  #painel-menu input {
+    display: block;
+    width: 4vw;
+    height: 5vw;
+    position: absolute;
+    top: 2.5vw;
+    left: 39vw;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 3;
+  } 
+
+  #painel-menu span {
+    display         : block;
+    width           : 40px;
+    height          : 6px;
+    margin-bottom   : 10px;
+    border-radius   : 3px;
+    background-color: rgb(250, 246, 246);
+    position        : relative;
+    top             : 2.3vw;
+    left            : 39vw;
+    transform-origin: 4px 0px;
+    transition      : transform 0.7s ease;
+    z-index         : 2;
+  }
+
+  #painel-menu span:first-child {
+    transform-origin: 0 0;
+  }
+  #painel-menu span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+
+  #painel-menu input:checked~span {
+    opacity: 1;
+    transform: rotate(44deg) translate(0vw, 0vw);
+    background-color: #FF87CF;
+  }
+
+  #painel-menu input:checked~span:nth-last-child(3) {
+    opacity  : 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  #painel-menu input:checked~span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0.8vw, -0.6vw);
+  }
+
+
+
+  ul {
+    list-style-type: none;
+    position: absolute;
+    width: 28vw;
+    height: 200px;
+    margin: -100px 0 0 -150px;
+    padding: 105px 0 0 20px;
+    background-color: white;
+    border: solid 1px #FF87CF;
+    transform-origin: 0 0;
+    transform: translate(100%, 0);
+    transition: transform 0.7s ease;
+    font-size: 4.2vw;
+    left: 36vw;
+  }
+
+  ul li {
+    padding  : 10px 0;
+    font-size: 22px;
+  }
+
+  #painel-menu input:checked~ul {
+    transform: none;
+  }  
+
+  .divheader{
+    background-color: #D7729B;
+    width: 100vw;
+    height: 9vw;
+  }
+
+  body header nav div:first-child a{
     color: transparent;
   }
 
-  p{
-    font-weight: 300;
-  }
-
-  .facet_sidebar{
-    display: none;
-  }
-
-
-  #painel-menu { 
-    width: 47vw;
-    height: 310px;
-    display: block;
+  body header nav div:first-child a:first-child img{ 
+    width: 9vw;
     position: absolute;
-    top: 0.1px;
-    left: 53vw;
-    z-index: 1;
-    overflow: hidden;
-    background-image: none;
-    }
-  
-    #painel-menu a {
-      text-decoration: none;
-      color          : black;
-    }
-
-    #painel-menu input {
-      display: block;
-      width: 8vw;
-      height: 8vw;
-      position: absolute;
-      top: 5vw;
-      left: 34vw;
-      cursor: pointer;
-      opacity: 0;
-      z-index: 3;
-    }
-  
-    #painel-menu span {
-      display         : block;
-      width           : 30px;
-      height          : 5px;
-      margin-bottom   : 8px;
-      border-radius   : 3px;
-      background-color: rgb(250, 246, 246);
-      position        : relative;
-      top             : 5.2vw;
-      left            : 35vw;
-      transform-origin: 4px 0px;
-      transition      : transform 0.7s ease;
-      z-index         : 2;
-    }
-  
-    #painel-menu span:first-child {
-      transform-origin: 0 0;
-    }
-    #painel-menu span:nth-last-child(2) {
-      transform-origin: 0% 100%;
-    }
-  
-    #painel-menu input:checked~span {
-      opacity         : 1;
-      transform       : rotate(45deg) translate(0.5vw, 0vw);
-      background-color: #FF87CF;
-    }
-  
-    #painel-menu input:checked~span:nth-last-child(3) {
-      opacity  : 0;
-      transform: rotate(0deg) scale(0.2, 0.2);
-    }
-  
-    #painel-menu input:checked~span:nth-last-child(2) {
-      transform: rotate(-45deg) translate(1.5vw, -0.5vw);
-    }
-  
-    ul {
-      list-style-type: none;
-      position: absolute;
-      width: 41vw;
-      height: 200px;
-      margin: -100px 0 0 -150px;
-      padding: 105px 0 0 20px;
-      background-color: white;
-      border: solid 1px #FF87CF;
-      transform-origin: 0 0;
-      transform: translate(100%, 0);
-      transition: transform 0.7s ease;
-      left: 46vw;
-    }
-  
-    ul li {
-      padding  : 10px 0;
-      font-size: 1rem;
-    }
-
-    #painel-menu input:checked~ul {
-      transform: none;
-    }
-
-  #divisor { 
-    background-color: #D7729B;
-    height: 21px;
-    width: 100vw;
-    margin-top: 22px;
-    margin-bottom: 22px;
-  }
-
-  .divheader{
-    overflow: hidden;
-    height: 19vw;
-    background-color: #D7729B;
-  } 
-
-  body header nav div:first-child a:first-child img:first-child{
-    width: 13.5vw;
-    position: relative;
-    top: 2vw;
-    left: 1vw;
+    left: 3vw;
   }
 
   body header nav div:first-child  form:nth-child(2) img{
-    width: 8.5vw;
-    position: relative;
-    left: 5vw;
-    bottom: 10.5vw;
+    width: 5.6vw;
+    position: absolute;
+    left: 12vw;
+    top: 1.5vw;
   }
 
   body header nav div:first-child  form:nth-child(2) input:first-child{
     opacity: 0;
-    width: 9vw;
-    height: 9vw;
-    position: relative;
-    left: 12vw;
-    bottom: 10vw;
+    width: 6vw;
+    height: 6vw;
+    position: absolute;
+    left: 13vw;
+    top: 2vw;
     z-index: 2;
   }
 
@@ -162,989 +512,627 @@
 
   body header nav div:first-child form:nth-child(2) input:nth-child(3){
     display: none;
-    position: relative;
-    left: 5vw;
-    bottom: 13.5vw;
+    position: absolute;
+    left: 23vw;
+    top: 2.5vw;
     z-index: 3;
     border: 1px solid white;
     border-radius: 10px;
     height: 25px;
   }
 
+
+
   body header nav div:first-child form:nth-child(2) input:checked~input:nth-child(3){
     display: inline;
     transition: transform 0.7s ease;
-    width: 33vw;
+    width: 35vw;
   }
+  
 
   body header nav div:first-child a:nth-child(3) img{
-    height: 20vw;
     position: absolute;
-    top: -1vw;
-    right: 43vw;
+    top: -1.5vw;
+    left: 46vw;
+    width: 8vw;
+  }
+
+  #search::placeholder{
+    color: #797979;
+    padding-left: 10px;
   }
 
 
-  .logo{
-    height: 20vw;
-    position: absolute;
-    top: -1vw;
-    right: 43vw;
-  } 
-  
-      body main:nth-child(2) div:first-child section:first-child h2:first-child{
-          margin-top: 559px;
-          margin-left: 35vw;
-          font-size: 2.4375rem;
-        }
-      
+  body main h1:first-child {
+    font-size: 3.125rem;
+    font-weight: 300;
+    color: #1B1B1D;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
 
-        main h1{
-          text-align: center;
-          margin-top: 30px;
-          margin-bottom: 20px;
-          font-size: 3rem;
-          font-weight: 300;
-        }
-        main img:nth-child(3){
-          width: 100vw;
-        }
+  body main img:nth-child(3){
+    width: 62.5vw;
+    height: 62.5vw;
+    margin-left: 18vw;
+  }
 
-        hr{
-          border-top: 5px dotted black;
-          margin-bottom: 34px;
-          margin-top: 30px;
-          width: 79vw;
-          margin-left: 10.5vw;
-        }
-    
+  main form input{
+    border-radius: 35px;
+    width: 54vw;
+    height: 29px;
+    border: 1px solid #D7729B;
+    margin-left: 22vw;
+    margin-bottom: 20px;
+    margin-top: 4px;
+    padding-left: 10px;
+  }
 
-        main form input:last-child{
-          width: 83vw;
-          height: 83px;
-          font-size: 1.94rem;
-          background-color: #A2185B;
-          border-radius: 40px;
-          color: white;
-          box-shadow: 0px 0px 16px 5px #f786c6;
-          margin-left: 30px;
-          margin-top: 80px;
-          margin-bottom: 116px;
-         }
-
-         main form input{
-          border-radius: 35px;
-          width: 88vw;
-          height: 29px;
-          border: 1px solid #D7729B;
-          margin-left: 04vw;
-          margin-bottom: 20px;
-          
-         }
-         main form div h3{
-          margin-left: 10vw;
-         }
-
-         main form label{
-          margin-left: 05.4vw;
-          font-weight: 300;
-          font-size: 1rem;
-         }
-         main form:nth-child(4) div:nth-child(25) h3{
-          margin-left: 8vw;
-          font-weight: 300;
-         }
-         main form:nth-child(4) div:nth-child(25){
-          align-items: center;
-         }
-        
-        .radio , .checkbox{
-          appearance: none;
-          margin-bottom: 4px;
-          margin-top: 10px;
-          margin-left: 8vw;
-          border: 1px solid #D7729B;
-          background-color: white;
-          cursor: pointer;
-          position: relative;
-          width: 4vw;
-          height: 4vw;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-         }
-         .radio:before , .checkbox:before{
-          position: absolute;
-          width: 2vw;
-          height: 2vw;
-          content: '';
-          background: #D7729B;
-          border-radius: 25px;
-          opacity: 0;
-         }
-         .radio:checked:before , .checkbox:checked:before{
-          opacity: 1;
-         }
-
-         main form:nth-child(4) div:nth-child(25) label{
-          position: absolute;
-          cursor: pointer;
-          margin-top: -23px;
-          margin-left: 14vw;
-         }
-         
-        main form:nth-child(4) div:nth-child(41) {
-          background-color: #F3D3DF;
-          border-radius: 25px;
-          width: 88vw;
-          margin-left: 05vw;
-          padding-top: 5px;
-        }
-        
-
-        main form:nth-child(4) div:nth-child(41) div label{
-          position: absolute;
-          cursor: pointer;
-          margin-top: -23px;
-          margin-left: 14vw;
-          color: #1B1B1D;
-          
-        }
-
-        main form div:nth-child(41) div h3{
-          font-size: 1rem;
-          opacity: 100;
-          margin-left: 03vw;
-          margin-top: 14px;
-          font-weight: 300;
-        }
-
-
-
-    body footer {
-      color: white;
-      background-color: #D7729B;
-      padding-left: 10px;
-      padding-top: 20px;
+  main form:nth-child(4) label{
+    margin-left: 23vw;
+    font-weight: 300;
+    font-size: 1rem;
     }
 
-    body footer div:first-child a{
-      text-decoration: none;
-    }
-
-    body footer div:first-child a img{
-      width: 11vw;
-      height: 11vw;
-    }
-
-    body footer div:first-child a:last-child img{
-      width: 43vw;
-      height: 57vw;
-      margin-top: -59vw;
-      margin-left: 54vw;
-      margin-bottom: 25px;
-    }
-
-    body footer div:first-child h2:first-child{
-      font-size: 2rem;
-      font-weight: 200;
-      width: 52vw;  
-      margin-bottom: 20px;
-    }
-
-    body footer div:first-child address:nth-child(2) p:nth-child(3){
-      margin-bottom: 20px;
-      width: 57vw;
-      margin-left: 0px;
-      font-weight: 300;
-      font-size: 1rem;
-    }
-  
-    body footer div:first-child address:nth-child(2){
-      width: 90vw;
-      color: white;
-    }
+main form:nth-child(4) div:nth-child(21) h3{
+ margin-left: 23vw;
+ font-size: 1rem;
+ font-weight: 300;
 }
 
 
-@media screen and (min-width: 481px) and (max-width: 1024px){
+
+main form:nth-child(4) div:nth-child(21) label{
+  position: relative;
+  top: -29px;
+  left: 4vw;
+}
 
 
-  body {
-    background-image: url(../imagens/florescadastroT.png);
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    background-position-y: 140px;
+.radio , .checkbox{
+ appearance: none;
+ margin-bottom: 4px;
+ margin-top: 10px;
+ margin-left: 22vw;
+ border: 1px solid #D7729B;
+ cursor: pointer;
+ width: 4vw;
+ height: 4vw;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: white;
+ padding-left: 0px;
+}
+
+.radio:before , .checkbox:before{
+ width: 2vw;
+ height: 2vw;
+ content: '';
+ background: #D7729B;
+ border-radius: 25px;
+ opacity: 0;
+ 
+}
+.radio:checked:before , .checkbox:checked:before{
+ opacity: 1;
+}
+
+body main form:nth-child(4) div:nth-child(33){
+  background-color: #F3D3DF;
+  border-radius: 25px;
+  width: 53vw;
+  margin-left: 22vw;
+  margin-top: 80px;
+  align-items: center;
+  padding-left: 02vw;
+  padding-top: 12px;
+}
+
+body main form:nth-child(4) div:nth-child(33) div:first-child h3{
+  font-size: 1rem;
+  margin-left: 0px;
+  font-weight: 300;
+}
+
+body main form:nth-child(4) div:nth-child(33) div:first-child input[type="checkbox"]{
+  margin-left: 0px;
+  border-radius: 2px;
+}
+
+body main form:nth-child(4) div:nth-child(33) div:first-child label{
+  position: relative;
+  top: -29px;
+  left: 5vw;
+  margin-left: 0px;
+}
+
+body main form:nth-child(4) input:last-child{
+  background-color: #A2185B;
+  width: 55vw;
+  height: 83px;
+  border: solid #A2185B;
+  box-shadow: 3px 2px 35px #A2185B;
+  border-radius: 46px;
+  margin-left: 22vw;
+  color: white;
+  font-size: 2rem;
+  margin-top: 80px;
+  margin-bottom: 115px;
+  font-weight: 300;
+}
+
+
+
+
+#divisor { 
+  background-color: #D7729B;
+  height: 21px;
+  width: 100vw;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+
+#anuncio{
+  width: 100vw;
+  height: 25vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+hr{
+  border-top: 5px dotted black;
+  margin-bottom: 34px;
+  margin-top: 30px;
+  width: 80vw;
+  margin-left: 9vw;
+}
+
+
+
+body footer div:first-child address:nth-child(2) p:first-child{
+  margin-top: 25px;
+  margin-bottom: -16px;
+  font-size: 1rem;
+}
+
+
+body footer div:first-child address:nth-child(2) p:nth-child(3){
+  margin-bottom: 4px;
+  width: 68vw;
+  margin-left: 0px;
+  margin-top: 39px;
+  font-size: 0.8rem;
+}
+
+body footer div:first-child a{
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+body footer div:first-child a img{
+  width: 05vw;
+  height: 05vw;
+  position: relative;
+  top: -170px;
+  
+}
+
+body footer div:first-child a:nth-child(3) img{
+  margin-left: auto;
+  width: 05vw;
+  height: 05vw;
+  padding: 0px;
+}
+
+body footer div:first-child a:last-child img{
+  width: 28vw;
+  height: 230px;
+  top: -175px;
+  left: 47vw;
+}
+
+body footer div:first-child a:last-child {
+  width: 1px;
+}
+
+body footer div:first-child address:nth-child(2){
+  width: 50vw;
+  color: white;
+}
+
+body footer div:first-child{
+  padding-left: 02vw;
+  padding-bottom: 4vw;
+  color: white;
+  background-color: #D7729B;
+  height: 250px;
+  overflow: hidden;
+}
+
+
+body footer div:first-child h2:first-child{
+  font-size: 2.25rem; 
+  width: 62vw;
+  font-weight: 100;
+  margin-top: 37px;
+}
+}
+
+
+
+@media screen and (min-width: 1025px) {
+a{
+  color: transparent;
+}
+
+body{
+  background-image: url(../imagens/florescadastroPC.png);
+  background-position-y: 90px;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+
+#painel-menu { 
+  width: 47vw;
+  height: 310px;
+  display: block;
+  position: absolute;
+  top: 0.1px;
+  left: 53vw;
+  z-index: 1;
+  overflow: hidden;
+  background-image: none;
   }
 
-  #painel-menu { 
-    width: 47vw;
-    height: 310px;
+  #painel-menu a {
+    text-decoration: none;
+    color          : black;
+  }
+
+  #painel-menu input {
     display: block;
+    width: 4vw;
+    height: 5vw;
     position: absolute;
-    top: 0.1px;
-    left: 53vw;
-    z-index: 1;
-    overflow: hidden;
-    background-image: none;
-    }
+    top: 1vw;
+    left: 39vw;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 3;
+  } 
+
+  #painel-menu span {
+    display         : block;
+    width           : 57px;
+    height          : 9px;
+    margin-bottom   : 10px;
+    border-radius   : 3px;
+    background-color: rgb(250, 246, 246);
+    position        : relative;
+    top             : 20px;
+    left            : 39vw;
+    transform-origin: 4px 0px;
+    transition      : transform 0.7s ease;
+    z-index         : 2;
+  }
+
+  #painel-menu span:first-child {
+    transform-origin: 0 0;
+  }
+  #painel-menu span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+
+  #painel-menu input:checked~span {
+    opacity: 1;
+    width: 57px;
+    height: 9px;
+    transform: rotate(44deg) translate(0.5vw, -0.4vw);
+    background-color: #FF87CF;
+  }
+
+  #painel-menu input:checked~span:nth-last-child(3) {
+    opacity  : 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  #painel-menu input:checked~span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0.6vw, 0.4vw);
+  }
+
+
+
+  ul {
+    list-style-type: none;
+    position: absolute;
+    width: 28vw;
+    height: 200px;
+    margin: -100px 0 0 -150px;
+    padding: 105px 0 0 20px;
+    background-color: white;
+    border: solid 1px #FF87CF;
+    transform-origin: 0 0;
+    transform: translate(100%, 0);
+    transition: transform 0.7s ease;
+    font-size: 4.2vw;
+    left: 40vw;
+  }
+
+  ul li {
+    padding  : 10px 0;
+    font-size: 22px;
+  }
+
+  #painel-menu input:checked~ul {
+    transform: none;
+  }  
+
+  .divheader{
+    background-color: #D7729B;
+    width: 100vw;
+    height: 87px;
+  }
+
+  body header nav div:first-child  form:nth-child(2) img{
+    width: 0px;
+    position: fixed;
+    left: 36vw;
+    top: 1vw;
+  }
+
+  body header nav div:first-child  form:nth-child(2) input:first-child{
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+    position: fixed;
+    left: 36vw;
+    top: 1vw;
+    z-index: 2;
+  }
+
+  body header nav div:first-child form:nth-child(2){
+    height: 0px;
+    width: 0px;
+  }
+
+  body header nav div:first-child form:nth-child(2) input:nth-child(3){
+    position: absolute;
+    left: 35vw;
+    top: 20px;
+    z-index: 3;
+    border: 1px solid white;
+    border-radius: 72px;
+    width: 29vw;
+    height: 40px;
+    padding-left: 10px;
+  }
+
+  #search::placeholder{
+    color: #797979;
+    text-align: center;
+  }
+
+  body header nav div:first-child a:nth-child(3) img:first-child{
+    width: 11vw;
+    height: 201px;
+    position: absolute;
+    left: 3.5vw;
+    top: -1.5%;
+  }
+
+  body header nav div:first-child a:first-child img:first-child{
+    width: 76px;
+    height: 76px;
+    z-index: 2;
+    position: absolute;
+    left: 85vw;
+    top: 0.3vw;
+  }
+
+  body main h1:first-child{
+    font-weight: 300;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+  }
+
+  body main img:nth-child(3){
+    margin-top: 75px;
+    margin-bottom: 75px;
+    width: 36vw;
+    margin-left: 32.5vw;
+  }
+
+  body main form:nth-child(4) label{
+    margin-left: 33vw;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #1B1B1D;
+  }
+
+  body main form:nth-child(4) input{
+    margin-left: 32.5vw;
+    width: 36vw;
+    height: 48px;
+    border: 1px #D7729B solid;
+    border-radius: 35px;
+    margin-bottom: 75px;
+    margin-top: 2px;
+  }
+ 
+   main form label{
+    margin-left: 23vw;
+    font-weight: 300;
+    font-size: 1rem;
+   }
+ 
+   main form:nth-child(4) div:nth-child(21) h3{
+    margin-left: 33vw;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+   }
+ 
+   main form:nth-child(4) div:nth-child(21) label{
+     position: relative;
+     top: -33px;
+     left: 2.5vw;
+   }
+
+   main form:nth-child(4) div:nth-child(21) input{
+    width: 2vw;
+    height: 2vw;
+    margin-bottom: 0px;
+   }
+ 
   
-    #painel-menu a {
-      text-decoration: none;
-      color          : black;
-    }
-
-    #painel-menu input {
-      display: block;
-      width: 4vw;
-      height: 5vw;
-      position: absolute;
-      top: 2.5vw;
-      left: 39vw;
-      cursor: pointer;
-      opacity: 0;
-      z-index: 3;
-    } 
-  
-    #painel-menu span {
-      display         : block;
-      width           : 40px;
-      height          : 6px;
-      margin-bottom   : 10px;
-      border-radius   : 3px;
-      background-color: rgb(250, 246, 246);
-      position        : relative;
-      top             : 2.3vw;
-      left            : 39vw;
-      transform-origin: 4px 0px;
-      transition      : transform 0.7s ease;
-      z-index         : 2;
-    }
-  
-    #painel-menu span:first-child {
-      transform-origin: 0 0;
-    }
-    #painel-menu span:nth-last-child(2) {
-      transform-origin: 0% 100%;
-    }
-  
-    #painel-menu input:checked~span {
-      opacity: 1;
-      transform: rotate(44deg) translate(0vw, 0vw);
-      background-color: #FF87CF;
-    }
-  
-    #painel-menu input:checked~span:nth-last-child(3) {
-      opacity  : 0;
-      transform: rotate(0deg) scale(0.2, 0.2);
-    }
-  
-    #painel-menu input:checked~span:nth-last-child(2) {
-      transform: rotate(-45deg) translate(0.8vw, -0.6vw);
-    }
-
-
-  
-    ul {
-      list-style-type: none;
-      position: absolute;
-      width: 28vw;
-      height: 200px;
-      margin: -100px 0 0 -150px;
-      padding: 105px 0 0 20px;
-      background-color: white;
-      border: solid 1px #FF87CF;
-      transform-origin: 0 0;
-      transform: translate(100%, 0);
-      transition: transform 0.7s ease;
-      font-size: 4.2vw;
-      left: 36vw;
-    }
-  
-    ul li {
-      padding  : 10px 0;
-      font-size: 22px;
-    }
-
-    #painel-menu input:checked~ul {
-      transform: none;
-    }  
-
-    .divheader{
-      background-color: #D7729B;
-      width: 100vw;
-      height: 9vw;
-    }
-
-    body header nav div:first-child a{
-      color: transparent;
-    }
-
-    body header nav div:first-child a:first-child img{ 
-      width: 9vw;
-      position: absolute;
-      left: 3vw;
-    }
-
-    body header nav div:first-child  form:nth-child(2) img{
-      width: 5.6vw;
-      position: absolute;
-      left: 12vw;
-      top: 1.5vw;
-    }
-
-    body header nav div:first-child  form:nth-child(2) input:first-child{
-      opacity: 0;
-      width: 6vw;
-      height: 6vw;
-      position: absolute;
-      left: 13vw;
-      top: 2vw;
-      z-index: 2;
-    }
-
-    body header nav div:first-child form:nth-child(2) input:nth-child(3){
-      width: 0vw;
-    }
-
-    body header nav div:first-child form:nth-child(2) input:nth-child(3){
-      display: none;
-      position: absolute;
-      left: 23vw;
-      top: 2.5vw;
-      z-index: 3;
-      border: 1px solid white;
-      border-radius: 10px;
-      height: 25px;
-    }
-
-
-
-    body header nav div:first-child form:nth-child(2) input:checked~input:nth-child(3){
-      display: inline;
-      transition: transform 0.7s ease;
-      width: 35vw;
-    }
+  .radio , .checkbox{
+    appearance: none;
+    margin-bottom: 4px;
+    margin-top: 10px;
+    margin-left: 22vw;
+    border: 1px solid #D7729B;
+    cursor: pointer;
+    width: 4vw;
+    height: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding-left: 0px;
+   }
+ 
+   .radio:before , .checkbox:before{
+    width: 1vw;
+    height: 1vw;
+    content: '';
+    background: #D7729B;
+    border-radius: 25px;
+    opacity: 0;
     
+   }
+   .radio:checked:before , .checkbox:checked:before{
+    opacity: 1;
+   }
+ 
+   body main form:nth-child(4) div:nth-child(33){
+     background-color: #F3D3DF;
+     border-radius: 25px;
+     width: 32vw;
+     margin-left: 34vw;
+     align-items: center;
+     padding-left: 02vw;
+     padding-top: 12px;
+   }
+ 
+   body main form:nth-child(4) div:nth-child(33) div:first-child h3{
+     font-size: 1.25rem;
+     margin-left: 0px;
+     font-weight: 300;
+   }
 
-    body header nav div:first-child a:nth-child(3) img{
-      position: absolute;
-      top: -1.5vw;
-      left: 46vw;
-      width: 8vw;
-    }
-
-    #search::placeholder{
-      color: #797979;
-      padding-left: 10px;
-    }
-
-
-    body main h1:first-child {
-      font-size: 3.125rem;
-      font-weight: 300;
-      color: #1B1B1D;
-      text-align: center;
-      margin-top: 45px;
-      margin-bottom: 45px;
-    }
-
-    body main img:nth-child(3){
-      width: 62.5vw;
-      height: 62.5vw;
-      margin-left: 18vw;
-    }
-
-    main form input{
-   border-radius: 35px;
-   width: 54vw;
-   height: 29px;
-   border: 1px solid #D7729B;
-   margin-left: 22vw;
-   margin-bottom: 20px;
-   margin-top: 4px;
-   padding-left: 10px;
-  }
-
-  main form div h3{
-   margin-left: 10vw;
-  }
-
-  main form label{
-   margin-left: 23vw;
-   font-weight: 300;
-   font-size: 1rem;
-  }
-
-  main form:nth-child(4) div:nth-child(25) h3{
-   margin-left: 23vw;
-   font-size: 1rem;
-   font-weight: 300;
-  }
-
-
-
-  main form:nth-child(4) div:nth-child(25) label{
-    position: relative;
-    top: -29px;
-    left: 4vw;
-  }
 
  
- .radio , .checkbox{
-   appearance: none;
-   margin-bottom: 4px;
-   margin-top: 10px;
-   margin-left: 22vw;
-   border: 1px solid #D7729B;
-   cursor: pointer;
-   width: 4vw;
-   height: 4vw;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   background-color: white;
-   padding-left: 0px;
-  }
+   body main form:nth-child(4) div:nth-child(33) div:first-child input[type="checkbox"]{
+     margin-left: 0px;
+     width: 2vw;
+     height: 2vw;
+     margin-bottom: 0px;
+     border-radius: 2px;
+   }
 
-  .radio:before , .checkbox:before{
-   width: 2vw;
-   height: 2vw;
-   content: '';
-   background: #D7729B;
-   border-radius: 25px;
-   opacity: 0;
+   body main form:nth-child(4) div:nth-child(33) div:first-child input:nth-child(2){
+    margin-top: 25px;
+   }
+ 
+   body main form:nth-child(4) div:nth-child(33) div:first-child label{
+     position: relative;
+     top: -35px;
+     left: 2.5vw;
+     margin-left: 0px;
+   }
+ 
+   body main form:nth-child(4) input:last-child{
+     background-color: #A2185B;
+     width: 37vw;
+     height: 5vw;
+     border: solid #A2185B;
+     box-shadow: 3px 2px 35px #A2185B;
+     border-radius: 46px;
+     margin-left: 32.5vw;
+     color: white;
+     font-size: 2rem;
+     margin-top: 80px;
+     margin-bottom: 115px;
+     font-weight: 300;
+   }
+
    
-  }
-  .radio:checked:before , .checkbox:checked:before{
-   opacity: 1;
-  }
 
-  body main form:nth-child(4) div:nth-child(41){
-    background-color: #F3D3DF;
-    border-radius: 25px;
-    width: 53vw;
-    margin-left: 22vw;
-    margin-top: 80px;
-    align-items: center;
-    padding-left: 02vw;
-    padding-top: 12px;
-  }
 
-  body main form:nth-child(4) div:nth-child(41) div:first-child h3{
-    font-size: 1rem;
-    margin-left: 0px;
-    font-weight: 300;
-  }
 
-  body main form:nth-child(4) div:nth-child(41) div:first-child input[type="checkbox"]{
-    margin-left: 0px;
-  }
-
-  body main form:nth-child(4) div:nth-child(41) div:first-child label{
-    position: relative;
-    top: -29px;
-    left: 5vw;
-    margin-left: 0px;
-  }
-
-  body main form:nth-child(4) input:last-child{
-    background-color: #A2185B;
-    width: 55vw;
-    height: 83px;
-    border: solid #A2185B;
-    box-shadow: 3px 2px 35px #A2185B;
-    border-radius: 46px;
-    margin-left: 22vw;
-    color: white;
-    font-size: 2rem;
-    margin-top: 80px;
-    margin-bottom: 115px;
-    font-weight: 300;
-  }
+  
 
 
 
 
-  #divisor { 
-    background-color: #D7729B;
-    height: 21px;
-    width: 100vw;
-    margin-top: 22px;
-    margin-bottom: 22px;
-  }
 
 
-  #anuncio{
-    width: 100vw;
-    height: 25vw;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
 
   hr{
     border-top: 5px dotted black;
-    margin-bottom: 34px;
     margin-top: 30px;
-    width: 80vw;
-    margin-left: 9vw;
+    margin-bottom: 30px;
+    width: 58.5vw;
+    margin-left: 21vw;
   }
 
-
-
-  body footer div:first-child address:nth-child(2) p:first-child{
-    margin-top: 25px;
-    margin-bottom: -16px;
-    font-size: 1rem;
+  body footer {
+    background-color: #D7729B;
+    color: #FFFFFF;
+    padding-left: 70px;
+    padding-top: 35px;
+    height: 370px;
+    overflow: hidden;
   }
 
-
-  body footer div:first-child address:nth-child(2) p:nth-child(3){
-    margin-bottom: 4px;
-    width: 68vw;
-    margin-left: 0px;
-    margin-top: 39px;
-    font-size: 0.8rem;
+  body footer div:first-child h2:first-child{
+    font-size: 3.75rem;
+    font-weight: 200;
+    width: 55vw;
   }
 
-  body footer div:first-child a{
-    text-decoration: none;
+  body footer div:first-child address:nth-child(2) p{
+    font-size: 1.5rem;
     margin-top: 50px;
   }
 
-  body footer div:first-child a img{
-    width: 05vw;
-    height: 05vw;
-    position: relative;
-    top: -170px;
-    
+  body footer div:first-child address:nth-child(2) p:nth-child(3){
+    margin-top: 15px;
   }
 
-  body footer div:first-child a:nth-child(3) img{
-    margin-left: auto;
-    width: 05vw;
-    height: 05vw;
-    padding: 0px;
-  }
-
-  body footer div:first-child a:last-child img{
-    width: 28vw;
-    height: 230px;
-    top: -175px;
-    left: 47vw;
-  }
-
-  body footer div:first-child a:last-child {
-    width: 1px;
-  }
-
-  body footer div:first-child address:nth-child(2){
-    width: 50vw;
-    color: white;
-  }
-
-  body footer div:first-child{
-    padding-left: 02vw;
-    padding-bottom: 4vw;
-    color: white;
-    background-color: #D7729B;
-    height: 250px;
-    overflow: hidden;
-  }
-  
-
-  body footer div:first-child h2:first-child{
-    font-size: 2.25rem; 
-    width: 62vw;
-    font-weight: 100;
-    margin-top: 37px;
-  }
-}
-
-@media screen and (min-width: 1025px) {
-  a{
+  body footer a{
     color: transparent;
   }
 
-  body{
-    background-image: url(../imagens/florescadastroPC.png);
-    background-position-y: 90px;
-    background-repeat: no-repeat;
-    background-size: 100vw;
+  body footer a img{
+    width: 3vw;
+    position: relative;
+    bottom: 16vw;
   }
 
-  #painel-menu { 
-    width: 47vw;
-    height: 310px;
-    display: block;
-    position: absolute;
-    top: 0.1px;
-    left: 53vw;
-    z-index: 1;
-    overflow: hidden;
-    background-image: none;
-    }
-  
-    #painel-menu a {
-      text-decoration: none;
-      color          : black;
-    }
+  body footer a:nth-child(5) img{
+    width: 2vw;
+  }
 
-    #painel-menu input {
-      display: block;
-      width: 4vw;
-      height: 5vw;
-      position: absolute;
-      top: 1vw;
-      left: 39vw;
-      cursor: pointer;
-      opacity: 0;
-      z-index: 3;
-    } 
-  
-    #painel-menu span {
-      display         : block;
-      width           : 57px;
-      height          : 9px;
-      margin-bottom   : 10px;
-      border-radius   : 3px;
-      background-color: rgb(250, 246, 246);
-      position        : relative;
-      top             : 20px;
-      left            : 39vw;
-      transform-origin: 4px 0px;
-      transition      : transform 0.7s ease;
-      z-index         : 2;
-    }
-  
-    #painel-menu span:first-child {
-      transform-origin: 0 0;
-    }
-    #painel-menu span:nth-last-child(2) {
-      transform-origin: 0% 100%;
-    }
-  
-    #painel-menu input:checked~span {
-      opacity: 1;
-      width: 57px;
-      height: 9px;
-      transform: rotate(44deg) translate(0.5vw, -0.4vw);
-      background-color: #FF87CF;
-    }
-  
-    #painel-menu input:checked~span:nth-last-child(3) {
-      opacity  : 0;
-      transform: rotate(0deg) scale(0.2, 0.2);
-    }
-  
-    #painel-menu input:checked~span:nth-last-child(2) {
-      transform: rotate(-45deg) translate(0.6vw, 0.4vw);
-    }
-
-
-  
-    ul {
-      list-style-type: none;
-      position: absolute;
-      width: 28vw;
-      height: 200px;
-      margin: -100px 0 0 -150px;
-      padding: 105px 0 0 20px;
-      background-color: white;
-      border: solid 1px #FF87CF;
-      transform-origin: 0 0;
-      transform: translate(100%, 0);
-      transition: transform 0.7s ease;
-      font-size: 4.2vw;
-      left: 40vw;
-    }
-  
-    ul li {
-      padding  : 10px 0;
-      font-size: 22px;
-    }
-
-    #painel-menu input:checked~ul {
-      transform: none;
-    }  
-
-    .divheader{
-      background-color: #D7729B;
-      width: 100vw;
-      height: 87px;
-    }
-
-    body header nav div:first-child  form:nth-child(2) img{
-      width: 0px;
-      position: fixed;
-      left: 36vw;
-      top: 1vw;
-    }
-
-    body header nav div:first-child  form:nth-child(2) input:first-child{
-      opacity: 0;
-      width: 0px;
-      height: 0px;
-      position: fixed;
-      left: 36vw;
-      top: 1vw;
-      z-index: 2;
-    }
-
-    body header nav div:first-child form:nth-child(2){
-      height: 0px;
-      width: 0px;
-    }
-
-    body header nav div:first-child form:nth-child(2) input:nth-child(3){
-      position: absolute;
-      left: 35vw;
-      top: 20px;
-      z-index: 3;
-      border: 1px solid white;
-      border-radius: 72px;
-      width: 29vw;
-      height: 40px;
-      padding-left: 10px;
-    }
-
-    #search::placeholder{
-      color: #797979;
-      text-align: center;
-    }
-
-    body header nav div:first-child a:nth-child(3) img:first-child{
-      width: 11vw;
-      height: 201px;
-      position: absolute;
-      left: 3.5vw;
-      top: -1.5%;
-    }
-
-    body header nav div:first-child a:first-child img:first-child{
-      width: 76px;
-      height: 76px;
-      z-index: 2;
-      position: absolute;
-      left: 85vw;
-      top: 0.3vw;
-    }
-
-    body main h1:first-child{
-      font-weight: 300;
-      font-size: 3.5rem;
-      text-align: center;
-      margin-top: 75px;
-      margin-bottom: 75px;
-    }
-
-    body main img:nth-child(3){
-      margin-top: 75px;
-      margin-bottom: 75px;
-      width: 36vw;
-      margin-left: 32.5vw;
-    }
-
-    body main form:nth-child(4) label{
-      margin-left: 33vw;
-      font-size: 1.25rem;
-      font-weight: 300;
-      color: #1B1B1D;
-    }
-
-    body main form:nth-child(4) input{
-      margin-left: 32.5vw;
-      width: 36vw;
-      height: 48px;
-      border: 1px #D7729B solid;
-      border-radius: 35px;
-      margin-bottom: 75px;
-      margin-top: 2px;
-    }
-
-    main form input{
-      border-radius: 35px;
-      width: 54vw;
-      height: 29px;
-      border: 1px solid #D7729B;
-      margin-left: 22vw;
-      margin-bottom: 20px;
-      margin-top: 4px;
-      padding-left: 10px;
-     }
-   
-     main form div h3{
-      margin-left: 10vw;
-     }
-   
-     main form label{
-      margin-left: 23vw;
-      font-weight: 300;
-      font-size: 1rem;
-     }
-   
-     main form:nth-child(4) div:nth-child(25) h3{
-      margin-left: 33vw;
-      font-size: 1.25rem;
-      font-weight: 300;
-      margin-bottom: 20px;
-     }
-   
-     main form:nth-child(4) div:nth-child(25) label{
-       position: relative;
-       top: -33px;
-       left: 2.5vw;
-     }
-
-     main form:nth-child(4) div:nth-child(25) input{
-      width: 2vw;
-      height: 2vw;
-      margin-bottom: 0px;
-     }
-   
-    
-    .radio , .checkbox{
-      appearance: none;
-      margin-bottom: 4px;
-      margin-top: 10px;
-      margin-left: 22vw;
-      border: 1px solid #D7729B;
-      cursor: pointer;
-      width: 4vw;
-      height: 4vw;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: white;
-      padding-left: 0px;
-     }
-   
-     .radio:before , .checkbox:before{
-      width: 1vw;
-      height: 1vw;
-      content: '';
-      background: #D7729B;
-      border-radius: 25px;
-      opacity: 0;
-      
-     }
-     .radio:checked:before , .checkbox:checked:before{
-      opacity: 1;
-     }
-   
-     body main form:nth-child(4) div:nth-child(41){
-       background-color: #F3D3DF;
-       border-radius: 25px;
-       width: 32vw;
-       margin-left: 34vw;
-       align-items: center;
-       padding-left: 02vw;
-       padding-top: 12px;
-     }
-   
-     body main form:nth-child(4) div:nth-child(41) div:first-child h3{
-       font-size: 1.25rem;
-       margin-left: 0px;
-       font-weight: 300;
-     }
-
-
-   
-     body main form:nth-child(4) div:nth-child(41) div:first-child input[type="checkbox"]{
-       margin-left: 0px;
-       width: 2vw;
-       height: 2vw;
-       margin-bottom: 0px;
-     }
-
-     body main form:nth-child(4) div:nth-child(41) div:first-child input:nth-child(2){
-      margin-top: 25px;
-     }
-   
-     body main form:nth-child(4) div:nth-child(41) div:first-child label{
-       position: relative;
-       top: -35px;
-       left: 2.5vw;
-       margin-left: 0px;
-     }
-   
-     body main form:nth-child(4) input:last-child{
-       background-color: #A2185B;
-       width: 37vw;
-       height: 5vw;
-       border: solid #A2185B;
-       box-shadow: 3px 2px 35px #A2185B;
-       border-radius: 46px;
-       margin-left: 32.5vw;
-       color: white;
-       font-size: 2rem;
-       margin-top: 80px;
-       margin-bottom: 115px;
-       font-weight: 300;
-     }
-
-     
- 
-  
-
-    
-
-
-
-
-
-
-
-    hr{
-      border-top: 5px dotted black;
-      margin-top: 30px;
-      margin-bottom: 30px;
-      width: 58.5vw;
-      margin-left: 21vw;
-    }
-
-    body footer {
-      background-color: #D7729B;
-      color: #FFFFFF;
-      padding-left: 70px;
-      padding-top: 35px;
-      height: 370px;
-      overflow: hidden;
-    }
-
-    body footer div:first-child h2:first-child{
-      font-size: 3.75rem;
-      font-weight: 200;
-      width: 55vw;
-    }
-
-    body footer div:first-child address:nth-child(2) p{
-      font-size: 1.5rem;
-      margin-top: 50px;
-    }
-
-    body footer div:first-child address:nth-child(2) p:nth-child(3){
-      margin-top: 15px;
-    }
-
-    body footer a{
-      color: transparent;
-    }
-
-    body footer a img{
-      width: 3vw;
-      position: relative;
-      bottom: 16vw;
-    }
-
-    body footer a:nth-child(5) img{
-      width: 2vw;
-    }
-
-    body footer a:nth-child(7) img{
-      width: 20vw;
-      height: 23vw;
-      left: 57vw;    
-      bottom: 15vw;
-    }
+  body footer a:nth-child(7) img{
+    width: 20vw;
+    height: 23vw;
+    left: 57vw;    
+    bottom: 15vw;
+  }
 }
